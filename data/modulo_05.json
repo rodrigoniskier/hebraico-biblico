@@ -1,127 +1,24 @@
 {
   "title": "O Verbo - Introdução e o Paradigma Qal Perfeito (Qatal)",
   "content": {
-    "html": "<h2>🎭 Introdução ao Sistema Verbal Hebraico</h2><p>O sistema verbal hebraico é fundamentalmente diferente do português. Enquanto o português enfatiza o tempo (passado, presente, futuro), o hebraico enfatiza o <strong>aspecto</strong> - se a ação está completa ou incompleta.</p><h3>🏗️ Estrutura da Raiz Verbal</h3><p>A maioria dos verbos hebraicos é construída sobre uma raiz de <strong>três consoantes</strong> (raiz trilítera). Essas três consoantes carregam o significado básico, enquanto as vogais e prefixos/sufixos indicam pessoa, número, gênero e aspecto.</p><h4>Exemplo com a raiz כ-ת-ב (escrever):</h4><ul style='margin-left: 2rem; line-height: 2;'><li><span class='hebrew'>כָּתַב</span> (katav - ele escreveu)</li><li><span class='hebrew'>כֹּתֵב</span> (kotev - ele escreve)</li><li><span class='hebrew'>יִכְתֹּב</span> (yikhtov - ele escreverá)</li><li><span class='hebrew'>כְּתֹב</span> (ketov - escreve!)</li></ul><h3>🌟 Os Sete Binyanim (Construções Verbais)</h3><p>O hebraico possui sete padrões principais de conjugação verbal, chamados <strong>binyanim</strong> (construções):</p><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Binyan</th><th style='padding: 1rem; border: 1px solid #ddd;'>Característica</th><th style='padding: 1rem; border: 1px solid #ddd;'>Exemplo</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><strong>Qal</strong></td><td style='padding: 1rem; border: 1px solid #ddd;'>Ação simples ativa</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כָּתַב</span> (escreveu)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><strong>Niphal</strong></td><td style='padding: 1rem; border: 1px solid #ddd;'>Passiva/reflexiva</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>נִכְתַּב</span> (foi escrito)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><strong>Piel</strong></td><td style='padding: 1rem; border: 1px solid #ddd;'>Intensiva ativa</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כִּתֵּב</span> (escreveu intensamente)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><strong>Pual</strong></td><td style='padding: 1rem; border: 1px solid #ddd;'>Intensiva passiva</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כֻּתַּב</span> (foi escrito intensamente)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><strong>Hiphil</strong></td><td style='padding: 1rem; border: 1px solid #ddd;'>Causativa ativa</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>הִכְתִּיב</span> (fez escrever)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><strong>Hophal</strong></td><td style='padding: 1rem; border: 1px solid #ddd;'>Causativa passiva</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>הֻכְתַּב</span> (foi feito escrever)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><strong>Hithpael</strong></td><td style='padding: 1rem; border: 1px solid #ddd;'>Reflexiva/recíproca</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>הִתְכַּתֵּב</span> (correspondeu-se)</td></tr></table><h2>📖 O Qal Perfeito (Qatal)</h2><p>O <strong>Qal Perfeito</strong> é a forma mais básica e comum do verbo hebraico. Representa ação <strong>completa</strong> ou <strong>acabada</strong>, independentemente do tempo cronológico.</p><h3>🎯 Significados do Perfeito</h3><p>O Qal Perfeito pode expressar:</p><ul style='margin-left: 2rem; line-height: 2;'><li><strong>Ação passada:</strong> \"ele escreveu\"</li><li><strong>Estado presente:</strong> \"ele sabe\" (resultado de ter aprendido)</li><li><strong>Certeza futura:</strong> \"certamente acontecerá\"</li><li><strong>Ação atemporal:</strong> verdades gerais</li></ul><h3>📊 Paradigma do Qal Perfeito</h3><p>Usando a raiz כ-ת-ב (escrever) como modelo:</p><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Pessoa</th><th style='padding: 1rem; border: 1px solid #ddd;'>Singular</th><th style='padding: 1rem; border: 1px solid #ddd;'>Plural</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><strong>3ª masc.</strong></td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כָּתַב</span><br>(katav - ele escreveu)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כָּתְבוּ</span><br>(katvu - eles escreveram)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><strong>3ª fem.</strong></td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כָּתְבָה</span><br>(katvah - ela escreveu)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כָּתְבוּ</span><br>(katvu - elas escreveram)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><strong>2ª masc.</strong></td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כָּתַבְתָּ</span><br>(katavta - tu escreveste)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כְּתַבְתֶּם</span><br>(ketavtem - vós escrevestes)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><strong>2ª fem.</strong></td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כָּתַבְתְּ</span><br>(katavt - tu escreveste)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כְּתַבְתֶּן</span><br>(ketavten - vós escrevestes)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><strong>1ª comum</strong></td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כָּתַבְתִּי</span><br>(katavti - eu escrevi)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כָּתַבְנוּ</span><br>(katavnu - nós escrevemos)</td></tr></table><h3>🔤 Padrões Vocálicos</h3><p>O Qal Perfeito segue padrões vocálicos específicos baseados no tipo de verbo:</p><h4>Verbos Ativos (a-a):</h4><ul style='margin-left: 2rem; line-height: 2;'><li><span class='hebrew'>כָּתַב</span> (katav - escreveu)</li><li><span class='hebrew'>שָׁמַר</span> (shamar - guardou)</li><li><span class='hebrew'>זָכַר</span> (zakhar - lembrou)</li></ul><h4>Verbos Estativos (a-e):</h4><ul style='margin-left: 2rem; line-height: 2;'><li><span class='hebrew'>זָקֵן</span> (zaqen - envelheceu/é velho)</li><li><span class='hebrew'>כָּבֵד</span> (kaved - foi pesado/é pesado)</li><li><span class='hebrew'>גָּדֵל</span> (gadel - cresceu/é grande)</li></ul><h4>Verbos Estativos (a-o):</h4><ul style='margin-left: 2rem; line-height: 2;'><li><span class='hebrew'>קָטֹן</span> (qaton - foi pequeno/é pequeno)</li><li><span class='hebrew'>גָּדוֹל</span> (gadol - foi grande/é grande)</li></ul><h3>🌟 Verbos Importantes no Qal Perfeito</h3><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Raiz</th><th style='padding: 1rem; border: 1px solid #ddd;'>3ª masc. sing.</th><th style='padding: 1rem; border: 1px solid #ddd;'>Significado</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>א-מ-ר</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>אָמַר</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>disse</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>ה-ל-ך</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>הָלַךְ</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>foi, caminhou</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>ב-א</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>בָּא</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>veio</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>נ-ת-ן</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>נָתַן</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>deu</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>ל-ק-ח</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>לָקַח</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>tomou</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>ש-מ-ע</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>שָׁמַע</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>ouviu</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>ר-א-ה</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>רָאָה</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>viu</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>י-ד-ע</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>יָדַע</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>soube, conheceu</td></tr></table><h3>🔗 Uso com Vav Consecutivo</h3><p>O Qal Perfeito frequentemente aparece com <strong>vav consecutivo</strong> (וְ) para indicar sequência narrativa:</p><ul style='margin-left: 2rem; line-height: 2;'><li><span class='hebrew'>וְכָתַב</span> (vekhata - e ele escreveu)</li><li><span class='hebrew'>וְאָמַר</span> (ve'amar - e ele disse)</li><li><span class='hebrew'>וְהָלַךְ</span> (vehalakh - e ele foi)</li></ul><div style='background: #e3f2fd; padding: 1.5rem; border-radius: 8px; margin: 2rem 0; border-left: 4px solid #0056b3;'><h4 style='color: #0056b3; margin-bottom: 1rem;'>💡 Dica de Tradução</h4><p>Ao traduzir o Qal Perfeito, considere o contexto. Em narrativas, geralmente é passado ('ele escreveu'). Em contextos de estado, pode ser presente ('ele sabe'). Em profecias, pode indicar certeza futura ('certamente acontecerá').</p></div>"
+    "html": "<div><h2>📖 O Verbo Hebraico: Introdução e Qal Perfeito</h2><p>Bem-vindo ao sistema verbal do Hebraico Bíblico. É aqui que a ação acontece. O sistema é muito diferente do nosso, mas é extremamente lógico e elegante uma vez que você entende sua estrutura.</p><h3>1. Os Pilares do Verbo Hebraico</h3><p>Todo verbo hebraico é construído sobre três pilares:</p><ol><li><strong>A Raiz (שֹׁרֶשׁ - Shoresh):</strong> Quase todo verbo deriva de uma raiz de três consoantes que carrega o significado fundamental. Por exemplo, a raiz <strong>כ-ת-ב</strong> carrega a ideia de 'escrever'.</li><li><strong>A Conjugação (בִּנְיָן - Binyan):</strong> A raiz é 'derramada' em um de sete moldes ou conjugações. Cada binyan altera o significado da raiz de uma forma previsível (ex: tornando-a intensiva, causativa ou passiva). O binyan mais básico e comum é o <strong>Qal</strong>, que representa a ação simples.</li><li><strong>O Tempo/Aspecto:</strong> O hebraico tem duas formas principais para expressar o tempo e o tipo da ação:<ul><li><strong>Perfeito (Qatal):</strong> Descreve uma ação <strong>completa</strong> ou concluída. Geralmente traduzido como nosso pretérito perfeito ('ele escreveu').</li><li><strong>Imperfeito (Yiqtol):</strong> Descreve uma ação <strong>incompleta</strong>, contínua ou futura ('ele escreverá', 'ele escreve'). Estudaremos este no próximo módulo.</li></ul></li></ol><h3>2. O Binyan Qal e o Tempo Perfeito (Qatal)</h3><p>Vamos focar na forma verbal mais fundamental: o <strong>Qal Perfeito</strong>. Ele descreve uma ação simples e completa.</p><p><strong>Formação:</strong> O Perfeito é conjugado adicionando-se <strong>sufixos</strong> à raiz verbal. Esses sufixos indicam a pessoa, o gênero e o número do sujeito.</p><h3>3. Paradigma do Qal Perfeito (Raiz: כ-ת-ב 'escrever')</h3><div style='background: #e3f2fd; padding: 1.5rem; border-radius: 8px; margin: 2rem 0; border-left: 4px solid #0056b3;'><h4 style='color: #0056b3; margin-bottom: 1rem;'>💡 Dica de Memorização</h4><p>Note como os sufixos do Qal Perfeito se parecem com os pronomes pessoais independentes que você aprendeu no Módulo 4! <span class='hebrew'>אַ<strong>תָּ</strong>ה</span> → <span class='hebrew'>כָּתַבְ<strong>תָּ</strong></span>; <span class='hebrew'>אַ<strong>תְּ</strong></span> → <span class='hebrew'>כָּתַבְ<strong>תְּ</strong></span>; <span class='hebrew'>אֲנִ<strong>י</strong></span> → <span class='hebrew'>כָּתַבְ<strong>תִּי</strong></span>; <span class='hebrew'>אֲנַחְ<strong>נוּ</strong></span> → <span class='hebrew'>כָּתַבְ<strong>נוּ</strong></span>.</p></div><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Pessoa</th><th style='padding: 1rem; border: 1px solid #ddd;'>Singular</th><th style='padding: 1rem; border: 1px solid #ddd;'>Plural</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><strong>3ª masc.</strong></td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כָּתַב</span> (katav - ele escreveu)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כָּתְבוּ</span> (katevu - eles escreveram)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><strong>3ª fem.</strong></td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כָּתְבָה</span> (katevah - ela escreveu)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כָּתְבוּ</span> (katevu - elas escreveram)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><strong>2ª masc.</strong></td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כָּתַבְתָּ</span> (katavta - tu escreveste)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כְּתַבְתֶּם</span> (ketavtem - vós escrevestes)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><strong>2ª fem.</strong></td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כָּתַבְתְּ</span> (katavt - tu escreveste)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כְּתַבְתֶּן</span> (ketavten - vós escrevestes)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><strong>1ª comum</strong></td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כָּתַבְתִּי</span> (katavti - eu escrevi)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כָּתַבְנוּ</span> (katavnu - nós escrevemos)</td></tr></table><h3>4. Exemplo em Frase</h3><p>Veja o verbo em uma frase real de Gênesis 1:1.</p><p style='direction: rtl; font-size: 1.5rem; margin-bottom: 1rem; text-align: center;'><span class='hebrew'>בְּרֵאשִׁית <strong>בָּרָא</strong> אֱלֹהִים</span></p><p><strong>Análise:</strong> A palavra <span class='hebrew'>בָּרָא</span> (bara) é um Qal Perfeito, 3ª pessoa masculino singular da raiz ב-ר-א ('criar').</p><p><strong>Tradução:</strong> 'No princípio, Deus <strong>criou</strong>...'</p></div>"
   },
   "flashcards": [
-    {
-      "front": "כָּתַב",
-      "back": "katav - ele escreveu (Qal Perfeito 3ms)"
-    },
-    {
-      "front": "כָּתְבָה",
-      "back": "katvah - ela escreveu (Qal Perfeito 3fs)"
-    },
-    {
-      "front": "כָּתַבְתִּי",
-      "back": "katavti - eu escrevi (Qal Perfeito 1cs)"
-    },
-    {
-      "front": "כָּתַבְתָּ",
-      "back": "katavta - tu escreveste (Qal Perfeito 2ms)"
-    },
-    {
-      "front": "כָּתְבוּ",
-      "back": "katvu - eles/elas escreveram (Qal Perfeito 3cp)"
-    },
-    {
-      "front": "אָמַר",
-      "back": "amar - ele disse"
-    },
-    {
-      "front": "הָלַךְ",
-      "back": "halakh - ele foi, caminhou"
-    },
-    {
-      "front": "בָּא",
-      "back": "ba - ele veio"
-    },
-    {
-      "front": "נָתַן",
-      "back": "natan - ele deu"
-    },
-    {
-      "front": "לָקַח",
-      "back": "laqah - ele tomou"
-    },
-    {
-      "front": "שָׁמַע",
-      "back": "shama - ele ouviu"
-    },
-    {
-      "front": "רָאָה",
-      "back": "ra'ah - ele viu"
-    },
-    {
-      "front": "יָדַע",
-      "back": "yada - ele soube, conheceu"
-    },
-    {
-      "front": "זָכַר",
-      "back": "zakhar - ele lembrou"
-    },
-    {
-      "front": "שָׁמַר",
-      "back": "shamar - ele guardou"
-    }
+    { "front": "Raiz (Shoresh)", "back": "O núcleo de 3 consoantes que carrega o significado básico de um verbo." },
+    { "front": "Binyan", "back": "A 'conjugação' ou 'molde' em que a raiz é colocada para alterar seu significado (Qal, Piel, etc.)." },
+    { "front": "Tempo Perfeito (Qatal)", "back": "Expressa uma ação completa. Geralmente traduzido como o passado." },
+    { "front": "Qal", "back": "O binyan mais básico e comum, expressando a ação simples." },
+    { "front": "כָּתַב", "back": "katav - Ele escreveu (Qal Perfeito, 3ms)" },
+    { "front": "כָּתַבְתָּ", "back": "katavta - Tu (masc.) escreveste (Qal Perfeito, 2ms)" },
+    { "front": "כָּתַבְתִּי", "back": "katavti - Eu escrevi (Qal Perfeito, 1cs)" },
+    { "front": "כָּתְבוּ", "back": "katevu - Eles/Elas escreveram (Qal Perfeito, 3cp)" },
+    { "front": "כָּתַבְנוּ", "back": "katavnu - Nós escrevemos (Qal Perfeito, 1cp)" }
   ],
   "exercises": [
-    {
-      "question": "Quantas consoantes possui a maioria das raízes verbais hebraicas?",
-      "options": ["2", "3", "4", "5"],
-      "correct": 1,
-      "difficulty": "easy",
-      "explanation": "A maioria das raízes verbais hebraicas é trilítera, ou seja, possui três consoantes."
-    },
-    {
-      "question": "O que o Qal Perfeito expressa principalmente?",
-      "options": ["Ação futura", "Ação presente", "Ação completa ou acabada", "Ação contínua"],
-      "correct": 2,
-      "difficulty": "easy",
-      "explanation": "O Qal Perfeito expressa principalmente ação completa ou acabada, independentemente do tempo cronológico."
-    },
-    {
-      "question": "Como se conjuga 'eu escrevi' no Qal Perfeito?",
-      "options": ["כָּתַב", "כָּתְבָה", "כָּתַבְתִּי", "כָּתַבְתָּ"],
-      "correct": 2,
-      "difficulty": "medium",
-      "explanation": "כָּתַבְתִּי (katavti) é a forma de 1ª pessoa comum singular do Qal Perfeito de כ-ת-ב."
-    },
-    {
-      "question": "Qual é o significado de אָמַר?",
-      "options": ["ele escreveu", "ele disse", "ele foi", "ele viu"],
-      "correct": 1,
-      "difficulty": "medium",
-      "explanation": "אָמַר (amar) significa 'ele disse' e é um dos verbos mais comuns no hebraico bíblico."
-    },
-    {
-      "question": "Quantos binyanim (construções verbais) existem no hebraico?",
-      "options": ["5", "6", "7", "8"],
-      "correct": 2,
-      "difficulty": "medium",
-      "explanation": "Existem sete binyanim principais no hebraico: Qal, Niphal, Piel, Pual, Hiphil, Hophal e Hithpael."
-    },
-    {
-      "question": "Qual é a forma feminina de 3ª pessoa singular de כָּתַב?",
-      "options": ["כָּתְבָה", "כָּתַבְתְּ", "כָּתְבוּ", "כָּתַבְתִּי"],
-      "correct": 0,
-      "difficulty": "medium",
-      "explanation": "כָּתְבָה (katvah) é a forma feminina de 3ª pessoa singular do Qal Perfeito."
-    },
-    {
-      "question": "O que caracteriza os verbos estativos no padrão a-e?",
-      "options": ["Expressam ação", "Expressam estado ou qualidade", "São sempre irregulares", "Não existem em hebraico"],
-      "correct": 1,
-      "difficulty": "hard",
-      "explanation": "Os verbos estativos no padrão a-e (como זָקֵן) expressam estado ou qualidade, não ação."
-    },
-    {
-      "question": "O que é o vav consecutivo com o Perfeito?",
-      "options": ["Uma negação", "Uma pergunta", "Uma sequência narrativa", "Um tempo futuro"],
-      "correct": 2,
-      "difficulty": "hard",
-      "explanation": "O vav consecutivo (וְ) com o Perfeito indica sequência narrativa, conectando eventos em ordem cronológica."
-    }
+    { "question": "Qual é o conceito mais fundamental do verbo hebraico, que carrega seu significado principal?", "options": ["O binyan", "O sufixo", "A raiz triconsonantal", "O prefixo"], "correct": 2, "difficulty": "easy", "explanation": "A raiz (shoresh) é o núcleo semântico de quase todos os verbos hebraicos." },
+    { "question": "O tempo Perfeito (Qatal) em hebraico descreve qual tipo de ação?", "options": ["Uma ação futura", "Uma ação contínua", "Uma ação incompleta", "Uma ação completa"], "correct": 3, "difficulty": "easy", "explanation": "O Perfeito descreve uma ação vista pelo autor como concluída." },
+    { "question": "Analise a forma verbal 'שָׁמַרְנוּ'.", "options": ["Eles guardaram", "Nós guardamos", "Eu guardei", "Vós guardastes"], "correct": 1, "difficulty": "medium", "explanation": "A raiz é ש-מ-ר (guardar). O sufixo -נוּ é a marca da 1ª pessoa do comum plural ('nós') no Qal Perfeito." },
+    { "question": "Como se diz 'ela reinou' em hebraico, usando a raiz מ-ל-ך?", "options": ["מָלַךְ", "מָלְכָה", "מָלַכְתְּ", "מָלְכוּ"], "correct": 1, "difficulty": "hard", "explanation": "A forma da 3ª pessoa feminino singular do Qal Perfeito é formada adicionando o sufixo -ָה ao radical. Portanto, מָלְכָה (malekhah)." },
+    { "question": "O Qal Perfeito é conjugado principalmente através de:", "options": ["Prefixos", "Sufixos", "Mudanças na raiz", "Uso de verbos auxiliares"], "correct": 1, "difficulty": "medium", "explanation": "A conjugação do Qal Perfeito é caracterizada pela adição de sufixos pronominais à forma básica da 3ª pessoa masculino singular." }
   ]
 }
-
