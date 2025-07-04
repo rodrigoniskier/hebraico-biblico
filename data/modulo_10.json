@@ -1,41 +1,21 @@
 {
   "title": "O Binyan Niphal",
   "content": {
-    "html": "<h2>🔄 O Binyan Niphal</h2><p>O <strong>Niphal</strong> é o binyan passivo/reflexivo do Qal. Expressa ação passiva, reflexiva ou às vezes intransitiva.</p><h3>🎯 Significados do Niphal:</h3><ul style='margin-left: 2rem; line-height: 2;'><li><strong>Passivo:</strong> \"foi escrito\"</li><li><strong>Reflexivo:</strong> \"escondeu-se\"</li><li><strong>Intransitivo:</strong> \"apareceu\"</li></ul><h3>📊 Niphal Perfeito</h3><p>Padrão: נִ + raiz com mudanças vocálicas</p><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Pessoa</th><th style='padding: 1rem; border: 1px solid #ddd;'>Singular</th><th style='padding: 1rem; border: 1px solid #ddd;'>Plural</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>3ms</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>נִכְתַּב</span> (nikhtav - foi escrito)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>נִכְתְּבוּ</span> (nikhtvu)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>3fs</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>נִכְתְּבָה</span> (nikhtevah)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>נִכְתְּבוּ</span> (nikhtvu)</td></tr></table><h3>📊 Niphal Imperfeito</h3><p>Padrão: יִ + נ + raiz</p><ul style='margin-left: 2rem;'><li><span class='hebrew'>יִכָּתֵב</span> (yikkatev - será escrito)</li><li><span class='hebrew'>תִּכָּתֵב</span> (tikkatev - será escrita)</li></ul><h3>🌟 Verbos Comuns no Niphal</h3><ul style='margin-left: 2rem; line-height: 2;'><li><span class='hebrew'>נִרְאָה</span> (nir'ah - apareceu, foi visto)</li><li><span class='hebrew'>נִמְצָא</span> (nimtsa - foi encontrado)</li><li><span class='hebrew'>נִשְׁבַּר</span> (nishbar - foi quebrado)</li></ul>"
+    "html": "<div><h2>🔄 O Binyan Niphal: A Voz Passiva e Reflexiva</h2><p>Bem-vindo ao estudo dos <strong>binyanim</strong> (conjugações verbais). O <strong>Niphal</strong> é o primeiro que estudaremos após o Qal e geralmente expressa a ideia de uma ação passiva ou reflexiva em relação ao Qal.</p><h3>1. Diagnóstico: Como Reconhecer o Niphal</h3><p>O Niphal tem marcas distintivas que o tornam fácil de identificar:</p><ul><li><strong>No Perfeito:</strong> É caracterizado pelo prefixo <strong>נִ (ni)</strong>. Ex: <span class='hebrew'><strong>נִ</strong>כְתַּב</span> (foi escrito).</li><li><strong>No Imperfeito e Particípio:</strong> A letra <strong>נ (nun)</strong> do radical se assimila como um dagesh forte na primeira letra da raiz. Ex: <span class='hebrew'>יִ<strong>כָּ</strong>תֵב</span> (será escrito) - note o dagesh em כ.</li></ul><h3>2. Significado e Função do Niphal</h3><p>O Niphal geralmente traduz a voz passiva ou reflexiva do Qal.</p><ul><li><strong>Passivo:</strong> O sujeito recebe a ação. Se em Qal <span class='hebrew'>שָׁבַר</span> significa 'ele quebrou', em Niphal <span class='hebrew'>נִשְׁבַּר</span> significa 'ele foi quebrado'.</li><li><strong>Reflexivo:</strong> O sujeito realiza a ação sobre si mesmo. Se em Qal <span class='hebrew'>שָׁמַר</span> significa 'ele guardou', em Niphal <span class='hebrew'>נִשְׁמַר</span> pode significar 'ele se guardou' (teve cuidado).</li><li><strong>Intransitivo:</strong> Às vezes, descreve uma ação sem objeto direto. Ex: <span class='hebrew'>נִלְחַם</span>, 'ele lutou'.</li></ul><h3>3. Paradigmas Essenciais do Niphal (Raiz: כ-ת-ב)</h3><h4>Niphal Perfeito ('foi escrito')</h4><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Pessoa</th><th style='padding: 1rem; border: 1px solid #ddd;'>Singular</th><th style='padding: 1rem; border: 1px solid #ddd;'>Plural</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>3ms</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>נִכְתַּב</span> (nikhtav)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>נִכְתְּבוּ</span> (nikhtevu)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>3fs</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>נִכְתְּבָה</span> (nikhtevah)</td><td style='padding: 1rem; border: 1px solid #ddd;'>---</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>2ms</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>נִכְתַּבְתָּ</span> (nikhtavta)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>נִכְתַּבְתֶּם</span> (nikhtavtem)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>1cs</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>נִכְתַּבְתִּי</span> (nikhtavti)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>נִכְתַּבְנוּ</span> (nikhtavnu)</td></tr></table><h4>Niphal Imperfeito ('será escrito')</h4><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Pessoa</th><th style='padding: 1rem; border: 1px solid #ddd;'>Singular</th><th style='padding: 1rem; border: 1px solid #ddd;'>Plural</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>3ms</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>יִכָּתֵב</span> (yikkatev)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>יִכָּתְבוּ</span> (yikkatevu)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>2ms</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>תִּכָּתֵב</span> (tikkatev)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>תִּכָּתְבוּ</span> (tikkatevu)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>1cs</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>אֶכָּתֵב</span> (ekkatev)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>נִכָּתֵב</span> (nikkatev)</td></tr></table><h3>4. Exemplos de Uso</h3><p>Ver o Niphal em contexto ajuda a solidificar o significado:</p><ul><li><strong>Passivo:</strong> <span class='hebrew' style='font-size: 1.2rem;'>וַיִּפָּתְחוּ עֵינֵי שְׁנֵיהֶם</span> (Gênesis 3:7)<br><em>Tradução:</em> 'E foram abertos os olhos de ambos'. (Verbo <span class='hebrew'>נִפְתַּח</span>, Niphal de <span class='hebrew'>פָּתַח</span>, 'abrir').</li><li><strong>Reflexivo:</strong> <span class='hebrew' style='font-size: 1.2rem;'>וַיִּסָּתֵר הָאָדָם</span> (Gênesis 3:8)<br><em>Tradução:</em> 'E o homem se escondeu'. (Verbo <span class='hebrew'>נִסְתַּר</span>, Niphal de <span class='hebrew'>סָתַר</span>, 'esconder').</li></ul></div>"
   },
   "flashcards": [
-    {
-      "front": "נִכְתַּב",
-      "back": "nikhtav - foi escrito (Niphal)"
-    },
-    {
-      "front": "יִכָּתֵב",
-      "back": "yikkatev - será escrito (Niphal imperfeito)"
-    },
-    {
-      "front": "נִרְאָה",
-      "back": "nir'ah - apareceu, foi visto"
-    },
-    {
-      "front": "נִמְצָא",
-      "back": "nimtsa - foi encontrado"
-    }
+    { "front": "נִכְתַּב", "back": "nikhtav - foi escrito (Niphal Perfeito 3ms)" },
+    { "front": "יִכָּתֵב", "back": "yikkatev - será escrito (Niphal Imperfeito 3ms)" },
+    { "front": "נִשְׁמַר", "back": "nishmar - foi guardado / se guardou (Niphal Perf.)" },
+    { "front": "נִפְתַּח", "back": "niftach - foi aberto / se abriu (Niphal Perf.)" },
+    { "front": "Como reconhecer o Niphal Perfeito?", "back": "Pelo prefixo נִ (ni) no início do verbo." },
+    { "front": "Como reconhecer o Niphal Imperfeito?", "back": "Pelo dagesh forte na primeira letra da raiz (ex: יִכָּתֵב)." }
   ],
   "exercises": [
-    {
-      "question": "O que caracteriza o binyan Niphal?",
-      "options": ["Ação ativa", "Ação passiva/reflexiva", "Ação intensiva", "Ação causativa"],
-      "correct": 1,
-      "difficulty": "easy",
-      "explanation": "O Niphal caracteriza-se por expressar ação passiva, reflexiva ou intransitiva."
-    },
-    {
-      "question": "Qual é o prefixo característico do Niphal Perfeito?",
-      "options": ["הִ", "נִ", "תִּ", "יִ"],
-      "correct": 1,
-      "difficulty": "medium",
-      "explanation": "O Niphal Perfeito é caracterizado pelo prefixo נִ."
-    }
+    { "question": "Qual é a principal função do binyan Niphal?", "options": ["Causativa", "Intensiva", "Passiva ou Reflexiva", "Ação simples"], "correct": 2, "difficulty": "easy", "explanation": "O Niphal geralmente expressa a voz passiva ou reflexiva da ação descrita no Qal." },
+    { "question": "Qual é a marca distintiva do Niphal no tempo Perfeito?", "options": ["Prefixo הִ", "Dagesh na 2ª radical", "Prefixo נִ", "Vogal longa no radical"], "correct": 2, "difficulty": "easy", "explanation": "O prefixo נִ (ni) é a marca diagnóstica do Niphal Perfeito." },
+    { "question": "A forma יִלָּחֵם (yillakhem - ele lutará) está em qual binyan?", "options": ["Qal", "Piel", "Hiphil", "Niphal"], "correct": 3, "difficulty": "medium", "explanation": "O dagesh na primeira letra da raiz (ל) no imperfeito é a marca do Niphal. A raiz é ל-ח-ם." },
+    { "question": "Traduza a forma נִשְׁבְּרוּ (nishberu). A raiz é ש-ב-ר (quebrar).", "options": ["Eles quebraram", "Eles foram quebrados", "Eles quebrarão", "Quebrai!"], "correct": 1, "difficulty": "hard", "explanation": "נִ é o prefixo do Niphal Perfeito. A terminação -וּ é da 3ª pessoa do plural. Portanto, 'eles foram quebrados'." },
+    { "question": "Qual seria o significado Niphal da raiz כָּבֵד (ser pesado, glorioso)?", "options": ["Pesar algo", "Glorificar intensamente", "Ser pesado/glorioso (estado)", "Ser honrado/glorificado (passivo)"], "correct": 3, "difficulty": "hard", "explanation": "Se Qal é 'ser glorioso', o Niphal seria 'ser glorificado' ou 'mostrar-se glorioso'. É a forma passiva/reflexiva." }
   ]
 }
-
