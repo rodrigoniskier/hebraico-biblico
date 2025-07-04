@@ -1,131 +1,23 @@
 {
   "title": "Adjetivos e o Estado Construto",
   "content": {
-    "html": "<h2>🎨 Adjetivos em Hebraico</h2><p>Os adjetivos em hebraico funcionam de maneira diferente do português. Eles devem concordar em gênero, número e definição com o substantivo que modificam, e geralmente aparecem após o substantivo.</p><h3>📏 Concordância dos Adjetivos</h3><p>Todo adjetivo deve concordar com seu substantivo em três aspectos:</p><ul style='margin-left: 2rem; line-height: 2;'><li><strong>Gênero:</strong> masculino ou feminino</li><li><strong>Número:</strong> singular, dual ou plural</li><li><strong>Definição:</strong> definido (com artigo) ou indefinido</li></ul><h4>Exemplos de Concordância:</h4><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Substantivo</th><th style='padding: 1rem; border: 1px solid #ddd;'>Adjetivo</th><th style='padding: 1rem; border: 1px solid #ddd;'>Tradução</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>מֶלֶךְ טוֹב</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>masc. sing. indef.</td><td style='padding: 1rem; border: 1px solid #ddd;'>um rei bom</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>הַמֶּלֶךְ הַטּוֹב</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>masc. sing. def.</td><td style='padding: 1rem; border: 1px solid #ddd;'>o rei bom</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>מַלְכָּה טוֹבָה</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>fem. sing. indef.</td><td style='padding: 1rem; border: 1px solid #ddd;'>uma rainha boa</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>הַמַּלְכָּה הַטּוֹבָה</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>fem. sing. def.</td><td style='padding: 1rem; border: 1px solid #ddd;'>a rainha boa</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>מְלָכִים טוֹבִים</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>masc. plur. indef.</td><td style='padding: 1rem; border: 1px solid #ddd;'>reis bons</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>הַמְּלָכִים הַטּוֹבִים</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>masc. plur. def.</td><td style='padding: 1rem; border: 1px solid #ddd;'>os reis bons</td></tr></table><h3>🔄 Formas dos Adjetivos</h3><p>Os adjetivos seguem padrões similares aos substantivos para formar suas variações:</p><h4>Adjetivo טוֹב (bom):</h4><ul style='margin-left: 2rem; line-height: 2;'><li><strong>Masculino singular:</strong> <span class='hebrew'>טוֹב</span> (tov)</li><li><strong>Feminino singular:</strong> <span class='hebrew'>טוֹבָה</span> (tovah)</li><li><strong>Masculino plural:</strong> <span class='hebrew'>טוֹבִים</span> (tovim)</li><li><strong>Feminino plural:</strong> <span class='hebrew'>טוֹבוֹת</span> (tovot)</li></ul><h4>Adjetivo גָּדוֹל (grande):</h4><ul style='margin-left: 2rem; line-height: 2;'><li><strong>Masculino singular:</strong> <span class='hebrew'>גָּדוֹל</span> (gadol)</li><li><strong>Feminino singular:</strong> <span class='hebrew'>גְּדוֹלָה</span> (gedolah)</li><li><strong>Masculino plural:</strong> <span class='hebrew'>גְּדוֹלִים</span> (gedolim)</li><li><strong>Feminino plural:</strong> <span class='hebrew'>גְּדוֹלוֹת</span> (gedolot)</li></ul><h3>🎯 Uso Predicativo vs. Atributivo</h3><h4>Uso Atributivo (modificando diretamente o substantivo):</h4><p>O adjetivo concorda completamente e aparece após o substantivo:</p><ul style='margin-left: 2rem;'><li><span class='hebrew'>הָאִישׁ הַטּוֹב</span> (ha'ish hattov - o homem bom)</li><li><span class='hebrew'>הָאִשָּׁה הַטּוֹבָה</span> (ha'ishah hattovah - a mulher boa)</li></ul><h4>Uso Predicativo (funcionando como predicado):</h4><p>O adjetivo não leva artigo, mesmo quando o substantivo é definido:</p><ul style='margin-left: 2rem;'><li><span class='hebrew'>הָאִישׁ טוֹב</span> (ha'ish tov - o homem é bom)</li><li><span class='hebrew'>הָאִשָּׁה טוֹבָה</span> (ha'ishah tovah - a mulher é boa)</li></ul><h2>🏗️ O Estado Construto</h2><p>O estado construto é uma construção gramatical fundamental em hebraico, usada para expressar relações genitivas (posse, origem, material, etc.). É equivalente ao 'de' em português ou ao caso genitivo em outras línguas.</p><h3>🔗 Estrutura Básica</h3><p>A construção consiste em dois elementos:</p><ol style='margin-left: 2rem; line-height: 2;'><li><strong>Construto (nomen regens):</strong> a palavra que governa, em forma modificada</li><li><strong>Absoluto (nomen rectum):</strong> a palavra governada, em forma normal</li></ol><h4>Fórmula:</h4><p style='text-align: center; font-size: 1.2rem; background: #f0f8ff; padding: 1rem; border-radius: 8px; margin: 1rem 0;'><strong>CONSTRUTO + ABSOLUTO = \"CONSTRUTO de ABSOLUTO\"</strong></p><h3>📝 Formação do Estado Construto</h3><h4>Regras Gerais:</h4><ul style='margin-left: 2rem; line-height: 2;'><li>O construto geralmente perde vogais longas finais</li><li>Algumas palavras mudam significativamente</li><li>O construto nunca pode ter artigo definido</li><li>Apenas o absoluto pode ter artigo</li></ul><h4>Exemplos de Transformação:</h4><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Absoluto</th><th style='padding: 1rem; border: 1px solid #ddd;'>Construto</th><th style='padding: 1rem; border: 1px solid #ddd;'>Exemplo</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>דָּבָר</span> (palavra)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>דְּבַר</span></td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>דְּבַר יְהוָה</span> (palavra de YHWH)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>בַּיִת</span> (casa)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>בֵּית</span></td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>בֵּית דָּוִד</span> (casa de Davi)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>מֶלֶךְ</span> (rei)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>מֶלֶךְ</span></td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>מֶלֶךְ יִשְׂרָאֵל</span> (rei de Israel)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>בֵּן</span> (filho)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>בֶּן</span></td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>בֶּן־דָּוִד</span> (filho de Davi)</td></tr></table><h3>🔢 Estado Construto Plural</h3><p>O plural também pode aparecer em estado construto:</p><ul style='margin-left: 2rem; line-height: 2;'><li><strong>Masculino plural:</strong> <span class='hebrew'>יִם◌ִ</span> → <span class='hebrew'>י◌ֵ</span></li><li><strong>Feminino plural:</strong> <span class='hebrew'>וֹת◌</span> → <span class='hebrew'>וֹת◌</span> (sem mudança)</li></ul><h4>Exemplos:</h4><ul style='margin-left: 2rem; line-height: 2;'><li><span class='hebrew'>מַלְכֵי יִשְׂרָאֵל</span> (malkhei yisra'el - reis de Israel)</li><li><span class='hebrew'>בְּנוֹת יְרוּשָׁלִַם</span> (benot yerushalayim - filhas de Jerusalém)</li></ul><h3>🎯 Usos do Estado Construto</h3><h4>1. Posse:</h4><ul style='margin-left: 2rem;'><li><span class='hebrew'>סוּס הַמֶּלֶךְ</span> (sus hammelekh - cavalo do rei)</li></ul><h4>2. Material:</h4><ul style='margin-left: 2rem;'><li><span class='hebrew'>כְּלֵי זָהָב</span> (kelei zahav - utensílios de ouro)</li></ul><h4>3. Origem:</h4><ul style='margin-left: 2rem;'><li><span class='hebrew'>אַנְשֵׁי יְהוּדָה</span> (anshei yehudah - homens de Judá)</li></ul><h4>4. Característica:</h4><ul style='margin-left: 2rem;'><li><span class='hebrew'>אִישׁ חַיִל</span> (ish hayil - homem de valor/guerreiro)</li></ul><div style='background: #e3f2fd; padding: 1.5rem; border-radius: 8px; margin: 2rem 0; border-left: 4px solid #0056b3;'><h4 style='color: #0056b3; margin-bottom: 1rem;'>💡 Dica Importante</h4><p>No estado construto, os dois substantivos formam uma unidade inseparável. Nada pode ser inserido entre eles - nem artigos, nem adjetivos, nem outras palavras. Se você quiser modificar o construto com um adjetivo, ele deve vir após toda a construção.</p></div>"
+    "html": "<div><h2>🎨 Adjetivos e o Estado Construto (Smikhut)</h2><p>Neste módulo, aprenderemos como descrever substantivos usando adjetivos e como conectar substantivos para mostrar posse ou relação através do importantíssimo <strong>Estado Construto</strong>.</p><h3>1. Adjetivos em Hebraico</h3><p>Adjetivos modificam substantivos e devem concordar com eles em <strong>gênero</strong> e <strong>número</strong>. A função do adjetivo (se ele descreve ou se faz uma afirmação) é determinada pela sua <strong>posição</strong> e pelo uso do <strong>artigo definido</strong>.</p><h4>A. Uso Atributivo (Descrevendo o Substantivo)</h4><p>O adjetivo funciona como uma qualidade inerente ao substantivo. Corresponde a frases como 'o bom rei' ou 'a lei santa'.</p><p><strong>Regra:</strong> O adjetivo vem <strong>depois</strong> do substantivo e <strong>repete o artigo definido</strong> (se o substantivo for definido).</p><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Frase em Hebraico</th><th style='padding: 1rem; border: 1px solid #ddd;'>Análise</th><th style='padding: 1rem; border: 1px solid #ddd;'>Tradução</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>הַמֶּלֶךְ הַטּוֹב</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>o-rei o-bom</td><td style='padding: 1rem; border: 1px solid #ddd;'>O bom rei</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>הַתּוֹרָה הַקְּדוֹשָׁה</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>a-lei a-santa</td><td style='padding: 1rem; border: 1px solid #ddd;'>A lei santa</td></tr></table><h4>B. Uso Predicativo (Afirmando algo sobre o Substantivo)</h4><p>O adjetivo faz uma afirmação sobre o substantivo. O verbo 'ser/estar' fica implícito. Corresponde a frases como 'o rei é bom' ou 'a lei é santa'.</p><p><strong>Regra:</strong> O adjetivo <strong>não leva artigo</strong> e geralmente vem antes do substantivo (para ênfase) ou depois.</p><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Frase em Hebraico</th><th style='padding: 1rem; border: 1px solid #ddd;'>Análise</th><th style='padding: 1rem; border: 1px solid #ddd;'>Tradução</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>טוֹב הַמֶּלֶךְ</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>bom o-rei</td><td style='padding: 1rem; border: 1px solid #ddd;'>O rei é bom</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>הַתּוֹרָה קְדוֹשָׁה</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>a-lei santa</td><td style='padding: 1rem; border: 1px solid #ddd;'>A lei é santa</td></tr></table><hr><h3>2. O Estado Construto (Smikhut)</h3><p>O Estado Construto é a principal maneira do hebraico expressar a relação 'de' (posse, material, etc.). Em vez de usar uma preposição, dois ou mais substantivos são colocados em sequência, formando uma 'cadeia construta'.</p><p>O primeiro substantivo da cadeia está no estado <strong>construto</strong> e o último está no estado <strong>absoluto</strong>.</p><h4>Mudanças na Forma Construta</h4><p>O substantivo no estado construto frequentemente tem sua forma alterada (geralmente com vogais mais curtas).</p><ul><li>Feminino singular em <span class='hebrew'>ـָה</span> muda para <span class='hebrew'>ـַת</span>. Ex: <span class='hebrew'>תּוֹרָה</span> (lei) → <span class='hebrew'><strong>תּוֹרַת</strong></span> (lei de...).</li><li>Masculino plural em <span class='hebrew'>ـִים</span> muda para <span class='hebrew'>ـֵי</span>. Ex: <span class='hebrew'>סוּסִים</span> (cavalos) → <span class='hebrew'><strong>סוּסֵי</strong></span> (cavalos de...).</li></ul><h4>A Regra de Ouro do Artigo na Cadeia Construta</h4><div style='background: #e3f2fd; padding: 1.5rem; border-radius: 8px; margin: 2rem 0; border-left: 4px solid #0056b3;'><p>Em uma cadeia construta, o artigo definido <span class='hebrew'>הַ</span> <strong>NUNCA</strong> é colocado no primeiro substantivo (o construto). Ele só pode ser colocado no <strong>ÚLTIMO</strong> substantivo da cadeia (o absoluto). No entanto, quando o último substantivo é definido, a cadeia <strong>INTEIRA</strong> se torna definida.</p></div><h4>Exemplos de Estado Construto</h4><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: #28a745; color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Frase em Hebraico</th><th style='padding: 1rem; border: 1px solid #ddd;'>Análise</th><th style='padding: 1rem; border: 1px solid #ddd;'>Tradução</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>דְּבַר אֱלֹהִים</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>palavra-de Deus (indefinido)</td><td style='padding: 1rem; border: 1px solid #ddd;'>uma palavra de Deus</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>דְּבַר <strong>הַ</strong>מֶּלֶךְ</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>palavra-de <strong>o</strong>-rei (definido)</td><td style='padding: 1rem; border: 1px solid #ddd;'>a palavra do rei</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>תּוֹרַת מֹשֶׁה</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>lei-de Moisés (definido por nome próprio)</td><td style='padding: 1rem; border: 1px solid #ddd;'>a lei de Moisés</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>בְּנֵי יִשְׂרָאֵל</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>filhos-de Israel (definido por nome próprio)</td><td style='padding: 1rem; border: 1px solid #ddd;'>os filhos de Israel</td></tr></table></div>"
   },
   "flashcards": [
-    {
-      "front": "טוֹב",
-      "back": "tov - bom (masc. sing.)"
-    },
-    {
-      "front": "טוֹבָה",
-      "back": "tovah - boa (fem. sing.)"
-    },
-    {
-      "front": "טוֹבִים",
-      "back": "tovim - bons (masc. plur.)"
-    },
-    {
-      "front": "טוֹבוֹת",
-      "back": "tovot - boas (fem. plur.)"
-    },
-    {
-      "front": "גָּדוֹל",
-      "back": "gadol - grande (masc. sing.)"
-    },
-    {
-      "front": "גְּדוֹלָה",
-      "back": "gedolah - grande (fem. sing.)"
-    },
-    {
-      "front": "דְּבַר יְהוָה",
-      "back": "devar YHWH - palavra de YHWH"
-    },
-    {
-      "front": "בֵּית דָּוִד",
-      "back": "beit david - casa de Davi"
-    },
-    {
-      "front": "מֶלֶךְ יִשְׂרָאֵל",
-      "back": "melekh yisra'el - rei de Israel"
-    },
-    {
-      "front": "בֶּן־דָּוִד",
-      "back": "ben-david - filho de Davi"
-    },
-    {
-      "front": "מַלְכֵי יִשְׂרָאֵל",
-      "back": "malkhei yisra'el - reis de Israel"
-    },
-    {
-      "front": "בְּנוֹת יְרוּשָׁלִַם",
-      "back": "benot yerushalayim - filhas de Jerusalém"
-    },
-    {
-      "front": "אִישׁ חַיִל",
-      "back": "ish hayil - homem de valor, guerreiro"
-    },
-    {
-      "front": "כְּלֵי זָהָב",
-      "back": "kelei zahav - utensílios de ouro"
-    },
-    {
-      "front": "הָאִישׁ הַטּוֹב",
-      "back": "ha'ish hattov - o homem bom (atributivo)"
-    },
-    {
-      "front": "הָאִישׁ טוֹב",
-      "back": "ha'ish tov - o homem é bom (predicativo)"
-    }
+    { "front": "Uso Atributivo do Adjetivo", "back": "Descreve o substantivo. Vem DEPOIS dele e REPETE o artigo. Ex: הַמֶּלֶךְ הַטּוֹב (o bom rei)." },
+    { "front": "Uso Predicativo do Adjetivo", "back": "Afirma algo sobre o substantivo. NÃO USA artigo. Ex: הַמֶּלֶךְ טוֹב (o rei é bom)." },
+    { "front": "Estado Construto (Smikhut)", "back": "A principal forma de expressar a relação 'de' em hebraico, unindo dois substantivos." },
+    { "front": "Regra do Artigo no Construto", "back": "O artigo definido (הַ) só pode aparecer no ÚLTIMO substantivo, mas torna toda a cadeia definida." },
+    { "front": "תּוֹרָה → תּוֹרַת", "back": "Mudança da forma absoluta para a construta (feminino singular)." },
+    { "front": "בָּנִים → בְּנֵי", "back": "Mudança da forma absoluta para a construta (masculino plural)." },
+    { "front": "דְּבַר הַמֶּלֶךְ", "back": "devar hammelekh - a palavra do rei." },
+    { "front": "בֵּית אֵל", "back": "beth 'el - casa de Deus (Betel)." }
   ],
   "exercises": [
-    {
-      "question": "Como deve concordar um adjetivo com seu substantivo em hebraico?",
-      "options": ["Apenas em gênero", "Apenas em número", "Em gênero, número e definição", "Apenas em definição"],
-      "correct": 2,
-      "difficulty": "easy",
-      "explanation": "Os adjetivos em hebraico devem concordar com o substantivo em gênero, número e definição (presença ou ausência do artigo)."
-    },
-    {
-      "question": "Qual é a diferença entre הָאִישׁ הַטּוֹב e הָאִישׁ טוֹב?",
-      "options": ["Não há diferença", "O primeiro é 'o homem bom', o segundo é 'o homem é bom'", "O primeiro é plural, o segundo é singular", "O primeiro é feminino, o segundo é masculino"],
-      "correct": 1,
-      "difficulty": "medium",
-      "explanation": "הָאִישׁ הַטּוֹב é uso atributivo ('o homem bom'), enquanto הָאִישׁ טוֹב é uso predicativo ('o homem é bom')."
-    },
-    {
-      "question": "No estado construto, qual elemento pode ter artigo definido?",
-      "options": ["Apenas o construto", "Apenas o absoluto", "Ambos", "Nenhum"],
-      "correct": 1,
-      "difficulty": "medium",
-      "explanation": "No estado construto, apenas o absoluto (segundo elemento) pode ter artigo definido. O construto nunca pode ter artigo."
-    },
-    {
-      "question": "Como se forma o feminino singular do adjetivo גָּדוֹל?",
-      "options": ["גָּדוֹלָה", "גְּדוֹלָה", "גַּדְלָה", "גְּדֻלָה"],
-      "correct": 1,
-      "difficulty": "medium",
-      "explanation": "O feminino singular de גָּדוֹל (gadol) é גְּדוֹלָה (gedolah)."
-    },
-    {
-      "question": "O que significa דְּבַר יְהוָה?",
-      "options": ["Palavra para YHWH", "Palavra de YHWH", "Palavra sobre YHWH", "Palavra com YHWH"],
-      "correct": 1,
-      "difficulty": "easy",
-      "explanation": "דְּבַר יְהוָה significa 'palavra de YHWH', sendo um exemplo clássico de estado construto."
-    },
-    {
-      "question": "Qual é o estado construto de בַּיִת (casa)?",
-      "options": ["בַּיִת", "בֵּית", "בָּיִת", "בִּית"],
-      "correct": 1,
-      "difficulty": "medium",
-      "explanation": "O estado construto de בַּיִת (bayit - casa) é בֵּית (beit)."
-    },
-    {
-      "question": "Como se forma o plural masculino construto de מֶלֶךְ (rei)?",
-      "options": ["מְלָכִים", "מַלְכֵי", "מְלָכֵי", "מַלְכִים"],
-      "correct": 1,
-      "difficulty": "hard",
-      "explanation": "O plural masculino construto de מֶלֶךְ é מַלְכֵי (malkhei), como em מַלְכֵי יִשְׂרָאֵל (reis de Israel)."
-    },
-    {
-      "question": "Pode-se inserir palavras entre os elementos de uma construção construto?",
-      "options": ["Sim, sempre", "Sim, apenas adjetivos", "Sim, apenas artigos", "Não, nunca"],
-      "correct": 3,
-      "difficulty": "hard",
-      "explanation": "No estado construto, os dois substantivos formam uma unidade inseparável. Nada pode ser inserido entre eles."
-    }
+    { "question": "Na frase 'o grande rei', como o adjetivo 'grande' (גָּדוֹל) seria posicionado?", "options": ["Antes do substantivo, com artigo", "Depois do substantivo, com artigo", "Antes do substantivo, sem artigo", "Depois do substantivo, sem artigo"], "correct": 1, "difficulty": "easy", "explanation": "No uso atributivo, o adjetivo vem depois do substantivo e repete o artigo: הַמֶּלֶךְ הַגָּדוֹל." },
+    { "question": "Como se traduz a frase 'טוֹבָה הַתּוֹרָה'?", "options": ["A boa lei", "Uma lei é boa", "A lei é boa", "A lei da bondade"], "correct": 2, "difficulty": "medium", "explanation": "Este é um uso predicativo. O adjetivo (טוֹבָה) não tem artigo e faz uma afirmação sobre o substantivo definido (הַתּוֹרָה). O verbo 'ser' está implícito." },
+    { "question": "O que é o 'Estado Construto'?", "options": ["Uma conjugação verbal", "Uma forma de conectar dois substantivos para mostrar posse/relação", "Um tipo de pronome", "Uma regra de pontuação"], "correct": 1, "difficulty": "easy", "explanation": "O Estado Construto é a principal estrutura sintática do hebraico para expressar a relação genitiva ('de')." },
+    { "question": "Como você diria 'a casa do rei' em hebraico?", "options": ["הַבַּיִת הַמֶּלֶךְ", "בַּיִת הַמֶּלֶךְ", "הַבַּיִת שֶׁל הַמֶּלֶךְ", "בֵּית הַמֶּלֶךְ"], "correct": 3, "difficulty": "hard", "explanation": "O primeiro substantivo ('casa') vai para sua forma construta (בֵּית) e fica sem artigo. O segundo ('rei') recebe o artigo (הַמֶּלֶךְ), tornando toda a expressão definida." },
+    { "question": "Qual é a forma construta do substantivo feminino 'מַלְכָּה' (rainha)?", "options": ["מַלְכַּת", "מַלְכֵי", "מַלְכָּה", "מֶלֶךְ"], "correct": 0, "difficulty": "medium", "explanation": "A terminação feminina singular -ָה (qamets he) tipicamente se transforma em -ַת (pathach tav) no estado construto." }
   ]
 }
-
