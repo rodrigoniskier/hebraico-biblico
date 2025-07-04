@@ -1,41 +1,22 @@
 {
   "title": "O Binyan Hiphil e Hophal",
   "content": {
-    "html": "<h2>🚀 O Binyan Hiphil</h2><p>O <strong>Hiphil</strong> expressa ação causativa ativa. Faz com que o sujeito cause a ação no objeto.</p><h3>🎯 Significados do Hiphil:</h3><ul style='margin-left: 2rem; line-height: 2;'><li><strong>Causativo:</strong> \"fazer escrever\"</li><li><strong>Factitivo:</strong> \"tornar grande\"</li><li><strong>Declarativo:</strong> \"declarar justo\"</li></ul><h3>📊 Hiphil Perfeito</h3><p>Padrão: הִ + raiz</p><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Pessoa</th><th style='padding: 1rem; border: 1px solid #ddd;'>Forma</th><th style='padding: 1rem; border: 1px solid #ddd;'>Significado</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>3ms</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>הִכְתִּיב</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>fez escrever</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>3fs</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>הִכְתִּיבָה</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>ela fez escrever</td></tr></table><h2>🔄 O Binyan Hophal</h2><p>O <strong>Hophal</strong> é a forma passiva do Hiphil, expressando ação causativa passiva.</p><h3>📊 Hophal Perfeito</h3><ul style='margin-left: 2rem;'><li><span class='hebrew'>הֻכְתַּב</span> (hukhtav - foi feito escrever)</li><li><span class='hebrew'>הוּבָא</span> (huva - foi trazido)</li></ul><h3>🌟 Verbos Comuns no Hiphil</h3><ul style='margin-left: 2rem; line-height: 2;'><li><span class='hebrew'>הֵבִיא</span> (hevi - trouxe)</li><li><span class='hebrew'>הִגִּיד</span> (higgid - contou, declarou)</li><li><span class='hebrew'>הִצִּיל</span> (hitstsil - salvou, livrou)</li></ul>"
+    "html": "<div><h2>🚀 O Binyan Hiphil e seu Passivo, o Hophal</h2><p>O <strong>Hiphil</strong> é uma das conjugações mais importantes e versáteis do Hebraico Bíblico. Sua função principal é tornar a ação do verbo <strong>causativa</strong>, ou seja, o sujeito faz com que a ação aconteça a um objeto.</p><h3>1. Diagnóstico: Como Reconhecer o Hiphil e o Hophal</h3><p>As marcas do Hiphil e do Hophal são encontradas nos prefixos e nos padrões vocálicos.</p><ul><li><strong>Hiphil:</strong> É diagnosticado pelo prefixo <strong>הִ (hi)</strong> no Perfeito. No Imperfeito, a vogal sob o prefixo é um <strong>Pathach (ַ)</strong>, e a vogal do radical é um <em>Hireq Yod</em> ( ִי ), que é uma característica marcante. Ex: <span class='hebrew'><strong>יַ</strong>קְדִּ<strong>ישׁ</strong></span>.</li><li><strong>Hophal (O Passivo do Hiphil):</strong> É diagnosticado por uma vogal do tipo 'u' (geralmente um <em>Qamets Hatuf</em> ָ ou <em>Qibbuts</em> ֻ ) sob o prefixo. Ex: <span class='hebrew'><strong>הָ</strong>קְדַּשׁ</span>.</li></ul><h3>2. Significado e Função</h3><h4>Hiphil</h4><p>A função primária é <strong>causativa</strong>.</p><ul><li><strong>Exemplo:</strong> A raiz <span class='hebrew'>מ-ל-ך</span> em Qal significa 'ele reinou' (<span class='hebrew'>מָלַךְ</span>). No Hiphil, <span class='hebrew'>הִמְלִיךְ</span> significa 'ele fez reinar', ou seja, 'ele entronizou (alguém) como rei'. O sujeito (ele) causou a ação de reinar no objeto.</li></ul><h4>Hophal</h4><p>É o passivo da ação causativa do Hiphil.</p><ul><li><strong>Exemplo:</strong> Se Hiphil é 'ele entronizou', Hophal (<span class='hebrew'>הָמְלַךְ</span>) é 'ele foi entronizado' (foi feito rei por alguém).</li></ul><h3>3. Paradigmas Essenciais</h3><h4>Hiphil Perfeito ('ele fez reinar')</h4><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Pessoa</th><th style='padding: 1rem; border: 1px solid #ddd;'>Forma</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>3ms</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>הִמְלִיךְ</span> (himlikh)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>1cs</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>הִמְלַכְתִּי</span> (himlakhti)</td></tr></table><h4>Hiphil Imperfeito ('ele fará reinar')</h4><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Pessoa</th><th style='padding: 1rem; border: 1px solid #ddd;'>Forma</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>3ms</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>יַמְלִיךְ</span> (yamlikh)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>2ms</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>תַּמְלִיךְ</span> (tamlikh)</td></tr></table><h4>Hiphil Particípio</h4><p><span class='hebrew'>מַמְלִיךְ</span> (mamlikh) - fazendo reinar, aquele que faz reinar.</p><h3>4. Exemplos de Uso</h3><ul><li><strong>Hiphil:</strong> <span class='hebrew' style='font-size: 1.2rem;'>וַיַּשְׁמַע שָׁאוּל אֶת־הָעָם</span> (1 Samuel 15:4)<br><em>Tradução:</em> 'E Saul fez o povo ouvir / convocou o povo'. (Verbo <span class='hebrew'>הִשְׁמִיעַ</span>, Hiphil de <span class='hebrew'>שמע</span>, 'ouvir').</li><li><strong>Hophal:</strong> <span class='hebrew' style='font-size: 1.2rem;'>הוּבָא יוֹסֵף מִצְרָיְמָה</span> (Gênesis 39:1)<br><em>Tradução:</em> 'José foi trazido ao Egito'. (Verbo <span class='hebrew'>הוּבָא</span>, Hophal de <span class='hebrew'>בוא</span>, 'vir/trazer').</li></ul></div>"
   },
   "flashcards": [
-    {
-      "front": "הִכְתִּיב",
-      "back": "hikhtiv - fez escrever (Hiphil)"
-    },
-    {
-      "front": "הֻכְתַּב",
-      "back": "hukhtav - foi feito escrever (Hophal)"
-    },
-    {
-      "front": "הֵבִיא",
-      "back": "hevi - trouxe (Hiphil)"
-    },
-    {
-      "front": "הִגִּיד",
-      "back": "higgid - contou, declarou (Hiphil)"
-    }
+    { "front": "Função do Hiphil", "back": "Ação Causativa (fazer com que algo aconteça)." },
+    { "front": "Marca do Hiphil Perfeito", "back": "Prefixo הִ (hi)." },
+    { "front": "Marca do Hiphil Imperfeito", "back": "Vogal Pathach (ַ) sob o prefixo (ex: יַ)." },
+    { "front": "Hophal", "back": "A voz passiva do Hiphil." },
+    { "front": "הִמְלִיךְ", "back": "himlikh - ele fez reinar, ele entronizou (Hiphil Perfeito 3ms)" },
+    { "front": "יַמְלִיךְ", "back": "yamlikh - ele fará reinar (Hiphil Imperfeito 3ms)" },
+    { "front": "מַמְלִיךְ", "back": "mamlikh - fazendo reinar (Hiphil Particípio)" },
+    { "front": "הָשְׁלַךְ", "back": "hoshalakh - ele foi lançado (Hophal Perfeito 3ms)" }
   ],
   "exercises": [
-    {
-      "question": "O que expressa o binyan Hiphil?",
-      "options": ["Ação passiva", "Ação causativa ativa", "Ação reflexiva", "Ação intensiva"],
-      "correct": 1,
-      "difficulty": "easy",
-      "explanation": "O Hiphil expressa ação causativa ativa - fazer com que algo aconteça."
-    },
-    {
-      "question": "Qual é o prefixo característico do Hiphil Perfeito?",
-      "options": ["נִ", "הִ", "תִּ", "יִ"],
-      "correct": 1,
-      "difficulty": "medium",
-      "explanation": "O Hiphil Perfeito é caracterizado pelo prefixo הִ."
-    }
+    { "question": "Qual é a função principal do binyan Hiphil?", "options": ["Ação intensiva", "Ação passiva", "Ação reflexiva", "Ação causativa"], "correct": 3, "difficulty": "easy", "explanation": "O Hiphil expressa primariamente a ideia de que o sujeito causa a ação." },
+    { "question": "Se a raiz ק-ד-שׁ em Qal significa 'ser santo', o que ela significa no Hiphil (הִקְדִּישׁ)?", "options": ["Ele era santo", "Ele foi santificado", "Ele se santificou", "Ele fez santo / consagrou"], "correct": 3, "difficulty": "medium", "explanation": "O Hiphil tem uma função factitiva, 'fazer' ou 'tornar'. Portanto, significa 'ele tornou algo/alguém santo', ou seja, 'ele consagrou'." },
+    { "question": "A forma יַגִּיד (yaggid) pertence a qual binyan e tempo?", "options": ["Qal Imperfeito", "Piel Imperfeito", "Hiphil Imperfeito", "Niphal Perfeito"], "correct": 2, "difficulty": "hard", "explanation": "A vogal Pathach (a) sob o prefixo (יַ) é a marca diagnóstica do Hiphil Imperfeito." },
+    { "question": "Qual binyan é o passivo do Hiphil?", "options": ["Qal", "Niphal", "Pual", "Hophal"], "correct": 3, "difficulty": "easy", "explanation": "O Hophal é a contraparte passiva do Hiphil." }
   ]
 }
-
