@@ -1,41 +1,22 @@
 {
   "title": "O Binyan Piel e Pual",
   "content": {
-    "html": "<h2>⚡ O Binyan Piel</h2><p>O <strong>Piel</strong> expressa ação intensiva, factitiva ou denominativa. É caracterizado pelo dagesh forte na segunda radical.</p><h3>🎯 Significados do Piel:</h3><ul style='margin-left: 2rem; line-height: 2;'><li><strong>Intensivo:</strong> \"destruir completamente\"</li><li><strong>Factitivo:</strong> \"fazer santo\" (santificar)</li><li><strong>Denominativo:</strong> \"atuar como rei\" (reinar)</li></ul><h3>📊 Piel Perfeito</h3><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Pessoa</th><th style='padding: 1rem; border: 1px solid #ddd;'>Forma</th><th style='padding: 1rem; border: 1px solid #ddd;'>Exemplo</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>3ms</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כִּתֵּב</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>escreveu intensamente</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>3fs</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כִּתְּבָה</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>ela escreveu intensamente</td></tr></table><h2>🔄 O Binyan Pual</h2><p>O <strong>Pual</strong> é a forma passiva do Piel, expressando ação intensiva passiva.</p><h3>📊 Pual Perfeito</h3><ul style='margin-left: 2rem;'><li><span class='hebrew'>כֻּתַּב</span> (kuttav - foi escrito intensamente)</li><li><span class='hebrew'>קֻדַּשׁ</span> (quddash - foi santificado)</li></ul><h3>🌟 Verbos Comuns</h3><ul style='margin-left: 2rem; line-height: 2;'><li><span class='hebrew'>בֵּרַךְ</span> (berakh - abençoou) - Piel</li><li><span class='hebrew'>קִדֵּשׁ</span> (qiddesh - santificou) - Piel</li><li><span class='hebrew'>דִּבֵּר</span> (dibber - falou) - Piel</li></ul>"
+    "html": "<div><h2>⚡ O Binyan Piel e seu Passivo, o Pual</h2><p>Continuando nosso estudo dos <strong>binyanim</strong>, chegamos ao <strong>Piel</strong>. Se o Qal é a forma simples e o Niphal é geralmente seu passivo, o Piel introduz uma nova camada de significado, tipicamente de intensidade ou ação factitiva.</p><h3>1. Diagnóstico: Como Reconhecer o Piel e o Pual</h3><p>A marca registrada que une o Piel e o Pual é visual e consistente:</p><ul><li><strong>A Marca Chave:</strong> Um <strong>dagesh forte</strong> na segunda letra da raiz. Esta é a característica mais importante a ser procurada.</li><li><strong>Piel:</strong> Além do dagesh, o Piel é caracterizado por um padrão vocálico <em>Hireq</em> ( ִ ) sob a primeira radical e um <em>Tsere</em> ( ֵ ) sob a segunda no Perfeito (ex: <span class='hebrew'>דִּ<strong>בֵּ</strong>ר</span>).</li><li><strong>Pual (O Passivo do Piel):</strong> Tem o mesmo dagesh forte na segunda radical, mas é diagnosticado por uma vogal do tipo 'u' (geralmente um <em>Qibbuts</em> ֻ ) sob a primeira radical (ex: <span class='hebrew'>דֻּ<strong>בַּ</strong>ר</span>).</li></ul><h3>2. Significado e Função</h3><h4>Piel</h4><p>O Piel intensifica ou altera o significado da raiz do Qal de várias maneiras:</p><ul><li><strong>Ação Intensiva:</strong> Transforma uma ação simples em uma ação vigorosa ou repetida. Ex: Qal <span class='hebrew'>שָׁבַר</span> (ele quebrou) → Piel <span class='hebrew'>שִׁבַּר</span> (ele despedaçou).</li><li><strong>Ação Factitiva:</strong> Faz com que o objeto entre em um estado. Ex: Qal <span class='hebrew'>גָּדַל</span> (ele era grande) → Piel <span class='hebrew'>גִּדֵּל</span> (ele engrandeceu/criou um filho). Qal <span class='hebrew'>קָדַשׁ</span> (ele era santo) → Piel <span class='hebrew'>קִדַּשׁ</span> (ele santificou/tornou santo).</li><li><strong>Ação Denominativa:</strong> Indica uma ação relacionada ao substantivo da raiz. Ex: da raiz <span class='hebrew'>דָּבָר</span> (palavra), o Piel <span class='hebrew'>דִּבֶּר</span> significa 'ele falou'.</li></ul><h4>Pual</h4><p>É simplesmente o passivo da ação do Piel. Se o Piel <span class='hebrew'>קִדַּשׁ</span> é 'ele santificou', o Pual <span class='hebrew'>קֻדַּשׁ</span> é 'ele foi santificado'.</p><h3>3. Paradigmas Essenciais</h3><h4>Piel Perfeito ('ele falou')</h4><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Pessoa</th><th style='padding: 1rem; border: 1px solid #ddd;'>Forma</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>3ms</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>דִּבֶּר</span> (dibber)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>1cs</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>דִּבַּרְתִּי</span> (dibarti)</td></tr></table><h4>Piel Imperfeito ('ele falará')</h4><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Pessoa</th><th style='padding: 1rem; border: 1px solid #ddd;'>Forma</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>3ms</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>יְדַבֵּר</span> (yedabber)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>2ms</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>תְּדַבֵּר</span> (tedabber)</td></tr></table><h4>Piel Particípio</h4><p><span class='hebrew'>מְדַבֵּר</span> (medabber) - falando, aquele que fala.</p><h3>4. Exemplos de Uso</h3><ul><li><strong>Piel:</strong> <span class='hebrew' style='font-size: 1.2rem;'>וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה</span> (Levítico 1:1)<br><em>Tradução:</em> 'E o SENHOR falou a Moisés'.</li><li><strong>Piel:</strong> <span class='hebrew' style='font-size: 1.2rem;'>וַיְבָרֶךְ אֹתָם אֱלֹהִים</span> (Gênesis 1:22)<br><em>Tradução:</em> 'E Deus os abençoou'. (Verbo <span class='hebrew'>בֵּרַךְ</span>, Piel de <span class='hebrew'>ברך</span>).</li><li><strong>Pual:</strong> <span class='hebrew' style='font-size: 1.2rem;'>וּבְיוֹם הַשְּׁבִיעִי יְקֻדָּשׁ</span> (Levítico 27:18)<br><em>Tradução:</em> 'Mas no sétimo ano, será santificado'. (Verbo <span class='hebrew'>קֻדַּשׁ</span>, Pual de <span class='hebrew'>קדשׁ</span>).</li></ul></div>"
   },
   "flashcards": [
-    {
-      "front": "כִּתֵּב",
-      "back": "kittev - escreveu intensamente (Piel)"
-    },
-    {
-      "front": "כֻּתַּב",
-      "back": "kuttav - foi escrito intensamente (Pual)"
-    },
-    {
-      "front": "בֵּרַךְ",
-      "back": "berakh - abençoou (Piel)"
-    },
-    {
-      "front": "קִדֵּשׁ",
-      "back": "qiddesh - santificou (Piel)"
-    }
+    { "front": "Marca do Piel/Pual", "back": "Dagesh forte na segunda letra da raiz." },
+    { "front": "Significado do Piel", "back": "Ação intensiva ('despedaçar') ou factitiva ('santificar')." },
+    { "front": "Pual", "back": "A voz passiva do Piel." },
+    { "front": "דִּבֶּר", "back": "dibber - ele falou (Piel Perfeito 3ms)" },
+    { "front": "יְדַבֵּר", "back": "yedabber - ele falará (Piel Imperfeito 3ms)" },
+    { "front": "מְדַבֵּר", "back": "medabber - falando (Piel Particípio)" },
+    { "front": "קֻדַּשׁ", "back": "quddash - foi santificado (Pual Perfeito 3ms)" },
+    { "front": "בֵּרַךְ", "back": "berakh - ele abençoou (verbo comum em Piel)" }
   ],
   "exercises": [
-    {
-      "question": "O que caracteriza o binyan Piel?",
-      "options": ["Ação passiva", "Ação intensiva", "Ação reflexiva", "Ação simples"],
-      "correct": 1,
-      "difficulty": "easy",
-      "explanation": "O Piel caracteriza-se por expressar ação intensiva, factitiva ou denominativa."
-    },
-    {
-      "question": "Qual é a relação entre Piel e Pual?",
-      "options": ["São independentes", "Pual é passivo do Piel", "Piel é passivo do Pual", "São sinônimos"],
-      "correct": 1,
-      "difficulty": "medium",
-      "explanation": "O Pual é a forma passiva do Piel."
-    }
+    { "question": "Qual é a característica visual mais importante para identificar um verbo no Piel ou Pual?", "options": ["Prefixo נִ", "Prefixo הִ", "Vogal longa no radical", "Dagesh forte na segunda letra da raiz"], "correct": 3, "difficulty": "easy", "explanation": "O dagesh forte na segunda letra da raiz é a marca diagnóstica que une o Piel e o Pual." },
+    { "question": "Se o Piel de קָדַשׁ é 'santificar', qual o significado do Pual?", "options": ["Ser santo", "Santificar-se", "Foi santificado", "Santificar intensamente"], "correct": 2, "difficulty": "medium", "explanation": "O Pual é o passivo do Piel. Portanto, se Piel é 'ele santificou', Pual é 'ele foi santificado'." },
+    { "question": "A forma יְבָרֵךְ (yevarekh) está em qual tempo e binyan?", "options": ["Qal Perfeito", "Piel Imperfeito", "Niphal Perfeito", "Piel Perfeito"], "correct": 1, "difficulty": "hard", "explanation": "O prefixo י indica o Imperfeito. O dagesh na segunda radical (ר) e o padrão vocálico são as marcas do Piel. Portanto, Piel Imperfeito, 'ele abençoará'." },
+    { "question": "O que significa dizer que o Piel tem uma função 'factitiva'?", "options": ["Que a ação é fraca", "Que a ação é feita sobre si mesmo", "Que o sujeito faz o objeto entrar em um certo estado", "Que a ação é passiva"], "correct": 2, "difficulty": "hard", "explanation": "A função factitiva significa 'fazer' ou 'tornar'. Por exemplo, tornar algo santo (santificar) ou tornar algo grande (engrandecer)." }
   ]
 }
-
