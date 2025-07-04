@@ -1,41 +1,21 @@
 {
-  "title": "Sufixos Pronominais em Verbos e Preposições",
+  "title": "Sufixos Pronominais em Verbos (O Objeto Direto)",
   "content": {
-    "html": "<h2>🔗 Sufixos Pronominais em Verbos</h2><p>Os verbos podem receber sufixos pronominais que funcionam como objeto direto:</p><h3>Exemplos com כָּתַב (ele escreveu):</h3><ul style='margin-left: 2rem; line-height: 2;'><li><span class='hebrew'>כְּתָבַנִי</span> (ketavani - ele me escreveu)</li><li><span class='hebrew'>כְּתָבְךָ</span> (ketavkha - ele te escreveu)</li><li><span class='hebrew'>כְּתָבוֹ</span> (ketavo - ele o escreveu)</li></ul><h2>📍 Sufixos em Preposições</h2><p>Preposições comuns com sufixos pronominais:</p><h3>אֶל (para):</h3><ul style='margin-left: 2rem;'><li><span class='hebrew'>אֵלַי</span> (elay - para mim)</li><li><span class='hebrew'>אֵלֶיךָ</span> (elekha - para ti)</li><li><span class='hebrew'>אֵלָיו</span> (elav - para ele)</li></ul><h3>עִם (com):</h3><ul style='margin-left: 2rem;'><li><span class='hebrew'>עִמִּי</span> (immi - comigo)</li><li><span class='hebrew'>עִמְּךָ</span> (immekha - contigo)</li><li><span class='hebrew'>עִמּוֹ</span> (immo - com ele)</li></ul>"
+    "html": "<div><h2>🔗 Sufixos Pronominais em Verbos: O Objeto Direto</h2><p>Uma das características mais eficientes do Hebraico Bíblico é sua capacidade de anexar o pronome do objeto direto diretamente ao final do verbo. Em vez de dizer 'Davi matou <strong>ele</strong>', o hebraico pode dizer 'Davi <strong>o</strong>-matou' em uma única palavra. Aprender a reconhecer esses sufixos é crucial.</p><h3>1. Função e Forma</h3><p>Os sufixos pronominais que se anexam aos verbos quase sempre representam o <strong>objeto direto</strong> da ação.</p><p>As formas dos sufixos são muito semelhantes às que aprendemos para os substantivos (possessivos), mas com pequenas variações. O desafio é que a forma do verbo pode mudar ligeiramente para acomodar o sufixo.</p><h3>2. Sufixos no Qal Perfeito</h3><p>A forma mais comum para aprender é com o verbo no Qal Perfeito, 3ª pessoa masculino singular (a forma do dicionário, ex: <span class='hebrew'>קָטַל</span>).</p><h4>Paradigma com Qal Perfeito 3ms (Raiz: שׁ-מ-ר 'guardar') - 'Ele guardou...'</h4><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Objeto</th><th style='padding: 1rem; border: 1px solid #ddd;'>Forma com Sufixo</th><th style='padding: 1rem; border: 1px solid #ddd;'>Tradução</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>...a mim</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>שְׁמָרַנִי</span> (shemarani)</td><td>Ele me guardou</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>...a ti (masc.)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>שְׁמָרְךָ</span> (shemarkha)</td><td>Ele te guardou</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>...a ti (fem.)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>שְׁמָרֵךְ</span> (shemarekh)</td><td>Ele te guardou</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>...a ele</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>שְׁמָרוֹ</span> (shemaro)</td><td>Ele o guardou</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>...a ela</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>שְׁמָרָהּ</span> (shemarah)</td><td>Ele a guardou</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>...a nós</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>שְׁמָרָנוּ</span> (shemaranu)</td><td>Ele nos guardou</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>...a vós (masc.)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>שְׁמַרְכֶם</span> (shemarkhem)</td><td>Ele vos guardou</td></tr></table><p>O padrão se aplica a outras formas do perfeito também, com pequenas mudanças vocálicas. Ex: <span class='hebrew'>קְטַלְתַּ֫נִי</span> (qetaltani) - 'Tu me mataste'.</p><hr><h3>3. Sufixos no Imperfeito e Imperativo</h3><p>O mesmo princípio se aplica a outras formas verbais, como o Imperfeito e o Imperativo.</p><ul><li><strong>Imperfeito:</strong> <span class='hebrew'>יִשְׁמְרֵ֫נִי</span> (yishmereni) - 'Ele me guardará'.</li><li><strong>Imperativo:</strong> <span class='hebrew'>שָׁמְרֵ֫נִי</span> (shomreni) - 'Guarda-me!'.</li></ul><div style='background: #e3f2fd; padding: 1.5rem; border-radius: 8px; margin: 2rem 0; border-left: 4px solid #0056b3;'><h4 style='color: #0056b3; margin-bottom: 1rem;'>💡 Observação sobre Preposições</h4><p>O mesmo princípio de anexar sufixos pronominais se aplica a preposições para formar palavras como 'para mim' (<span class='hebrew'>לִי</span>) ou 'comigo' (<span class='hebrew'>עִמִּי</span>). Para uma revisão detalhada e tabelas sobre preposições, consulte o Módulo 2.</p></div></div>"
   },
   "flashcards": [
-    {
-      "front": "כְּתָבַנִי",
-      "back": "ketavani - ele me escreveu"
-    },
-    {
-      "front": "אֵלַי",
-      "back": "elay - para mim"
-    },
-    {
-      "front": "עִמִּי",
-      "back": "immi - comigo"
-    },
-    {
-      "front": "אֵלֶיךָ",
-      "back": "elekha - para ti (masc.)"
-    }
+    { "front": "Função do Sufixo Pronominal no Verbo", "back": "Indica o OBJETO DIRETO da ação." },
+    { "front": "שְׁמָרַ֫נִי", "back": "shemarani - Ele me guardou (שׁמר + sufixo 1cs)" },
+    { "front": "יִשְׁמָרְךָ", "back": "yishmorkha - Ele te guardará (שׁמר + sufixo 2ms)" },
+    { "front": "קְטָלָ֫נוּ", "back": "qetalanu - Ele nos matou (קטל + sufixo 1cp)" },
+    { "front": "Sufixo para 'a ele' (objeto direto)", "back": "ـוֹ (o) ou ـהוּ (hu). Ex: שְׁמָרוֹ (ele o guardou)." },
+    { "front": "Sufixo para 'a mim' (objeto direto)", "back": "ـַ֫נִי (ani). Ex: שְׁלָחַ֫נִי (ele me enviou)." },
+    { "front": "שָׁמְרֵ֫נִי", "back": "shomreni - Guarda-me! (Imperativo + sufixo)" }
   ],
   "exercises": [
-    {
-      "question": "O que expressam os sufixos pronominais em verbos?",
-      "options": ["Sujeito", "Objeto direto", "Tempo verbal", "Modo verbal"],
-      "correct": 1,
-      "difficulty": "medium",
-      "explanation": "Os sufixos pronominais em verbos expressam o objeto direto da ação."
-    },
-    {
-      "question": "Como se diz 'para mim' em hebraico?",
-      "options": ["אֵלֶיךָ", "אֵלַי", "אֵלָיו", "אֵלֵינוּ"],
-      "correct": 1,
-      "difficulty": "easy",
-      "explanation": "אֵלַי (elay) significa 'para mim'."
-    }
+    { "question": "Quando um sufixo pronominal é anexado a um verbo, o que ele geralmente representa?", "options": ["O sujeito do verbo", "O objeto direto do verbo", "O tempo do verbo", "O modo do verbo"], "correct": 1, "difficulty": "easy", "explanation": "Os sufixos pronominais nos verbos funcionam como o objeto direto da ação verbal." },
+    { "question": "Analise a palavra 'שְׁלָחַ֫נִי'. A raiz é שׁ-ל-ח (enviar).", "options": ["Ele me enviou", "Eu o enviei", "Tu me enviaste", "Eles me enviarão"], "correct": 0, "difficulty": "medium", "explanation": "A forma base é שָׁלַח (ele enviou), um Qal Perfeito 3ms. O sufixo ـַ֫נִי significa 'a mim'. Portanto, 'ele me enviou'." },
+    { "question": "Como se diz 'ele te amou' (dito a uma mulher)? A raiz é א-ה-ב.", "options": ["אֲהֵבֵךְ", "אָהַבְתְּ", "אֲהָבֵךְ", "אֲהָבַךְ"], "correct": 2, "difficulty": "hard", "explanation": "A base é o Qal Perfeito 3ms, אָהַב. O sufixo para 'a ti' (feminino) é ـֵךְ. Juntando, temos אֲהָבֵךְ." },
+    { "question": "Qual é a tradução de 'יִצְּרֵ֫נוּ'? A raiz é י-צ-ר (formar).", "options": ["Ele nos formará", "Ele nos formou", "Nós o formamos", "Forma-nos!"], "correct": 0, "difficulty": "hard", "explanation": "A forma base é יִצֹּר, o Qal Imperfeito 3ms. O sufixo -ֵנוּ significa 'a nós'. Portanto, 'ele nos formará'." }
   ]
 }
-
