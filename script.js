@@ -2,9 +2,12 @@
 let modulesData = {};
 let currentModule = null;
 let currentType = null; // 'theoretical' ou 'practical'
+let initialContent = null;
 
 // Inicialização quando a página carrega
 document.addEventListener('DOMContentLoaded', function() {
+    // Salva o conteúdo inicial da página de boas-vindas
+    initialContent = document.getElementById('main-content').innerHTML;
     loadAllModules();
     setupEventListeners();
 });
@@ -30,7 +33,9 @@ async function loadAllModules() {
         
         populateNavigation();
         hideLoading();
-        
+        // Restaura a mensagem de boas-vindas
+        document.getElementById('main-content').innerHTML = initialContent;
+
     } catch (error) {
         console.error('Erro ao carregar módulos:', error);
         showError('Erro ao carregar os módulos do curso.');
@@ -376,4 +381,3 @@ function formatHebrewText(text) {
 function highlightText(text, className = 'highlight') {
     return `<span class="${className}">${text}</span>`;
 }
-
