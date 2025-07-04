@@ -1,139 +1,27 @@
 {
   "title": "Pronomes Pessoais e Sufixos Pronominais em Substantivos",
   "content": {
-    "html": "<h2>👥 Pronomes Pessoais Independentes</h2><p>Os pronomes pessoais em hebraico são palavras independentes que substituem substantivos, indicando pessoa, gênero e número. Eles são essenciais para a comunicação e aparecem frequentemente nos textos bíblicos.</p><h3>📊 Tabela dos Pronomes Pessoais</h3><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Pessoa</th><th style='padding: 1rem; border: 1px solid #ddd;'>Singular</th><th style='padding: 1rem; border: 1px solid #ddd;'>Plural</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><strong>1ª pessoa</strong></td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>אֲנִי</span> / <span class='hebrew'>אָנֹכִי</span><br>(ani / anokhi - eu)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>אֲנַחְנוּ</span><br>(anahnu - nós)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><strong>2ª pessoa masc.</strong></td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>אַתָּה</span><br>(attah - tu/você)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>אַתֶּם</span><br>(attem - vós/vocês)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><strong>2ª pessoa fem.</strong></td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>אַתְּ</span><br>(att - tu/você)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>אַתֶּן</span><br>(atten - vós/vocês)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><strong>3ª pessoa masc.</strong></td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>הוּא</span><br>(hu - ele)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>הֵם</span> / <span class='hebrew'>הֵמָּה</span><br>(hem / hemmah - eles)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><strong>3ª pessoa fem.</strong></td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>הִיא</span><br>(hi - ela)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>הֵן</span> / <span class='hebrew'>הֵנָּה</span><br>(hen / hennah - elas)</td></tr></table><h3>🎯 Usos dos Pronomes Pessoais</h3><h4>1. Como Sujeito (enfático):</h4><p>Em hebraico, o sujeito já está implícito na forma verbal, então os pronomes independentes são usados para ênfase:</p><ul style='margin-left: 2rem; line-height: 2;'><li><span class='hebrew'>אֲנִי מֶלֶךְ</span> (ani melekh - EU sou rei)</li><li><span class='hebrew'>אַתָּה טוֹב</span> (attah tov - TU és bom)</li></ul><h4>2. Como Predicado:</h4><ul style='margin-left: 2rem; line-height: 2;'><li><span class='hebrew'>הַמֶּלֶךְ הוּא</span> (hammelekh hu - o rei é ele)</li><li><span class='hebrew'>הַמַּלְכָּה הִיא</span> (hammalkah hi - a rainha é ela)</li></ul><h4>3. Após Preposições:</h4><ul style='margin-left: 2rem; line-height: 2;'><li><span class='hebrew'>עִמִּי</span> (immi - comigo)</li><li><span class='hebrew'>אֵלֶיךָ</span> (elekha - para ti)</li></ul><h2>🔗 Sufixos Pronominais em Substantivos</h2><p>Os sufixos pronominais são terminações que se anexam a substantivos para expressar posse, equivalendo aos pronomes possessivos em português (meu, teu, seu, etc.).</p><h3>📝 Tabela de Sufixos Pronominais</h3><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Pessoa</th><th style='padding: 1rem; border: 1px solid #ddd;'>Singular</th><th style='padding: 1rem; border: 1px solid #ddd;'>Plural</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><strong>1ª pessoa</strong></td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>י◌ִ</span> / <span class='hebrew'>נִי◌</span><br>(-i / -ni - meu/minha)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>נוּ◌</span><br>(-nu - nosso/nossa)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><strong>2ª pessoa masc.</strong></td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>ךָ◌</span><br>(-kha - teu/seu)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כֶם◌</span><br>(-khem - vosso/de vocês)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><strong>2ª pessoa fem.</strong></td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>ךְ◌</span><br>(-ekh - tua/sua)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כֶן◌</span><br>(-khen - vossa/de vocês)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><strong>3ª pessoa masc.</strong></td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>וֹ◌</span> / <span class='hebrew'>הוּ◌</span><br>(-o / -hu - dele)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>ם◌ָ</span> / <span class='hebrew'>הֶם◌</span><br>(-am / -hem - deles)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><strong>3ª pessoa fem.</strong></td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>הּ◌ָ</span><br>(-ah - dela)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>ן◌ָ</span> / <span class='hebrew'>הֶן◌</span><br>(-an / -hen - delas)</td></tr></table><h3>🏠 Exemplos com a Palavra בַּיִת (casa)</h3><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Forma</th><th style='padding: 1rem; border: 1px solid #ddd;'>Hebraico</th><th style='padding: 1rem; border: 1px solid #ddd;'>Tradução</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>minha casa</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>בֵּיתִי</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>beiti</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>tua casa (m.)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>בֵּיתְךָ</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>beitekha</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>tua casa (f.)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>בֵּיתֵךְ</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>beitekh</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>casa dele</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>בֵּיתוֹ</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>beito</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>casa dela</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>בֵּיתָהּ</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>beitah</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>nossa casa</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>בֵּיתֵנוּ</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>beitenu</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>vossa casa (m.)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>בֵּיתְכֶם</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>beitekhem</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>casa deles</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>בֵּיתָם</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>beitam</td></tr></table><h3>👑 Exemplos com a Palavra מֶלֶךְ (rei)</h3><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Forma</th><th style='padding: 1rem; border: 1px solid #ddd;'>Hebraico</th><th style='padding: 1rem; border: 1px solid #ddd;'>Tradução</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>meu rei</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>מַלְכִּי</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>malki</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>teu rei</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>מַלְכְּךָ</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>malkekhah</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>rei dele</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>מַלְכּוֹ</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>malko</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>nosso rei</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>מַלְכֵּנוּ</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>malkenu</td></tr></table><h3>🔄 Mudanças Vocálicas</h3><p>Quando sufixos pronominais são adicionados, o substantivo frequentemente sofre mudanças vocálicas:</p><h4>Regras Principais:</h4><ul style='margin-left: 2rem; line-height: 2;'><li>Vogais longas finais geralmente se encurtam</li><li>O padrão vocálico pode mudar para acomodar o sufixo</li><li>Algumas palavras têm formas irregulares</li></ul><h4>Exemplos de Mudanças:</h4><ul style='margin-left: 2rem; line-height: 2;'><li><span class='hebrew'>דָּבָר</span> (palavra) → <span class='hebrew'>דְּבָרִי</span> (minha palavra)</li><li><span class='hebrew'>אָב</span> (pai) → <span class='hebrew'>אָבִי</span> (meu pai)</li><li><span class='hebrew'>אֵם</span> (mãe) → <span class='hebrew'>אִמִּי</span> (minha mãe)</li></ul><h3>📚 Sufixos em Substantivos Plurais</h3><p>Os substantivos plurais também podem receber sufixos pronominais:</p><h4>Plural Masculino:</h4><ul style='margin-left: 2rem; line-height: 2;'><li><span class='hebrew'>מְלָכִים</span> (reis) → <span class='hebrew'>מְלָכַי</span> (meus reis)</li><li><span class='hebrew'>דְּבָרִים</span> (palavras) → <span class='hebrew'>דְּבָרַי</span> (minhas palavras)</li></ul><h4>Plural Feminino:</h4><ul style='margin-left: 2rem; line-height: 2;'><li><span class='hebrew'>מְלָכוֹת</span> (rainhas) → <span class='hebrew'>מְלָכוֹתַי</span> (minhas rainhas)</li></ul><div style='background: #e3f2fd; padding: 1.5rem; border-radius: 8px; margin: 2rem 0; border-left: 4px solid #0056b3;'><h4 style='color: #0056b3; margin-bottom: 1rem;'>💡 Dica de Memorização</h4><p>Para memorizar os sufixos pronominais, lembre-se de que eles seguem um padrão similar aos pronomes pessoais. A 1ª pessoa tem 'i/ni', a 2ª pessoa tem 'kh', e a 3ª pessoa tem vogais 'o/a'. Pratique com palavras familiares como בַּיִת (casa) e אָב (pai).</p></div>"
+    "html": "<div><h2>👤 Pronomes Pessoais e Sufixos Pronominais</h2><p>Neste módulo, aprenderemos as duas maneiras de usar pronomes em hebraico: como palavras independentes ('eu', 'tu', 'ele') e como sufixos possessivos anexados diretamente a substantivos ('meu', 'teu', 'seu').</p><h3>1. Pronomes Pessoais Independentes</h3><p>Estes são pronomes que funcionam como palavras separadas, geralmente como o sujeito de uma oração (especialmente em orações sem verbo, onde o verbo 'ser/estar' está implícito).</p><h4>Paradigma dos Pronomes Independentes</h4><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Pessoa</th><th style='padding: 1rem; border: 1px solid #ddd;'>Singular</th><th style='padding: 1rem; border: 1px solid #ddd;'>Plural</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>1ª Comum</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>אֲנִי / אָנֹכִי</span> (ani / anokhi - eu)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>אֲנַחְנוּ</span> (anachnu - nós)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>2ª Masc.</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>אַתָּה</span> (attah - tu)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>אַתֶּם</span> (attem - vós)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>2ª Fem.</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>אַתְּ</span> (at - tu)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>אַתֶּן</span> (atten - vós)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>3ª Masc.</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>הוּא</span> (hu - ele)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>הֵם / הֵמָּה</span> (hem / hemmah - eles)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>3ª Fem.</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>הִיא</span> (hi - ela)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>הֵן / הֵנָּה</span> (hen / hennah - elas)</td></tr></table><p>Exemplo de uso: <span class='hebrew'>אַתָּה הַמֶּלֶךְ</span> (attah hammelekh) - 'Tu és o rei'.</p><hr><h3>2. Sufixos Pronominais em Substantivos (Possessivos)</h3><p>Esta é a forma padrão de expressar posse em hebraico. Em vez de uma palavra separada para 'meu', um sufixo é anexado ao final do substantivo. A forma do substantivo frequentemente muda para receber o sufixo.</p><h4>a) Sufixos em Substantivo Masculino Singular (ex: <span class='hebrew'>סוּס</span> - cavalo)</h4><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: #28a745; color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Pessoa</th><th style='padding: 1rem; border: 1px solid #ddd;'>Forma com Sufixo</th><th style='padding: 1rem; border: 1px solid #ddd;'>Tradução</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>1cs ('meu')</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>סוּסִי</span> (susi)</td><td>meu cavalo</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>2ms ('teu')</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>סוּסְךָ</span> (susekha)</td><td>teu cavalo</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>3ms ('seu')</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>סוּסוֹ</span> (suso)</td><td>o cavalo dele</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>1cp ('nosso')</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>סוּסֵנוּ</span> (susenu)</td><td>nosso cavalo</td></tr></table><h4>b) Sufixos em Substantivo Masculino Plural (ex: <span class='hebrew'>סוּסִים</span> - cavalos)</h4><p>Nota: os sufixos se anexam à forma construta plural <span class='hebrew'>סוּסֵי</span>.</p><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: #28a745; color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Pessoa</th><th style='padding: 1rem; border: 1px solid #ddd;'>Forma com Sufixo</th><th style='padding: 1rem; border: 1px solid #ddd;'>Tradução</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>1cs ('meus')</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>סוּסַי</span> (susay)</td><td>meus cavalos</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>2ms ('teus')</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>סוּסֶיךָ</span> (susekha)</td><td>teus cavalos</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>3ms ('seus')</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>סוּסָיו</span> (susav)</td><td>os cavalos dele</td></tr></table><h4>c) Sufixos em Substantivo Feminino Singular (ex: <span class='hebrew'>תּוֹרָה</span> - lei)</h4><p>Nota: os sufixos se anexam à forma construta singular <span class='hebrew'>תּוֹרַת</span>.</p><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: #28a745; color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Pessoa</th><th style='padding: 1rem; border: 1px solid #ddd;'>Forma com Sufixo</th><th style='padding: 1rem; border: 1px solid #ddd;'>Tradução</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>1cs ('minha')</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>תּוֹרָתִי</span> (torati)</td><td>minha lei</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>2ms ('tua')</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>תּוֹרָתְךָ</span> (toratekha)</td><td>tua lei</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>3ms ('sua')</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>תּוֹרָתוֹ</span> (torato)</td><td>a lei dele</td></tr></table></div>"
   },
   "flashcards": [
-    {
-      "front": "אֲנִי",
-      "back": "ani - eu"
-    },
-    {
-      "front": "אַתָּה",
-      "back": "attah - tu/você (masc.)"
-    },
-    {
-      "front": "אַתְּ",
-      "back": "att - tu/você (fem.)"
-    },
-    {
-      "front": "הוּא",
-      "back": "hu - ele"
-    },
-    {
-      "front": "הִיא",
-      "back": "hi - ela"
-    },
-    {
-      "front": "אֲנַחְנוּ",
-      "back": "anahnu - nós"
-    },
-    {
-      "front": "אַתֶּם",
-      "back": "attem - vós/vocês (masc.)"
-    },
-    {
-      "front": "הֵם",
-      "back": "hem - eles"
-    },
-    {
-      "front": "בֵּיתִי",
-      "back": "beiti - minha casa"
-    },
-    {
-      "front": "בֵּיתְךָ",
-      "back": "beitekha - tua casa (masc.)"
-    },
-    {
-      "front": "בֵּיתוֹ",
-      "back": "beito - casa dele"
-    },
-    {
-      "front": "בֵּיתָהּ",
-      "back": "beitah - casa dela"
-    },
-    {
-      "front": "בֵּיתֵנוּ",
-      "back": "beitenu - nossa casa"
-    },
-    {
-      "front": "מַלְכִּי",
-      "back": "malki - meu rei"
-    },
-    {
-      "front": "מַלְכֵּנוּ",
-      "back": "malkenu - nosso rei"
-    },
-    {
-      "front": "אָבִי",
-      "back": "avi - meu pai"
-    },
-    {
-      "front": "אִמִּי",
-      "back": "immi - minha mãe"
-    },
-    {
-      "front": "דְּבָרַי",
-      "back": "devarai - minhas palavras"
-    }
+    { "front": "אֲנִי / אָנֹכִי", "back": "ani / anokhi - Eu (pronome independente)" },
+    { "front": "אַתָּה", "back": "attah - Tu, você (masculino singular)" },
+    { "front": "הוּא", "back": "hu - Ele" },
+    { "front": "אֲנַחְנוּ", "back": "anachnu - Nós" },
+    { "front": "Sufixo ـִי (i)", "back": "Meu / Minha (1ª pessoa singular possessivo)" },
+    { "front": "Sufixo ـְךָ (kha)", "back": "Teu / Tua (2ª pessoa masculino singular possessivo)" },
+    { "front": "Sufixo ـוֹ (o)", "back": "Dele (3ª pessoa masculino singular possessivo)" },
+    { "front": "Sufixo ـָהּ (ah)", "back": "Dela (3ª pessoa feminino singular possessivo)" },
+    { "front": "דְּבָרִי", "back": "devari - minha palavra" },
+    { "front": "בֵּיתְךָ", "back": "betekha - tua casa (masc.)" },
+    { "front": "שְׁמוֹ", "back": "shemo - o nome dele" },
+    { "front": "תּוֹרָתֵנוּ", "back": "toratenu - nossa lei" }
   ],
   "exercises": [
-    {
-      "question": "Qual é o pronome pessoal para 'ele' em hebraico?",
-      "options": ["הִיא", "הוּא", "אַתָּה", "אֲנִי"],
-      "correct": 1,
-      "difficulty": "easy",
-      "explanation": "O pronome pessoal para 'ele' em hebraico é הוּא (hu)."
-    },
-    {
-      "question": "Como se diz 'minha casa' em hebraico?",
-      "options": ["בֵּיתִי", "בֵּיתְךָ", "בֵּיתוֹ", "בֵּיתֵנוּ"],
-      "correct": 0,
-      "difficulty": "easy",
-      "explanation": "בֵּיתִי (beiti) significa 'minha casa', com o sufixo pronominal de 1ª pessoa singular."
-    },
-    {
-      "question": "Qual é a diferença entre אֲנִי e אָנֹכִי?",
-      "options": ["Um é masculino, outro feminino", "Um é singular, outro plural", "Ambos significam 'eu', mas אָנֹכִי é mais formal", "Não há diferença"],
-      "correct": 2,
-      "difficulty": "medium",
-      "explanation": "Ambos אֲנִי e אָנֹכִי significam 'eu', mas אָנֹכִי é uma forma mais formal e arcaica."
-    },
-    {
-      "question": "Como se forma 'nosso rei' em hebraico?",
-      "options": ["מַלְכִּי", "מַלְכְּךָ", "מַלְכּוֹ", "מַלְכֵּנוּ"],
-      "correct": 3,
-      "difficulty": "medium",
-      "explanation": "מַלְכֵּנוּ (malkenu) significa 'nosso rei', com o sufixo pronominal de 1ª pessoa plural."
-    },
-    {
-      "question": "Qual sufixo pronominal indica 'dela'?",
-      "options": ["וֹ◌", "הּ◌ָ", "ךָ◌", "י◌ִ"],
-      "correct": 1,
-      "difficulty": "medium",
-      "explanation": "O sufixo הּ◌ָ (-ah) indica posse feminina de 3ª pessoa singular ('dela')."
-    },
-    {
-      "question": "Como se diz 'casa dele' em hebraico?",
-      "options": ["בֵּיתִי", "בֵּיתְךָ", "בֵּיתוֹ", "בֵּיתָהּ"],
-      "correct": 2,
-      "difficulty": "medium",
-      "explanation": "בֵּיתוֹ (beito) significa 'casa dele', com o sufixo pronominal masculino de 3ª pessoa singular."
-    },
-    {
-      "question": "Quando os pronomes pessoais independentes são usados como sujeito?",
-      "options": ["Sempre", "Nunca", "Para dar ênfase", "Apenas no plural"],
-      "correct": 2,
-      "difficulty": "hard",
-      "explanation": "Os pronomes pessoais independentes são usados como sujeito principalmente para dar ênfase, já que o sujeito está implícito na forma verbal."
-    },
-    {
-      "question": "O que acontece com a palavra אָב (pai) quando recebe o sufixo de 1ª pessoa?",
-      "options": ["Torna-se אָבִי", "Permanece אָב", "Torna-se אַבִּי", "Torna-se אֲבִי"],
-      "correct": 0,
-      "difficulty": "hard",
-      "explanation": "A palavra אָב (pai) torna-se אָבִי (avi - meu pai) quando recebe o sufixo pronominal de 1ª pessoa singular."
-    }
+    { "question": "Qual é o pronome independente para 'nós' em hebraico?", "options": ["אַתֶּם", "הֵם", "אֲנַחְנוּ", "אֲנִי"], "correct": 2, "difficulty": "easy", "explanation": "אֲנַחְנוּ (anachnu) é o pronome da 1ª pessoa do plural, 'nós'." },
+    { "question": "Como o hebraico expressa primariamente a posse, como em 'meu cavalo'?", "options": ["Com uma palavra separada antes do substantivo", "Com um sufixo anexado ao substantivo", "Com uma mudança na vogal do substantivo", "Com o artigo definido"], "correct": 1, "difficulty": "easy", "explanation": "A posse é expressa anexando um sufixo pronominal diretamente ao substantivo." },
+    { "question": "Qual é o sufixo possessivo para a 3ª pessoa masculino singular ('dele')?", "options": ["ـִי", "ـְךָ", "ـוֹ", "ـֵנוּ"], "correct": 2, "difficulty": "medium", "explanation": "O sufixo -וֹ (o) é anexado a um substantivo para indicar 'dele'. Ex: סוּסוֹ (o cavalo dele)." },
+    { "question": "Traduza a palavra 'אָבִינוּ'.", "options": ["Meu pai", "Teu pai", "O pai deles", "Nosso pai"], "correct": 3, "difficulty": "hard", "explanation": "A palavra é composta pelo substantivo אָב (pai) + o sufixo da 1ª pessoa do plural ـֵנוּ (nosso). Portanto, 'nosso pai'." },
+    { "question": "A palavra 'תּוֹרָתְךָ' (toratekha) se refere a posse de quem?", "options": ["Minha lei", "A lei dele", "Tua lei (de um homem)", "Tua lei (de uma mulher)"], "correct": 2, "difficulty": "medium", "explanation": "O sufixo ـְךָ (kha) é o possessivo da 2ª pessoa masculino singular. Portanto, 'tua lei', dito a um homem." }
   ]
 }
-
