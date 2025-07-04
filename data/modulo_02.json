@@ -1,139 +1,28 @@
 {
-  "title": "O Substantivo, o Artigo e as Preposições Inseparáveis",
+  "title": "O Substantivo, o Artigo e as Preposições",
   "content": {
-    "html": "<h2>📝 O Substantivo Hebraico</h2><p>Os substantivos em hebraico possuem características únicas que diferem significativamente do português. Eles variam em gênero, número e estado, criando um sistema flexional rico e expressivo.</p><h3>🚻 Gênero</h3><p>Todo substantivo hebraico possui gênero: <strong>masculino</strong> ou <strong>feminino</strong>. Não existe gênero neutro.</p><h4>Substantivos Masculinos:</h4><ul style='margin-left: 2rem; line-height: 2;'><li>Geralmente não possuem terminação específica</li><li>Exemplos: <span class='hebrew'>מֶלֶךְ</span> (melekh - rei), <span class='hebrew'>אִישׁ</span> (ish - homem), <span class='hebrew'>בַּיִת</span> (bayit - casa)</li></ul><h4>Substantivos Femininos:</h4><ul style='margin-left: 2rem; line-height: 2;'><li>Frequentemente terminam em <span class='hebrew'>ה◌ָ</span> (-ah) ou <span class='hebrew'>ת◌ֶ</span> (-et)</li><li>Exemplos: <span class='hebrew'>מַלְכָּה</span> (malkah - rainha), <span class='hebrew'>אִשָּׁה</span> (ishah - mulher), <span class='hebrew'>בַּת</span> (bat - filha)</li></ul><h3>🔢 Número</h3><p>Os substantivos podem estar no <strong>singular</strong>, <strong>dual</strong> ou <strong>plural</strong>.</p><h4>Singular:</h4><p>Forma básica do substantivo, sem modificações.</p><h4>Dual:</h4><p>Usado para coisas que naturalmente vêm em pares:</p><ul style='margin-left: 2rem;'><li>Terminação: <span class='hebrew'>יִם◌ַ</span> (-ayim) para masculino</li><li>Exemplos: <span class='hebrew'>עֵינַיִם</span> (einayim - dois olhos), <span class='hebrew'>יָדַיִם</span> (yadayim - duas mãos)</li></ul><h4>Plural Masculino:</h4><ul style='margin-left: 2rem;'><li>Terminação: <span class='hebrew'>יִם◌ִ</span> (-im)</li><li>Exemplo: <span class='hebrew'>מְלָכִים</span> (melakhim - reis)</li></ul><h4>Plural Feminino:</h4><ul style='margin-left: 2rem;'><li>Terminação: <span class='hebrew'>וֹת◌</span> (-ot)</li><li>Exemplo: <span class='hebrew'>מְלָכוֹת</span> (melakhot - rainhas)</li></ul><h3>🏛️ Estados do Substantivo</h3><p>Os substantivos hebraicos podem aparecer em dois estados principais:</p><h4>Estado Absoluto:</h4><p>Forma independente do substantivo, usada quando não há relação de posse ou dependência.</p><h4>Estado Construto:</h4><p>Forma modificada usada em construções genitivas (será estudado no próximo módulo).</p><h2>🔗 O Artigo Definido</h2><p>O hebraico possui apenas artigo definido, equivalente ao 'o/a' em português. Não existe artigo indefinido.</p><h3>Forma Básica:</h3><p>O artigo definido é <span class='hebrew'>הַ</span> (ha-), que se anexa diretamente ao início da palavra.</p><h4>Exemplos:</h4><ul style='margin-left: 2rem; line-height: 2;'><li><span class='hebrew'>מֶלֶךְ</span> (melekh - rei) → <span class='hebrew'>הַמֶּלֶךְ</span> (hammelekh - o rei)</li><li><span class='hebrew'>אִשָּׁה</span> (ishah - mulher) → <span class='hebrew'>הָאִשָּׁה</span> (ha'ishah - a mulher)</li><li><span class='hebrew'>בַּיִת</span> (bayit - casa) → <span class='hebrew'>הַבַּיִת</span> (habbayit - a casa)</li></ul><h3>Variações do Artigo:</h3><p>O artigo pode mudar dependendo da primeira letra da palavra:</p><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Contexto</th><th style='padding: 1rem; border: 1px solid #ddd;'>Forma</th><th style='padding: 1rem; border: 1px solid #ddd;'>Exemplo</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>Antes da maioria das consoantes</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>הַ</span></td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>הַמֶּלֶךְ</span> (o rei)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>Antes de ח ע ה א</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>הָ</span></td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>הָאִישׁ</span> (o homem)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>Antes de ר</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>הָ</span></td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>הָרֹאשׁ</span> (a cabeça)</td></tr></table><h2>🔗 Preposições Inseparáveis</h2><p>Três preposições muito comuns se anexam diretamente às palavras, formando uma unidade inseparável:</p><h3>As Três Preposições:</h3><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Preposição</th><th style='padding: 1rem; border: 1px solid #ddd;'>Significado</th><th style='padding: 1rem; border: 1px solid #ddd;'>Exemplo</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>בְּ</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>em, com, por</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>בְּבַיִת</span> (na casa)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>לְ</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>para, a</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>לְמֶלֶךְ</span> (para o rei)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כְּ</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>como, conforme</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כְּאִישׁ</span> (como um homem)</td></tr></table><h3>Combinação com o Artigo:</h3><p>Quando as preposições inseparáveis se combinam com palavras que têm artigo definido:</p><ul style='margin-left: 2rem; line-height: 2;'><li><span class='hebrew'>בְּ + הַ</span> = <span class='hebrew'>בַּ</span> (ba-)</li><li><span class='hebrew'>לְ + הַ</span> = <span class='hebrew'>לַ</span> (la-)</li><li><span class='hebrew'>כְּ + הַ</span> = <span class='hebrew'>כַּ</span> (ka-)</li></ul><h4>Exemplos:</h4><ul style='margin-left: 2rem; line-height: 2;'><li><span class='hebrew'>בַּבַּיִת</span> (babbayit - na casa)</li><li><span class='hebrew'>לַמֶּלֶךְ</span> (lammelekh - para o rei)</li><li><span class='hebrew'>כָּאִישׁ</span> (ka'ish - como o homem)</li></ul><h3>Variações Vocálicas:</h3><p>As preposições podem ter diferentes vogais dependendo do contexto fonético:</p><ul style='margin-left: 2rem; line-height: 2;'><li>Antes de shva: <span class='hebrew'>בִּ</span>, <span class='hebrew'>לִ</span>, <span class='hebrew'>כִּ</span></li><li>Antes de yod com shva: <span class='hebrew'>בִּי</span>, <span class='hebrew'>לִי</span>, <span class='hebrew'>כִּי</span></li></ul><div style='background: #e3f2fd; padding: 1.5rem; border-radius: 8px; margin: 2rem 0; border-left: 4px solid #0056b3;'><h4 style='color: #0056b3; margin-bottom: 1rem;'>💡 Dica Prática</h4><p>Para identificar rapidamente o gênero de um substantivo, observe a terminação: palavras terminadas em ה◌ָ (-ah) ou ת◌ֶ (-et) são geralmente femininas. Todas as outras são tipicamente masculinas, mas há exceções que devem ser memorizadas.</p></div>"
+    "html": "<div><h2>📖 O Substantivo: Gênero, Número e Artigo</h2><p>O substantivo é o alicerce da frase hebraica. Entender suas propriedades de gênero, número e estado (definido ou indefinido) é o primeiro passo para a leitura.</p><h3>1. Gênero e Número</h3><p>O hebraico possui dois gêneros gramaticais e três números.</p><ul><li><strong>Gênero:</strong> Masculino e Feminino.</li><li><strong>Número:</strong> Singular, Plural e Dual (usado para coisas que vêm em pares, como olhos e mãos).</li></ul><p><strong>Formação do Plural Regular:</strong></p><ul><li>Masculino Plural: Adiciona-se a terminação <strong><span class='hebrew'>ـִים</span></strong> (im). Ex: <span class='hebrew'>סוּס</span> (cavalo) → <span class='hebrew'>סוּסִים</span> (cavalos).</li><li>Feminino Plural: A terminação singular (geralmente <span class='hebrew'>ـָה</span>) é trocada por <strong><span class='hebrew'>ـוֹת</span></strong> (ot). Ex: <span class='hebrew'>תּוֹרָה</span> (lei) → <span class='hebrew'>תּוֹרוֹת</span> (leis).</li></ul><h4>⚠️ Plurais Irregulares Frequentes</h4><p>Muitos substantivos comuns quebram a regra de gênero na terminação plural. É crucial memorizar os mais importantes:</p><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Substantivo (Gênero)</th><th style='padding: 1rem; border: 1px solid #ddd;'>Plural (com terminação oposta)</th><th style='padding: 1rem; border: 1px solid #ddd;'>Tradução</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>אָב</span> (pai - masc.)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>אָבוֹת</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>pais</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>אִישׁ</span> (homem - masc.)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>אֲנָשִׁים</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>homens</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>אִשָּׁה</span> (mulher - fem.)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>נָשִׁים</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>mulheres</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>עִיר</span> (cidade - fem.)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>עָרִים</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>cidades</td></tr></table><h3>2. O Artigo Definido (הַ)</h3><p>Em hebraico, não há artigo indefinido ('um', 'uma'). A ausência do artigo já torna o substantivo indefinido. O artigo definido ('o', 'a', 'os', 'as') é um prefixo <strong><span class='hebrew'>הַ</span> (ha)</strong> que se liga ao início do substantivo.</p><ul><li><span class='hebrew'>סוּס</span> (sus) - um cavalo</li><li><span class='hebrew'>הַסּוּס</span> (hassus) - o cavalo (note o dagesh que duplica o 's')</li></ul><h3>3. Preposições</h3><p>Preposições conectam substantivos a outras partes da frase.</p><h4>a) Preposições Inseparáveis</h4><p>São prefixos de uma única letra que se juntam ao início da palavra.</p><ul><li><strong><span class='hebrew'>בְּ</span> (be)</strong> - em, com, por</li><li><strong><span class='hebrew'>כְּ</span> (ke)</strong> - como, conforme</li><li><strong><span class='hebrew'>לְ</span> (le)</strong> - para, a</li></ul><p>Ex: <span class='hebrew'>בְּבַיִת</span> (bevayit) - em uma casa; <span class='hebrew'>לְמֶלֶךְ</span> (lemelekh) - para um rei.</p><h4>b) Preposições Independentes Comuns</h4><p>Estas são palavras separadas que precedem o substantivo.</p><ul><li><strong><span class='hebrew'>אֶל</span></strong> - para, em direção a</li><li><strong><span class='hebrew'>עַל</span></strong> - sobre, em cima de</li><li><strong><span class='hebrew'>מִן</span></strong> - de, desde (pode se ligar à palavra seguinte)</li><li><strong><span class='hebrew'>עִם</span></strong> - com (em companhia de)</li><li><strong><span class='hebrew'>לִפְנֵי</span></strong> - diante de, na presença de</li><li><strong><span class='hebrew'>אַחַר</span></strong> - depois, atrás de</li></ul><h4>c) Preposições com Sufixos Pronominais</h4><p>Uma característica central do hebraico é a fusão de preposições com pronomes. Em vez de 'para mim', o hebraico diz 'paramim'. É crucial memorizar este padrão.</p><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Pronome</th><th style='padding: 1rem; border: 1px solid #ddd;'>com לְ (para)</th><th style='padding: 1rem; border: 1px solid #ddd;'>com עִם (com)</th><th style='padding: 1rem; border: 1px solid #ddd;'>com אֶל (para)</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>eu (mim)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>לִי</span> (li)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>עִמִּי</span> (immi)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>אֵלַי</span> (elay)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>tu (ti) - masc.</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>לְךָ</span> (lekha)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>עִמְּךָ</span> (immekha)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>אֵלֶיךָ</span> (elekha)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>ele (ele)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>לוֹ</span> (lo)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>עִמּוֹ</span> (immo)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>אֵלָיו</span> (elav)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>nós</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>לָנוּ</span> (lanu)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>עִמָּנוּ</span> (immanu)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>אֵלֵינוּ</span> (eleinu)</td></tr></table></div>"
   },
   "flashcards": [
-    {
-      "front": "מֶלֶךְ",
-      "back": "melekh - rei (masculino singular)"
-    },
-    {
-      "front": "מַלְכָּה",
-      "back": "malkah - rainha (feminino singular)"
-    },
-    {
-      "front": "מְלָכִים",
-      "back": "melakhim - reis (masculino plural)"
-    },
-    {
-      "front": "מְלָכוֹת",
-      "back": "melakhot - rainhas (feminino plural)"
-    },
-    {
-      "front": "הַמֶּלֶךְ",
-      "back": "hammelekh - o rei"
-    },
-    {
-      "front": "הָאִישׁ",
-      "back": "ha'ish - o homem"
-    },
-    {
-      "front": "בְּבַיִת",
-      "back": "bebayit - na casa"
-    },
-    {
-      "front": "לְמֶלֶךְ",
-      "back": "lemelekh - para o rei"
-    },
-    {
-      "front": "כְּאִישׁ",
-      "back": "ke'ish - como um homem"
-    },
-    {
-      "front": "בַּבַּיִת",
-      "back": "babbayit - na casa (com artigo)"
-    },
-    {
-      "front": "לַמֶּלֶךְ",
-      "back": "lammelekh - para o rei (com artigo)"
-    },
-    {
-      "front": "עֵינַיִם",
-      "back": "einayim - dois olhos (dual)"
-    },
-    {
-      "front": "יָדַיִם",
-      "back": "yadayim - duas mãos (dual)"
-    },
-    {
-      "front": "אִישׁ",
-      "back": "ish - homem"
-    },
-    {
-      "front": "אִשָּׁה",
-      "back": "ishah - mulher"
-    },
-    {
-      "front": "בַּיִת",
-      "back": "bayit - casa"
-    },
-    {
-      "front": "בַּת",
-      "back": "bat - filha"
-    },
-    {
-      "front": "בֵּן",
-      "back": "ben - filho"
-    }
+    { "front": "Plural Masculino Regular", "back": "Terminação em ـִים (im)" },
+    { "front": "Plural Feminino Regular", "back": "Terminação em ـוֹת (ot)" },
+    { "front": "אָבוֹת", "back": "avot - pais (plural irregular de אָב)" },
+    { "front": "נָשִׁים", "back": "nashim - mulheres (plural irregular de אִשָּׁה)" },
+    { "front": "הַ (ha)", "back": "Prefixo do artigo definido (o, a, os, as)" },
+    { "front": "בְּ, כְּ, לְ", "back": "Preposições inseparáveis: em, como, para." },
+    { "front": "עַל", "back": "Preposição independente: sobre, em cima de." },
+    { "front": "עִם", "back": "Preposição independente: com (em companhia de)." },
+    { "front": "לִי", "back": "li - para mim (preposição + sufixo)" },
+    { "front": "בּוֹ", "back": "bo - nele (preposição + sufixo)" },
+    { "front": "עִמָּנוּ", "back": "immanu - conosco (preposição + sufixo)" },
+    { "front": "אֲלֵיהֶם", "back": "alehem - para eles (preposição + sufixo)" }
   ],
   "exercises": [
-    {
-      "question": "Qual é a terminação típica do plural masculino em hebraico?",
-      "options": ["-ot", "-im", "-ayim", "-ah"],
-      "correct": 1,
-      "difficulty": "easy",
-      "explanation": "O plural masculino em hebraico termina em -im (יִם◌ִ)."
-    },
-    {
-      "question": "Como se forma o artigo definido antes da palavra מֶלֶךְ (rei)?",
-      "options": ["הָמֶלֶךְ", "הַמֶּלֶךְ", "הֶמֶלֶךְ", "הִמֶלֶךְ"],
-      "correct": 1,
-      "difficulty": "medium",
-      "explanation": "O artigo definido antes de מֶלֶךְ é הַמֶּלֶךְ (hammelekh), com dagesh na primeira consoante."
-    },
-    {
-      "question": "Quais são as três preposições inseparáveis?",
-      "options": ["אֶל עַל מִן", "בְּ לְ כְּ", "עִם אֶת מֵ", "אֶל מִן עַד"],
-      "correct": 1,
-      "difficulty": "medium",
-      "explanation": "As três preposições inseparáveis são בְּ (em), לְ (para) e כְּ (como)."
-    },
-    {
-      "question": "Qual é o significado da palavra עֵינַיִם?",
-      "options": ["Olho", "Dois olhos", "Olhos (plural)", "Visão"],
-      "correct": 1,
-      "difficulty": "medium",
-      "explanation": "עֵינַיִם (einayim) significa 'dois olhos' e está na forma dual."
-    },
-    {
-      "question": "Como se combina a preposição בְּ com o artigo הַ?",
-      "options": ["בְּהַ", "בַּ", "בֶּ", "בָּ"],
-      "correct": 1,
-      "difficulty": "medium",
-      "explanation": "A preposição בְּ combinada com o artigo הַ forma בַּ (ba-)."
-    },
-    {
-      "question": "Qual é a forma feminina de מֶלֶךְ (rei)?",
-      "options": ["מֶלֶכֶת", "מַלְכָּה", "מְלָכָה", "מַלְכֶּת"],
-      "correct": 1,
-      "difficulty": "easy",
-      "explanation": "A forma feminina de מֶלֶךְ (rei) é מַלְכָּה (malkah - rainha)."
-    },
-    {
-      "question": "O que caracteriza o estado construto de um substantivo?",
-      "options": ["Forma independente", "Forma com artigo", "Forma modificada para relações genitivas", "Forma plural"],
-      "correct": 2,
-      "difficulty": "hard",
-      "explanation": "O estado construto é uma forma modificada do substantivo usada em construções genitivas para expressar posse ou relação."
-    },
-    {
-      "question": "Qual é a terminação típica do dual em hebraico?",
-      "options": ["-im", "-ot", "-ayim", "-ah"],
-      "correct": 2,
-      "difficulty": "hard",
-      "explanation": "O dual em hebraico termina em -ayim (יִם◌ַ), usado para coisas que vêm naturalmente em pares."
-    }
+    { "question": "Qual é a terminação plural masculina regular em hebraico?", "options": ["-וֹת", "-ִים", "-ָה", "-ִית"], "correct": 1, "difficulty": "easy", "explanation": "A terminação plural masculina padrão é -ִים (im)." },
+    { "question": "O substantivo אָב (pai) é masculino. Qual é a sua forma plural?", "options": ["אָבִים", "אָבוֹת", "אֲבָבִים", "אָבִין"], "correct": 1, "difficulty": "medium", "explanation": "Este é um plural irregular comum. Embora o substantivo seja masculino, ele usa a terminação plural feminina: אָבוֹת." },
+    { "question": "Como se diz 'a casa' em hebraico?", "options": ["בַּיִת", "בְּבַיִת", "הַבַּיִת", "לַבַּיִת"], "correct": 2, "difficulty": "easy", "explanation": "O artigo definido הַ (ha) é prefixado ao substantivo בַּיִת (casa) para formar הַבַּיִת." },
+    { "question": "Qual das seguintes preposições é INSEPARÁVEL?", "options": ["עַל", "אֶל", "לְ", "עִם"], "correct": 2, "difficulty": "medium", "explanation": "לְ (para), junto com בְּ (em) e כְּ (como), é uma preposição inseparável que se liga diretamente à palavra seguinte." },
+    { "question": "Traduza a forma 'לוֹ'.", "options": ["Para nós", "Para eles", "Para ele", "Para mim"], "correct": 2, "difficulty": "hard", "explanation": "לוֹ (lo) é a fusão da preposição לְ (para) com o sufixo pronominal da 3ª pessoa masculino singular ('ele')." },
+    { "question": "Como se diz 'sobre o rei'?", "options": ["עַל־מֶלֶךְ", "עַל הַמֶּלֶךְ", "בְּמֶלֶךְ", "כַּמֶּלֶךְ"], "correct": 1, "difficulty": "hard", "explanation": "Usa-se a preposição independente עַל (sobre) seguida pelo substantivo com o artigo definido, הַמֶּלֶךְ (o rei)." }
   ]
 }
-
