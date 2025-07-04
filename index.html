@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Hebraico Bíblico - Gramática Introdutória</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>">
+</head>
+<body>
+    <div class="main-container">
+        <!-- Coluna Esquerda - Navegação Teórica -->
+        <aside class="sidebar" id="theoretical-nav">
+            <h2>📚 Módulos Teóricos</h2>
+            <div id="theoretical-modules">
+                <!-- Módulos teóricos serão carregados dinamicamente -->
+            </div>
+            <a href="lexico.html" target="_blank" class="nav-button special" id="lexicon-btn">
+                ✨ Léxico de Frequência
+            </a>
+        </aside>
+
+        <!-- Coluna Central - Conteúdo Principal -->
+        <main class="content-area" id="main-content">
+            <div class="fade-in">
+                <h1>🕊️ Curso de Hebraico Bíblico</h1>
+                <h2>Gramática Introdutória ao Hebraico da Bíblia</h2>
+                
+                <p>Bem-vindo ao curso completo de Hebraico Bíblico! Este curso foi desenvolvido especialmente para autodidatas, seminaristas, pastores e leigos interessados em aprofundar seu conhecimento do Antigo Testamento através do estudo da língua original.</p>
+                
+                <h3>🎯 Objetivos do Curso</h3>
+                <p>Ao final deste curso, você será capaz de:</p>
+                <ul style="margin-left: 2rem; margin-bottom: 1.5rem;">
+                    <li>Ler e pronunciar corretamente o texto hebraico bíblico</li>
+                    <li>Compreender a estrutura gramatical básica do hebraico</li>
+                    <li>Identificar e analisar formas verbais e nominais</li>
+                    <li>Utilizar ferramentas exegéticas com maior precisão</li>
+                    <li>Apreciar nuances do texto que se perdem na tradução</li>
+                </ul>
+                
+                <h3>📖 Como Usar Este Curso</h3>
+                <p>O curso está organizado em 14 módulos progressivos. Na coluna à esquerda, você encontrará os <strong>módulos teóricos</strong> que apresentam os conceitos fundamentais. Na coluna à direita, estão os <strong>módulos práticos</strong> com exercícios interativos e flashcards para fixação do aprendizado.</p>
+                
+                <p>Recomendamos que você:</p>
+                <ul style="margin-left: 2rem; margin-bottom: 1.5rem;">
+                    <li>Estude primeiro o conteúdo teórico de cada módulo</li>
+                    <li>Pratique com os exercícios correspondentes</li>
+                    <li>Utilize o Léxico de Frequência como referência constante</li>
+                    <li>Teste seus conhecimentos com as Provas Personalizadas</li>
+                </ul>
+                
+                <h3>🌟 Recursos Especiais</h3>
+                <p><strong>Léxico de Frequência:</strong> Acesse as 320+ palavras mais comuns da Bíblia Hebraica, organizadas alfabeticamente para consulta rápida.</p>
+                
+                <p><strong>Provas Personalizadas:</strong> Crie avaliações customizadas selecionando os módulos que deseja revisar.</p>
+                
+                <div style="background: #e3f2fd; padding: 1.5rem; border-radius: 8px; margin: 2rem 0; border-left: 4px solid #0056b3;">
+                    <h4 style="color: #0056b3; margin-bottom: 1rem;">💡 Dica de Estudo</h4>
+                    <p style="margin: 0;">Para otimizar seu aprendizado, dedique pelo menos 30 minutos diários ao estudo. A consistência é mais importante que a intensidade. Revise regularmente os módulos anteriores para consolidar o conhecimento.</p>
+                </div>
+                
+                <p style="text-align: center; margin-top: 3rem; font-style: italic; color: #666;">
+                    "A palavra de Deus é viva e eficaz..." - Hebreus 4:12<br>
+                    <span class="hebrew" style="font-size: 1.5rem; margin-top: 1rem; display: block;">כִּי חַי דְּבַר־אֱלֹהִים וְחַד</span>
+                </p>
+            </div>
+        </main>
+
+        <!-- Coluna Direita - Navegação Prática -->
+        <aside class="sidebar" id="practical-nav">
+            <h2>🎯 Módulos Práticos</h2>
+            <div id="practical-modules">
+                <!-- Módulos práticos serão carregados dinamicamente -->
+            </div>
+            <button class="nav-button special" id="custom-test-btn">
+                🎓 Prova Personalizada
+            </button>
+        </aside>
+    </div>
+
+    <!-- Modal para Prova Personalizada -->
+    <div id="test-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>🎓 Criar Prova Personalizada</h2>
+                <span class="close" id="close-modal">&times;</span>
+            </div>
+            <p>Selecione de 1 a 5 módulos para criar sua prova personalizada:</p>
+            <div id="module-checkboxes">
+                <!-- Checkboxes dos módulos serão carregados dinamicamente -->
+            </div>
+            <div style="text-align: center; margin-top: 2rem;">
+                <button class="action-button" id="generate-test-btn">
+                    🚀 Gerar Prova
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
