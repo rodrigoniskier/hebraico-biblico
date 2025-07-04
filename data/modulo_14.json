@@ -1,0 +1,56 @@
+{
+  "title": "Análise Sintática e Passos Exegéticos",
+  "content": {
+    "html": "<h2>🔍 Análise Sintática</h2><p>A <strong>análise sintática</strong> é o processo de identificar e analisar as funções gramaticais das palavras em uma sentença hebraica.</p><h3>🎯 Elementos Sintáticos Básicos:</h3><ul style='margin-left: 2rem; line-height: 2;'><li><strong>Sujeito:</strong> quem realiza a ação</li><li><strong>Predicado:</strong> o que é dito sobre o sujeito</li><li><strong>Objeto direto:</strong> recebe a ação diretamente</li><li><strong>Objeto indireto:</strong> beneficiário da ação</li><li><strong>Complementos:</strong> informações adicionais</li></ul><h3>📊 Ordem das Palavras</h3><p>O hebraico bíblico tem ordem flexível, mas padrões comuns:</p><ul style='margin-left: 2rem; line-height: 2;'><li><strong>Narrativa:</strong> Verbo + Sujeito + Objeto (VSO)</li><li><strong>Poesia:</strong> mais variada, com ênfase estilística</li><li><strong>Ênfase:</strong> elemento enfatizado vem primeiro</li></ul><h2>📖 Passos Exegéticos</h2><p>Metodologia para análise de textos bíblicos em hebraico:</p><h3>1️⃣ Análise Textual</h3><ul style='margin-left: 2rem;'><li>Estabelecer o texto correto</li><li>Identificar variantes textuais</li><li>Delimitar a perícope</li></ul><h3>2️⃣ Análise Gramatical</h3><ul style='margin-left: 2rem;'><li>Identificar formas verbais e seus aspectos</li><li>Analisar substantivos e suas relações</li><li>Examinar partículas e conectivos</li></ul><h3>3️⃣ Análise Lexical</h3><ul style='margin-left: 2rem;'><li>Determinar significados das palavras</li><li>Considerar campos semânticos</li><li>Examinar usos em outros contextos</li></ul><h3>4️⃣ Análise Sintática</h3><ul style='margin-left: 2rem;'><li>Identificar relações entre palavras</li><li>Determinar estrutura das sentenças</li><li>Analisar paralelismos (em poesia)</li></ul><h3>5️⃣ Análise Contextual</h3><ul style='margin-left: 2rem;'><li>Considerar contexto imediato</li><li>Examinar contexto do livro</li><li>Relacionar com contexto bíblico geral</li></ul><h3>🛠️ Ferramentas Exegéticas</h3><ul style='margin-left: 2rem; line-height: 2;'><li><strong>Léxicos:</strong> BDB, HALOT, DCH</li><li><strong>Gramáticas:</strong> GKC, Joüon-Muraoka, Waltke-O'Connor</li><li><strong>Concordâncias:</strong> Even-Shoshan, Lisowsky</li><li><strong>Software:</strong> Logos, Accordance, BibleWorks</li></ul><h3>📝 Exemplo Prático</h3><div style='background: #f8f9fa; padding: 1.5rem; border-radius: 8px; margin: 1.5rem 0; border-left: 4px solid #28a745;'><p style='direction: rtl; font-size: 1.2rem; margin-bottom: 1rem;'><span class='hebrew'>בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ</span></p><p><strong>Análise:</strong></p><ul style='margin-left: 2rem;'><li><strong>בְּרֵאשִׁית:</strong> preposição + substantivo (temporal)</li><li><strong>בָּרָא:</strong> Qal Perfeito 3ms de ברא</li><li><strong>אֱלֹהִים:</strong> sujeito (substantivo masculino plural)</li><li><strong>אֵת:</strong> marcador de objeto direto</li><li><strong>הַשָּׁמַיִם וְאֵת הָאָרֶץ:</strong> objetos diretos coordenados</li></ul><p><strong>Tradução:</strong> \"No princípio, Deus criou os céus e a terra.\"</p></div><div style='background: #e3f2fd; padding: 1.5rem; border-radius: 8px; margin: 2rem 0; border-left: 4px solid #0056b3;'><h4 style='color: #0056b3; margin-bottom: 1rem;'>🎓 Conclusão do Curso</h4><p>Parabéns! Você completou o curso de Gramática Introdutória ao Hebraico Bíblico. Agora possui as ferramentas fundamentais para ler e analisar textos do Antigo Testamento em sua língua original. Continue praticando e aprofundando seus conhecimentos através da leitura regular e do uso de recursos exegéticos.</p></div>"
+  },
+  "flashcards": [
+    {
+      "front": "בְּרֵאשִׁית",
+      "back": "bereshit - no princípio"
+    },
+    {
+      "front": "בָּרָא",
+      "back": "bara - criou (Qal Perfeito 3ms)"
+    },
+    {
+      "front": "אֱלֹהִים",
+      "back": "elohim - Deus"
+    },
+    {
+      "front": "הַשָּׁמַיִם",
+      "back": "hashamayim - os céus"
+    },
+    {
+      "front": "הָאָרֶץ",
+      "back": "ha'arets - a terra"
+    },
+    {
+      "front": "אֵת",
+      "back": "et - marcador de objeto direto"
+    }
+  ],
+  "exercises": [
+    {
+      "question": "Qual é a ordem típica das palavras na narrativa hebraica?",
+      "options": ["SVO", "VSO", "SOV", "OVS"],
+      "correct": 1,
+      "difficulty": "medium",
+      "explanation": "A narrativa hebraica tipicamente segue a ordem Verbo + Sujeito + Objeto (VSO)."
+    },
+    {
+      "question": "O que é a partícula אֵת?",
+      "options": ["Preposição", "Conjunção", "Marcador de objeto direto", "Artigo"],
+      "correct": 2,
+      "difficulty": "medium",
+      "explanation": "אֵת é o marcador de objeto direto definido em hebraico."
+    },
+    {
+      "question": "Qual é o primeiro passo na análise exegética?",
+      "options": ["Análise gramatical", "Análise textual", "Análise contextual", "Análise lexical"],
+      "correct": 1,
+      "difficulty": "hard",
+      "explanation": "A análise textual é o primeiro passo, estabelecendo o texto correto antes de proceder com outras análises."
+    }
+  ]
+}
+

@@ -1,0 +1,187 @@
+{
+  "title": "O Alef-bet, Vogais e Pronúncia",
+  "content": {
+    "html": "<h2>🔤 O Alfabeto Hebraico (Alef-bet)</h2><p>O hebraico é escrito da direita para a esquerda e possui 22 letras consonantais. Cada letra tem uma forma específica e algumas possuem formas finais diferentes quando aparecem no final de uma palavra.</p><h3>As 22 Letras do Alef-bet</h3><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Letra</th><th style='padding: 1rem; border: 1px solid #ddd;'>Nome</th><th style='padding: 1rem; border: 1px solid #ddd;'>Transliteração</th><th style='padding: 1rem; border: 1px solid #ddd;'>Valor Numérico</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd; font-size: 1.5rem; text-align: center;'>א</td><td style='padding: 1rem; border: 1px solid #ddd;'>Alef</td><td style='padding: 1rem; border: 1px solid #ddd;'>ʾ (parada glotal)</td><td style='padding: 1rem; border: 1px solid #ddd;'>1</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd; font-size: 1.5rem; text-align: center;'>ב</td><td style='padding: 1rem; border: 1px solid #ddd;'>Bet</td><td style='padding: 1rem; border: 1px solid #ddd;'>b/v</td><td style='padding: 1rem; border: 1px solid #ddd;'>2</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd; font-size: 1.5rem; text-align: center;'>ג</td><td style='padding: 1rem; border: 1px solid #ddd;'>Gimel</td><td style='padding: 1rem; border: 1px solid #ddd;'>g</td><td style='padding: 1rem; border: 1px solid #ddd;'>3</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd; font-size: 1.5rem; text-align: center;'>ד</td><td style='padding: 1rem; border: 1px solid #ddd;'>Dalet</td><td style='padding: 1rem; border: 1px solid #ddd;'>d</td><td style='padding: 1rem; border: 1px solid #ddd;'>4</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd; font-size: 1.5rem; text-align: center;'>ה</td><td style='padding: 1rem; border: 1px solid #ddd;'>He</td><td style='padding: 1rem; border: 1px solid #ddd;'>h</td><td style='padding: 1rem; border: 1px solid #ddd;'>5</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd; font-size: 1.5rem; text-align: center;'>ו</td><td style='padding: 1rem; border: 1px solid #ddd;'>Vav</td><td style='padding: 1rem; border: 1px solid #ddd;'>w/v</td><td style='padding: 1rem; border: 1px solid #ddd;'>6</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd; font-size: 1.5rem; text-align: center;'>ז</td><td style='padding: 1rem; border: 1px solid #ddd;'>Zayin</td><td style='padding: 1rem; border: 1px solid #ddd;'>z</td><td style='padding: 1rem; border: 1px solid #ddd;'>7</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd; font-size: 1.5rem; text-align: center;'>ח</td><td style='padding: 1rem; border: 1px solid #ddd;'>Het</td><td style='padding: 1rem; border: 1px solid #ddd;'>ḥ</td><td style='padding: 1rem; border: 1px solid #ddd;'>8</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd; font-size: 1.5rem; text-align: center;'>ט</td><td style='padding: 1rem; border: 1px solid #ddd;'>Tet</td><td style='padding: 1rem; border: 1px solid #ddd;'>ṭ</td><td style='padding: 1rem; border: 1px solid #ddd;'>9</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd; font-size: 1.5rem; text-align: center;'>י</td><td style='padding: 1rem; border: 1px solid #ddd;'>Yod</td><td style='padding: 1rem; border: 1px solid #ddd;'>y</td><td style='padding: 1rem; border: 1px solid #ddd;'>10</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd; font-size: 1.5rem; text-align: center;'>כ/ך</td><td style='padding: 1rem; border: 1px solid #ddd;'>Kaf</td><td style='padding: 1rem; border: 1px solid #ddd;'>k/kh</td><td style='padding: 1rem; border: 1px solid #ddd;'>20</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd; font-size: 1.5rem; text-align: center;'>ל</td><td style='padding: 1rem; border: 1px solid #ddd;'>Lamed</td><td style='padding: 1rem; border: 1px solid #ddd;'>l</td><td style='padding: 1rem; border: 1px solid #ddd;'>30</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd; font-size: 1.5rem; text-align: center;'>מ/ם</td><td style='padding: 1rem; border: 1px solid #ddd;'>Mem</td><td style='padding: 1rem; border: 1px solid #ddd;'>m</td><td style='padding: 1rem; border: 1px solid #ddd;'>40</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd; font-size: 1.5rem; text-align: center;'>נ/ן</td><td style='padding: 1rem; border: 1px solid #ddd;'>Nun</td><td style='padding: 1rem; border: 1px solid #ddd;'>n</td><td style='padding: 1rem; border: 1px solid #ddd;'>50</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd; font-size: 1.5rem; text-align: center;'>ס</td><td style='padding: 1rem; border: 1px solid #ddd;'>Samekh</td><td style='padding: 1rem; border: 1px solid #ddd;'>s</td><td style='padding: 1rem; border: 1px solid #ddd;'>60</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd; font-size: 1.5rem; text-align: center;'>ע</td><td style='padding: 1rem; border: 1px solid #ddd;'>Ayin</td><td style='padding: 1rem; border: 1px solid #ddd;'>ʿ</td><td style='padding: 1rem; border: 1px solid #ddd;'>70</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd; font-size: 1.5rem; text-align: center;'>פ/ף</td><td style='padding: 1rem; border: 1px solid #ddd;'>Pe</td><td style='padding: 1rem; border: 1px solid #ddd;'>p/f</td><td style='padding: 1rem; border: 1px solid #ddd;'>80</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd; font-size: 1.5rem; text-align: center;'>צ/ץ</td><td style='padding: 1rem; border: 1px solid #ddd;'>Tsade</td><td style='padding: 1rem; border: 1px solid #ddd;'>ṣ</td><td style='padding: 1rem; border: 1px solid #ddd;'>90</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd; font-size: 1.5rem; text-align: center;'>ק</td><td style='padding: 1rem; border: 1px solid #ddd;'>Qof</td><td style='padding: 1rem; border: 1px solid #ddd;'>q</td><td style='padding: 1rem; border: 1px solid #ddd;'>100</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd; font-size: 1.5rem; text-align: center;'>ר</td><td style='padding: 1rem; border: 1px solid #ddd;'>Resh</td><td style='padding: 1rem; border: 1px solid #ddd;'>r</td><td style='padding: 1rem; border: 1px solid #ddd;'>200</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd; font-size: 1.5rem; text-align: center;'>ש</td><td style='padding: 1rem; border: 1px solid #ddd;'>Shin</td><td style='padding: 1rem; border: 1px solid #ddd;'>š/s</td><td style='padding: 1rem; border: 1px solid #ddd;'>300</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd; font-size: 1.5rem; text-align: center;'>ת</td><td style='padding: 1rem; border: 1px solid #ddd;'>Tav</td><td style='padding: 1rem; border: 1px solid #ddd;'>t</td><td style='padding: 1rem; border: 1px solid #ddd;'>400</td></tr></table><h3>🎵 Sistema Vocálico (Niqud)</h3><p>O hebraico bíblico utiliza um sistema de pontos vocálicos chamado <strong>niqud</strong> (נִקּוּד) para indicar as vogais. Estes pontos são colocados acima, abaixo ou dentro das letras consonantais.</p><h4>Vogais Principais:</h4><ul style='margin-left: 2rem; line-height: 2;'><li><strong>Patah (פַּתַח):</strong> ַ◌ - som 'a' como em 'casa'</li><li><strong>Qamets (קָמֶץ):</strong> ָ◌ - som 'a' longo como em 'pai'</li><li><strong>Segol (סֶגוֹל):</strong> ֶ◌ - som 'e' como em 'pé'</li><li><strong>Tsere (צֵרֵה):</strong> ֵ◌ - som 'e' longo como em 'mesa'</li><li><strong>Hireq (חִירֶק):</strong> ִ◌ - som 'i' como em 'vida'</li><li><strong>Holem (חֹלֶם):</strong> ֹ◌ - som 'o' como em 'bola'</li><li><strong>Qibbuts (קִבּוּץ):</strong> ֻ◌ - som 'u' como em 'lua'</li><li><strong>Shureq (שׁוּרֶק):</strong> וּ - som 'u' longo</li><li><strong>Shva (שְׁוָא):</strong> ְ◌ - som neutro ou ausência de som</li></ul><h3>📢 Regras de Pronúncia</h3><p>A pronúncia do hebraico bíblico segue padrões específicos que facilitam a leitura fluente:</p><h4>Letras BeGaD KeFaT:</h4><p>Seis letras (ב ג ד כ פ ת) têm duas pronúncias possíveis:</p><ul style='margin-left: 2rem;'><li><strong>Com Dagesh (ponto interno):</strong> pronúncia 'dura' (b, g, d, k, p, t)</li><li><strong>Sem Dagesh:</strong> pronúncia 'suave' (v, gh, dh, kh, f, th)</li></ul><h4>Acentuação:</h4><p>A maioria das palavras hebraicas tem o acento na última sílaba (milra) ou na penúltima (milel). O acento afeta o significado e a forma das palavras.</p><h4>Sílabas:</h4><p>As sílabas hebraicas podem ser:</p><ul style='margin-left: 2rem;'><li><strong>Abertas:</strong> terminam em vogal (CV)</li><li><strong>Fechadas:</strong> terminam em consoante (CVC)</li></ul><div style='background: #e3f2fd; padding: 1.5rem; border-radius: 8px; margin: 2rem 0; border-left: 4px solid #0056b3;'><h4 style='color: #0056b3; margin-bottom: 1rem;'>💡 Dica de Memorização</h4><p>Para memorizar o alfabeto, pratique escrevendo cada letra várias vezes enquanto pronuncia seu nome. Use a frase mnemônica: 'Alef Bet Gimel Dalet' como uma melodia para ajudar na memorização da sequência.</p></div>"
+  },
+  "flashcards": [
+    {
+      "front": "א",
+      "back": "Alef - parada glotal (ʾ)"
+    },
+    {
+      "front": "ב",
+      "back": "Bet - b/v"
+    },
+    {
+      "front": "ג",
+      "back": "Gimel - g"
+    },
+    {
+      "front": "ד",
+      "back": "Dalet - d"
+    },
+    {
+      "front": "ה",
+      "back": "He - h"
+    },
+    {
+      "front": "ו",
+      "back": "Vav - w/v"
+    },
+    {
+      "front": "ז",
+      "back": "Zayin - z"
+    },
+    {
+      "front": "ח",
+      "back": "Het - ḥ"
+    },
+    {
+      "front": "ט",
+      "back": "Tet - ṭ"
+    },
+    {
+      "front": "י",
+      "back": "Yod - y"
+    },
+    {
+      "front": "כ/ך",
+      "back": "Kaf - k/kh"
+    },
+    {
+      "front": "ל",
+      "back": "Lamed - l"
+    },
+    {
+      "front": "מ/ם",
+      "back": "Mem - m"
+    },
+    {
+      "front": "נ/ן",
+      "back": "Nun - n"
+    },
+    {
+      "front": "ס",
+      "back": "Samekh - s"
+    },
+    {
+      "front": "ע",
+      "back": "Ayin - ʿ"
+    },
+    {
+      "front": "פ/ף",
+      "back": "Pe - p/f"
+    },
+    {
+      "front": "צ/ץ",
+      "back": "Tsade - ṣ"
+    },
+    {
+      "front": "ק",
+      "back": "Qof - q"
+    },
+    {
+      "front": "ר",
+      "back": "Resh - r"
+    },
+    {
+      "front": "ש",
+      "back": "Shin - š/s"
+    },
+    {
+      "front": "ת",
+      "back": "Tav - t"
+    },
+    {
+      "front": "ַ◌",
+      "back": "Patah - som 'a'"
+    },
+    {
+      "front": "ָ◌",
+      "back": "Qamets - som 'a' longo"
+    },
+    {
+      "front": "ֶ◌",
+      "back": "Segol - som 'e'"
+    },
+    {
+      "front": "ֵ◌",
+      "back": "Tsere - som 'e' longo"
+    },
+    {
+      "front": "ִ◌",
+      "back": "Hireq - som 'i'"
+    },
+    {
+      "front": "ֹ◌",
+      "back": "Holem - som 'o'"
+    },
+    {
+      "front": "ֻ◌",
+      "back": "Qibbuts - som 'u'"
+    },
+    {
+      "front": "ְ◌",
+      "back": "Shva - som neutro"
+    }
+  ],
+  "exercises": [
+    {
+      "question": "Quantas letras possui o alfabeto hebraico?",
+      "options": ["20", "22", "24", "26"],
+      "correct": 1,
+      "difficulty": "easy",
+      "explanation": "O alfabeto hebraico possui 22 letras consonantais, desde Alef (א) até Tav (ת)."
+    },
+    {
+      "question": "Qual é a direção de escrita do hebraico?",
+      "options": ["Da esquerda para a direita", "Da direita para a esquerda", "De cima para baixo", "De baixo para cima"],
+      "correct": 1,
+      "difficulty": "easy",
+      "explanation": "O hebraico é escrito da direita para a esquerda, assim como o árabe."
+    },
+    {
+      "question": "O que significa 'niqud' (נִקּוּד)?",
+      "options": ["Letras consonantais", "Sistema de pontos vocálicos", "Acentuação", "Pontuação"],
+      "correct": 1,
+      "difficulty": "medium",
+      "explanation": "Niqud é o sistema de pontos vocálicos usado para indicar as vogais no texto hebraico."
+    },
+    {
+      "question": "Quais letras fazem parte do grupo BeGaD KeFaT?",
+      "options": ["א ה ח ע", "ב ג ד כ פ ת", "ל מ נ ס", "ק ר ש ת"],
+      "correct": 1,
+      "difficulty": "medium",
+      "explanation": "BeGaD KeFaT são as seis letras (ב ג ד כ פ ת) que têm duas pronúncias possíveis dependendo da presença do dagesh."
+    },
+    {
+      "question": "Qual vogal é representada pelo símbolo ַ◌ (patah)?",
+      "options": ["Som 'e'", "Som 'i'", "Som 'a'", "Som 'o'"],
+      "correct": 2,
+      "difficulty": "medium",
+      "explanation": "O patah (ַ◌) representa o som 'a' curto, como na palavra 'casa'."
+    },
+    {
+      "question": "Quantas letras hebraicas possuem formas finais diferentes?",
+      "options": ["3", "4", "5", "6"],
+      "correct": 2,
+      "difficulty": "hard",
+      "explanation": "Cinco letras possuem formas finais: כ/ך (kaf), מ/ם (mem), נ/ן (nun), פ/ף (pe), צ/ץ (tsade)."
+    },
+    {
+      "question": "O que é o 'shva' (ְ◌)?",
+      "options": ["Uma consoante", "Uma vogal longa", "Uma vogal neutra ou ausência de som", "Um acento"],
+      "correct": 2,
+      "difficulty": "hard",
+      "explanation": "O shva (ְ◌) representa uma vogal neutra muito breve ou a ausência completa de som vocálico."
+    },
+    {
+      "question": "Onde geralmente recai o acento nas palavras hebraicas?",
+      "options": ["Na primeira sílaba", "Na última sílaba", "Na sílaba do meio", "Não há regra"],
+      "correct": 1,
+      "difficulty": "hard",
+      "explanation": "A maioria das palavras hebraicas tem o acento na última sílaba (milra), embora algumas tenham na penúltima (milel)."
+    }
+  ]
+}
+

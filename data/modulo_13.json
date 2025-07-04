@@ -1,0 +1,41 @@
+{
+  "title": "O Binyan Hithpael e Introdução aos Verbos Fracos",
+  "content": {
+    "html": "<h2>🔄 O Binyan Hithpael</h2><p>O <strong>Hithpael</strong> expressa ação reflexiva, recíproca ou iterativa. É caracterizado pelo prefixo הִתְ.</p><h3>🎯 Significados do Hithpael:</h3><ul style='margin-left: 2rem; line-height: 2;'><li><strong>Reflexivo:</strong> \"esconder-se\"</li><li><strong>Recíproco:</strong> \"falar um com o outro\"</li><li><strong>Iterativo:</strong> \"andar de um lado para outro\"</li></ul><h3>📊 Hithpael Perfeito</h3><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Pessoa</th><th style='padding: 1rem; border: 1px solid #ddd;'>Forma</th><th style='padding: 1rem; border: 1px solid #ddd;'>Significado</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>3ms</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>הִתְכַּתֵּב</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>correspondeu-se</td></tr></table><h2>⚠️ Introdução aos Verbos Fracos</h2><p>Verbos <strong>fracos</strong> são aqueles que têm uma ou mais letras fracas (א ה ו י נ) em sua raiz, causando irregularidades na conjugação.</p><h3>🔤 Tipos de Verbos Fracos:</h3><ul style='margin-left: 2rem; line-height: 2;'><li><strong>Pe-Nun (נ״פ):</strong> primeira radical é נ</li><li><strong>Pe-Yod (י״פ):</strong> primeira radical é י</li><li><strong>Pe-Alef (א״פ):</strong> primeira radical é א</li><li><strong>Ayin-Vav/Yod (ו״ע/י״ע):</strong> segunda radical é ו ou י</li><li><strong>Lamed-He (ה״ל):</strong> terceira radical é ה</li></ul><h3>🌟 Exemplos de Verbos Fracos</h3><ul style='margin-left: 2rem; line-height: 2;'><li><span class='hebrew'>נָתַן</span> (natan - deu) - Pe-Nun</li><li><span class='hebrew'>קוּם</span> (qum - levantou) - Ayin-Vav</li><li><span class='hebrew'>בָּנָה</span> (banah - construiu) - Lamed-He</li></ul>"
+  },
+  "flashcards": [
+    {
+      "front": "הִתְכַּתֵּב",
+      "back": "hitkattev - correspondeu-se (Hithpael)"
+    },
+    {
+      "front": "נָתַן",
+      "back": "natan - deu (verbo Pe-Nun)"
+    },
+    {
+      "front": "קוּם",
+      "back": "qum - levantou (verbo Ayin-Vav)"
+    },
+    {
+      "front": "בָּנָה",
+      "back": "banah - construiu (verbo Lamed-He)"
+    }
+  ],
+  "exercises": [
+    {
+      "question": "O que caracteriza o binyan Hithpael?",
+      "options": ["Ação causativa", "Ação reflexiva/recíproca", "Ação passiva", "Ação intensiva"],
+      "correct": 1,
+      "difficulty": "easy",
+      "explanation": "O Hithpael caracteriza-se por expressar ação reflexiva, recíproca ou iterativa."
+    },
+    {
+      "question": "O que são verbos fracos?",
+      "options": ["Verbos irregulares", "Verbos com letras fracas na raiz", "Verbos raros", "Verbos sem significado"],
+      "correct": 1,
+      "difficulty": "medium",
+      "explanation": "Verbos fracos são aqueles que têm letras fracas (א ה ו י נ) em sua raiz, causando irregularidades."
+    }
+  ]
+}
+

@@ -1,0 +1,60 @@
+{
+  "title": "O Verbo - Qal Imperativo, Infinitivos e a Conjunção כִּי",
+  "content": {
+    "html": "<h2>📢 O Qal Imperativo</h2><p>O <strong>Imperativo</strong> expressa comandos, pedidos ou exortações. É usado para dar ordens diretas ou fazer solicitações.</p><h3>📊 Formas do Imperativo</h3><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Pessoa</th><th style='padding: 1rem; border: 1px solid #ddd;'>Singular</th><th style='padding: 1rem; border: 1px solid #ddd;'>Plural</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>2ª masc.</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כְּתֹב</span> (ketov - escreve!)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כִּתְבוּ</span> (kitvu - escrevei!)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>2ª fem.</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כִּתְבִי</span> (kitvi - escreve!)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כְּתֹבְנָה</span> (ketovnah - escrevei!)</td></tr></table><h3>🌟 Imperativos Comuns</h3><ul style='margin-left: 2rem; line-height: 2;'><li><span class='hebrew'>לֵךְ</span> (lekh - vai!)</li><li><span class='hebrew'>בֹּא</span> (bo - vem!)</li><li><span class='hebrew'>שְׁמַע</span> (shema - ouve!)</li><li><span class='hebrew'>זְכֹר</span> (zekhor - lembra!)</li></ul><h2>♾️ Os Infinitivos</h2><h3>Infinitivo Construto</h3><p>Usado com preposições e em construções genitivas:</p><ul style='margin-left: 2rem;'><li><span class='hebrew'>כְּתֹב</span> (ketov - escrever)</li><li><span class='hebrew'>לִכְתֹּב</span> (likhtov - para escrever)</li></ul><h3>Infinitivo Absoluto</h3><p>Usado para ênfase e intensificação:</p><ul style='margin-left: 2rem;'><li><span class='hebrew'>כָּתוֹב</span> (katov - certamente escrever)</li></ul><h2>🔗 A Conjunção כִּי</h2><p>A conjunção <span class='hebrew'>כִּי</span> tem múltiplos usos:</p><ul style='margin-left: 2rem; line-height: 2;'><li><strong>Causal:</strong> \"porque, pois\"</li><li><strong>Temporal:</strong> \"quando\"</li><li><strong>Condicional:</strong> \"se\"</li><li><strong>Enfática:</strong> \"certamente\"</li></ul>"
+  },
+  "flashcards": [
+    {
+      "front": "כְּתֹב",
+      "back": "ketov - escreve! (imperativo masc. sing.)"
+    },
+    {
+      "front": "לֵךְ",
+      "back": "lekh - vai!"
+    },
+    {
+      "front": "בֹּא",
+      "back": "bo - vem!"
+    },
+    {
+      "front": "שְׁמַע",
+      "back": "shema - ouve!"
+    },
+    {
+      "front": "לִכְתֹּב",
+      "back": "likhtov - para escrever (infinitivo construto)"
+    },
+    {
+      "front": "כָּתוֹב",
+      "back": "katov - certamente escrever (infinitivo absoluto)"
+    },
+    {
+      "front": "כִּי",
+      "back": "ki - porque, pois, quando, se"
+    }
+  ],
+  "exercises": [
+    {
+      "question": "O que expressa o modo imperativo?",
+      "options": ["Estados", "Comandos e pedidos", "Ações passadas", "Possibilidades"],
+      "correct": 1,
+      "difficulty": "easy",
+      "explanation": "O imperativo expressa comandos, pedidos ou exortações."
+    },
+    {
+      "question": "Qual é o imperativo masculino singular de 'escrever'?",
+      "options": ["כִּתְבִי", "כְּתֹב", "כִּתְבוּ", "כָּתוֹב"],
+      "correct": 1,
+      "difficulty": "medium",
+      "explanation": "כְּתֹב (ketov) é o imperativo masculino singular de 'escrever'."
+    },
+    {
+      "question": "Qual infinitivo é usado para ênfase?",
+      "options": ["Construto", "Absoluto", "Ambos", "Nenhum"],
+      "correct": 1,
+      "difficulty": "hard",
+      "explanation": "O infinitivo absoluto é usado para ênfase e intensificação."
+    }
+  ]
+}
+

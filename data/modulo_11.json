@@ -1,0 +1,41 @@
+{
+  "title": "O Binyan Piel e Pual",
+  "content": {
+    "html": "<h2>⚡ O Binyan Piel</h2><p>O <strong>Piel</strong> expressa ação intensiva, factitiva ou denominativa. É caracterizado pelo dagesh forte na segunda radical.</p><h3>🎯 Significados do Piel:</h3><ul style='margin-left: 2rem; line-height: 2;'><li><strong>Intensivo:</strong> \"destruir completamente\"</li><li><strong>Factitivo:</strong> \"fazer santo\" (santificar)</li><li><strong>Denominativo:</strong> \"atuar como rei\" (reinar)</li></ul><h3>📊 Piel Perfeito</h3><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Pessoa</th><th style='padding: 1rem; border: 1px solid #ddd;'>Forma</th><th style='padding: 1rem; border: 1px solid #ddd;'>Exemplo</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>3ms</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כִּתֵּב</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>escreveu intensamente</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>3fs</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כִּתְּבָה</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>ela escreveu intensamente</td></tr></table><h2>🔄 O Binyan Pual</h2><p>O <strong>Pual</strong> é a forma passiva do Piel, expressando ação intensiva passiva.</p><h3>📊 Pual Perfeito</h3><ul style='margin-left: 2rem;'><li><span class='hebrew'>כֻּתַּב</span> (kuttav - foi escrito intensamente)</li><li><span class='hebrew'>קֻדַּשׁ</span> (quddash - foi santificado)</li></ul><h3>🌟 Verbos Comuns</h3><ul style='margin-left: 2rem; line-height: 2;'><li><span class='hebrew'>בֵּרַךְ</span> (berakh - abençoou) - Piel</li><li><span class='hebrew'>קִדֵּשׁ</span> (qiddesh - santificou) - Piel</li><li><span class='hebrew'>דִּבֵּר</span> (dibber - falou) - Piel</li></ul>"
+  },
+  "flashcards": [
+    {
+      "front": "כִּתֵּב",
+      "back": "kittev - escreveu intensamente (Piel)"
+    },
+    {
+      "front": "כֻּתַּב",
+      "back": "kuttav - foi escrito intensamente (Pual)"
+    },
+    {
+      "front": "בֵּרַךְ",
+      "back": "berakh - abençoou (Piel)"
+    },
+    {
+      "front": "קִדֵּשׁ",
+      "back": "qiddesh - santificou (Piel)"
+    }
+  ],
+  "exercises": [
+    {
+      "question": "O que caracteriza o binyan Piel?",
+      "options": ["Ação passiva", "Ação intensiva", "Ação reflexiva", "Ação simples"],
+      "correct": 1,
+      "difficulty": "easy",
+      "explanation": "O Piel caracteriza-se por expressar ação intensiva, factitiva ou denominativa."
+    },
+    {
+      "question": "Qual é a relação entre Piel e Pual?",
+      "options": ["São independentes", "Pual é passivo do Piel", "Piel é passivo do Pual", "São sinônimos"],
+      "correct": 1,
+      "difficulty": "medium",
+      "explanation": "O Pual é a forma passiva do Piel."
+    }
+  ]
+}
+

@@ -1,0 +1,558 @@
+{
+  "א": [
+    {
+      "hebrew": "אֱלֹהִים",
+      "transliteration": "elohim",
+      "grammar": "subst. m. pl.",
+      "meaning": "Deus, deuses",
+      "frequency": 2602
+    },
+    {
+      "hebrew": "אֶל",
+      "transliteration": "el",
+      "grammar": "prep.",
+      "meaning": "para, a, em direção a",
+      "frequency": 5518
+    },
+    {
+      "hebrew": "אָמַר",
+      "transliteration": "amar",
+      "grammar": "v. Qal",
+      "meaning": "dizer, falar",
+      "frequency": 5316
+    },
+    {
+      "hebrew": "אִישׁ",
+      "transliteration": "ish",
+      "grammar": "subst. m.",
+      "meaning": "homem, marido",
+      "frequency": 2188
+    },
+    {
+      "hebrew": "אַחַר",
+      "transliteration": "ahar",
+      "grammar": "prep./adv.",
+      "meaning": "depois, atrás",
+      "frequency": 713
+    },
+    {
+      "hebrew": "אָב",
+      "transliteration": "av",
+      "grammar": "subst. m.",
+      "meaning": "pai",
+      "frequency": 1205
+    },
+    {
+      "hebrew": "אָח",
+      "transliteration": "ah",
+      "grammar": "subst. m.",
+      "meaning": "irmão",
+      "frequency": 629
+    },
+    {
+      "hebrew": "אֶרֶץ",
+      "transliteration": "erets",
+      "grammar": "subst. f.",
+      "meaning": "terra, país",
+      "frequency": 2504
+    },
+    {
+      "hebrew": "אֲשֶׁר",
+      "transliteration": "asher",
+      "grammar": "pron. rel.",
+      "meaning": "que, qual, quem",
+      "frequency": 5503
+    },
+    {
+      "hebrew": "אֵין",
+      "transliteration": "ein",
+      "grammar": "part. neg.",
+      "meaning": "não há, não existe",
+      "frequency": 790
+    }
+  ],
+  "ב": [
+    {
+      "hebrew": "בֵּן",
+      "transliteration": "ben",
+      "grammar": "subst. m.",
+      "meaning": "filho",
+      "frequency": 4906
+    },
+    {
+      "hebrew": "בַּיִת",
+      "transliteration": "bayit",
+      "grammar": "subst. m.",
+      "meaning": "casa",
+      "frequency": 2047
+    },
+    {
+      "hebrew": "בּוֹא",
+      "transliteration": "bo",
+      "grammar": "v. Qal",
+      "meaning": "vir, entrar",
+      "frequency": 2592
+    },
+    {
+      "hebrew": "בְּ",
+      "transliteration": "be",
+      "grammar": "prep.",
+      "meaning": "em, com, por",
+      "frequency": 15559
+    },
+    {
+      "hebrew": "בֵּין",
+      "transliteration": "bein",
+      "grammar": "prep.",
+      "meaning": "entre",
+      "frequency": 409
+    },
+    {
+      "hebrew": "בָּנָה",
+      "transliteration": "banah",
+      "grammar": "v. Qal",
+      "meaning": "construir",
+      "frequency": 376
+    },
+    {
+      "hebrew": "בָּקַר",
+      "transliteration": "baqar",
+      "grammar": "subst. m.",
+      "meaning": "gado, boi",
+      "frequency": 183
+    },
+    {
+      "hebrew": "בָּרַךְ",
+      "transliteration": "barakh",
+      "grammar": "v. Piel",
+      "meaning": "abençoar",
+      "frequency": 327
+    }
+  ],
+  "ג": [
+    {
+      "hebrew": "גָּדוֹל",
+      "transliteration": "gadol",
+      "grammar": "adj.",
+      "meaning": "grande",
+      "frequency": 527
+    },
+    {
+      "hebrew": "גּוֹי",
+      "transliteration": "goy",
+      "grammar": "subst. m.",
+      "meaning": "nação, povo",
+      "frequency": 559
+    },
+    {
+      "hebrew": "גַּם",
+      "transliteration": "gam",
+      "grammar": "adv.",
+      "meaning": "também, até mesmo",
+      "frequency": 769
+    }
+  ],
+  "ד": [
+    {
+      "hebrew": "דָּבָר",
+      "transliteration": "davar",
+      "grammar": "subst. m.",
+      "meaning": "palavra, coisa",
+      "frequency": 1440
+    },
+    {
+      "hebrew": "דָּוִד",
+      "transliteration": "david",
+      "grammar": "nome próprio",
+      "meaning": "Davi",
+      "frequency": 1076
+    },
+    {
+      "hebrew": "דֶּרֶךְ",
+      "transliteration": "derekh",
+      "grammar": "subst. f.",
+      "meaning": "caminho",
+      "frequency": 712
+    }
+  ],
+  "ה": [
+    {
+      "hebrew": "הָיָה",
+      "transliteration": "hayah",
+      "grammar": "v. Qal",
+      "meaning": "ser, estar, acontecer",
+      "frequency": 3576
+    },
+    {
+      "hebrew": "הַ",
+      "transliteration": "ha",
+      "grammar": "art. def.",
+      "meaning": "o, a",
+      "frequency": 24057
+    },
+    {
+      "hebrew": "הָלַךְ",
+      "transliteration": "halakh",
+      "grammar": "v. Qal",
+      "meaning": "ir, andar",
+      "frequency": 1554
+    },
+    {
+      "hebrew": "הִנֵּה",
+      "transliteration": "hinneh",
+      "grammar": "interj.",
+      "meaning": "eis, vê",
+      "frequency": 1061
+    },
+    {
+      "hebrew": "הוּא",
+      "transliteration": "hu",
+      "grammar": "pron. 3ms",
+      "meaning": "ele",
+      "frequency": 1398
+    },
+    {
+      "hebrew": "הִיא",
+      "transliteration": "hi",
+      "grammar": "pron. 3fs",
+      "meaning": "ela",
+      "frequency": 214
+    }
+  ],
+  "ו": [
+    {
+      "hebrew": "וְ",
+      "transliteration": "ve",
+      "grammar": "conj.",
+      "meaning": "e",
+      "frequency": 50524
+    }
+  ],
+  "ז": [
+    {
+      "hebrew": "זֶה",
+      "transliteration": "zeh",
+      "grammar": "pron. dem.",
+      "meaning": "este, isto",
+      "frequency": 1178
+    },
+    {
+      "hebrew": "זָכַר",
+      "transliteration": "zakhar",
+      "grammar": "v. Qal",
+      "meaning": "lembrar",
+      "frequency": 235
+    }
+  ],
+  "ח": [
+    {
+      "hebrew": "חַיִל",
+      "transliteration": "hayil",
+      "grammar": "subst. m.",
+      "meaning": "força, exército",
+      "frequency": 246
+    }
+  ],
+  "ט": [
+    {
+      "hebrew": "טוֹב",
+      "transliteration": "tov",
+      "grammar": "adj.",
+      "meaning": "bom",
+      "frequency": 559
+    }
+  ],
+  "י": [
+    {
+      "hebrew": "יְהוָה",
+      "transliteration": "YHWH",
+      "grammar": "nome próprio",
+      "meaning": "SENHOR (Tetragrama)",
+      "frequency": 6828
+    },
+    {
+      "hebrew": "יוֹם",
+      "transliteration": "yom",
+      "grammar": "subst. m.",
+      "meaning": "dia",
+      "frequency": 2301
+    },
+    {
+      "hebrew": "יָד",
+      "transliteration": "yad",
+      "grammar": "subst. f.",
+      "meaning": "mão",
+      "frequency": 1627
+    },
+    {
+      "hebrew": "יָדַע",
+      "transliteration": "yada",
+      "grammar": "v. Qal",
+      "meaning": "conhecer, saber",
+      "frequency": 956
+    },
+    {
+      "hebrew": "יָצָא",
+      "transliteration": "yatsa",
+      "grammar": "v. Qal",
+      "meaning": "sair",
+      "frequency": 1076
+    },
+    {
+      "hebrew": "יִשְׂרָאֵל",
+      "transliteration": "yisrael",
+      "grammar": "nome próprio",
+      "meaning": "Israel",
+      "frequency": 2507
+    }
+  ],
+  "כ": [
+    {
+      "hebrew": "כֹּל",
+      "transliteration": "kol",
+      "grammar": "subst. m.",
+      "meaning": "todo, tudo",
+      "frequency": 5415
+    },
+    {
+      "hebrew": "כִּי",
+      "transliteration": "ki",
+      "grammar": "conj.",
+      "meaning": "porque, pois, quando",
+      "frequency": 4487
+    },
+    {
+      "hebrew": "כְּ",
+      "transliteration": "ke",
+      "grammar": "prep.",
+      "meaning": "como, conforme",
+      "frequency": 3053
+    },
+    {
+      "hebrew": "כֹּהֵן",
+      "transliteration": "kohen",
+      "grammar": "subst. m.",
+      "meaning": "sacerdote",
+      "frequency": 750
+    }
+  ],
+  "ל": [
+    {
+      "hebrew": "לְ",
+      "transliteration": "le",
+      "grammar": "prep.",
+      "meaning": "para, a",
+      "frequency": 20321
+    },
+    {
+      "hebrew": "לֹא",
+      "transliteration": "lo",
+      "grammar": "part. neg.",
+      "meaning": "não",
+      "frequency": 5237
+    },
+    {
+      "hebrew": "לָקַח",
+      "transliteration": "laqah",
+      "grammar": "v. Qal",
+      "meaning": "tomar, pegar",
+      "frequency": 967
+    }
+  ],
+  "מ": [
+    {
+      "hebrew": "מֶלֶךְ",
+      "transliteration": "melekh",
+      "grammar": "subst. m.",
+      "meaning": "rei",
+      "frequency": 2530
+    },
+    {
+      "hebrew": "מִן",
+      "transliteration": "min",
+      "grammar": "prep.",
+      "meaning": "de, desde",
+      "frequency": 7592
+    },
+    {
+      "hebrew": "מָה",
+      "transliteration": "mah",
+      "grammar": "pron. interr.",
+      "meaning": "que, o que",
+      "frequency": 571
+    },
+    {
+      "hebrew": "מוּת",
+      "transliteration": "mut",
+      "grammar": "v. Qal",
+      "meaning": "morrer",
+      "frequency": 845
+    },
+    {
+      "hebrew": "מָצָא",
+      "transliteration": "matsa",
+      "grammar": "v. Qal",
+      "meaning": "encontrar",
+      "frequency": 457
+    }
+  ],
+  "נ": [
+    {
+      "hebrew": "נָתַן",
+      "transliteration": "natan",
+      "grammar": "v. Qal",
+      "meaning": "dar",
+      "frequency": 2014
+    },
+    {
+      "hebrew": "נֶפֶשׁ",
+      "transliteration": "nefesh",
+      "grammar": "subst. f.",
+      "meaning": "alma, vida",
+      "frequency": 755
+    }
+  ],
+  "ס": [
+    {
+      "hebrew": "סוּס",
+      "transliteration": "sus",
+      "grammar": "subst. m.",
+      "meaning": "cavalo",
+      "frequency": 140
+    }
+  ],
+  "ע": [
+    {
+      "hebrew": "עַל",
+      "transliteration": "al",
+      "grammar": "prep.",
+      "meaning": "sobre, em cima de",
+      "frequency": 5777
+    },
+    {
+      "hebrew": "עַם",
+      "transliteration": "am",
+      "grammar": "subst. m.",
+      "meaning": "povo",
+      "frequency": 1868
+    },
+    {
+      "hebrew": "עִם",
+      "transliteration": "im",
+      "grammar": "prep.",
+      "meaning": "com",
+      "frequency": 1048
+    },
+    {
+      "hebrew": "עָשָׂה",
+      "transliteration": "asah",
+      "grammar": "v. Qal",
+      "meaning": "fazer",
+      "frequency": 2632
+    },
+    {
+      "hebrew": "עַתָּה",
+      "transliteration": "attah",
+      "grammar": "adv.",
+      "meaning": "agora",
+      "frequency": 435
+    }
+  ],
+  "פ": [
+    {
+      "hebrew": "פָּנִים",
+      "transliteration": "panim",
+      "grammar": "subst. m. pl.",
+      "meaning": "face, rosto",
+      "frequency": 2126
+    }
+  ],
+  "צ": [
+    {
+      "hebrew": "צָבָא",
+      "transliteration": "tsava",
+      "grammar": "subst. m.",
+      "meaning": "exército, hostes",
+      "frequency": 486
+    }
+  ],
+  "ק": [
+    {
+      "hebrew": "קוֹל",
+      "transliteration": "qol",
+      "grammar": "subst. m.",
+      "meaning": "voz, som",
+      "frequency": 506
+    },
+    {
+      "hebrew": "קָרָא",
+      "transliteration": "qara",
+      "grammar": "v. Qal",
+      "meaning": "chamar, proclamar",
+      "frequency": 739
+    }
+  ],
+  "ר": [
+    {
+      "hebrew": "רָאָה",
+      "transliteration": "ra'ah",
+      "grammar": "v. Qal",
+      "meaning": "ver",
+      "frequency": 1311
+    },
+    {
+      "hebrew": "רַב",
+      "transliteration": "rav",
+      "grammar": "adj.",
+      "meaning": "muito, grande",
+      "frequency": 458
+    }
+  ],
+  "ש": [
+    {
+      "hebrew": "שָׁמַע",
+      "transliteration": "shama",
+      "grammar": "v. Qal",
+      "meaning": "ouvir",
+      "frequency": 1165
+    },
+    {
+      "hebrew": "שֵׁם",
+      "transliteration": "shem",
+      "grammar": "subst. m.",
+      "meaning": "nome",
+      "frequency": 864
+    },
+    {
+      "hebrew": "שָׁמַיִם",
+      "transliteration": "shamayim",
+      "grammar": "subst. m. pl.",
+      "meaning": "céus",
+      "frequency": 421
+    },
+    {
+      "hebrew": "שָׁנָה",
+      "transliteration": "shanah",
+      "grammar": "subst. f.",
+      "meaning": "ano",
+      "frequency": 878
+    },
+    {
+      "hebrew": "שׁוּב",
+      "transliteration": "shuv",
+      "grammar": "v. Qal",
+      "meaning": "retornar",
+      "frequency": 1075
+    }
+  ],
+  "ת": [
+    {
+      "hebrew": "תּוֹרָה",
+      "transliteration": "torah",
+      "grammar": "subst. f.",
+      "meaning": "lei, instrução",
+      "frequency": 223
+    }
+  ]
+}
+

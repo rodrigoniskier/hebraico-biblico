@@ -1,0 +1,41 @@
+{
+  "title": "Sufixos Pronominais em Verbos e Preposições",
+  "content": {
+    "html": "<h2>🔗 Sufixos Pronominais em Verbos</h2><p>Os verbos podem receber sufixos pronominais que funcionam como objeto direto:</p><h3>Exemplos com כָּתַב (ele escreveu):</h3><ul style='margin-left: 2rem; line-height: 2;'><li><span class='hebrew'>כְּתָבַנִי</span> (ketavani - ele me escreveu)</li><li><span class='hebrew'>כְּתָבְךָ</span> (ketavkha - ele te escreveu)</li><li><span class='hebrew'>כְּתָבוֹ</span> (ketavo - ele o escreveu)</li></ul><h2>📍 Sufixos em Preposições</h2><p>Preposições comuns com sufixos pronominais:</p><h3>אֶל (para):</h3><ul style='margin-left: 2rem;'><li><span class='hebrew'>אֵלַי</span> (elay - para mim)</li><li><span class='hebrew'>אֵלֶיךָ</span> (elekha - para ti)</li><li><span class='hebrew'>אֵלָיו</span> (elav - para ele)</li></ul><h3>עִם (com):</h3><ul style='margin-left: 2rem;'><li><span class='hebrew'>עִמִּי</span> (immi - comigo)</li><li><span class='hebrew'>עִמְּךָ</span> (immekha - contigo)</li><li><span class='hebrew'>עִמּוֹ</span> (immo - com ele)</li></ul>"
+  },
+  "flashcards": [
+    {
+      "front": "כְּתָבַנִי",
+      "back": "ketavani - ele me escreveu"
+    },
+    {
+      "front": "אֵלַי",
+      "back": "elay - para mim"
+    },
+    {
+      "front": "עִמִּי",
+      "back": "immi - comigo"
+    },
+    {
+      "front": "אֵלֶיךָ",
+      "back": "elekha - para ti (masc.)"
+    }
+  ],
+  "exercises": [
+    {
+      "question": "O que expressam os sufixos pronominais em verbos?",
+      "options": ["Sujeito", "Objeto direto", "Tempo verbal", "Modo verbal"],
+      "correct": 1,
+      "difficulty": "medium",
+      "explanation": "Os sufixos pronominais em verbos expressam o objeto direto da ação."
+    },
+    {
+      "question": "Como se diz 'para mim' em hebraico?",
+      "options": ["אֵלֶיךָ", "אֵלַי", "אֵלָיו", "אֵלֵינוּ"],
+      "correct": 1,
+      "difficulty": "easy",
+      "explanation": "אֵלַי (elay) significa 'para mim'."
+    }
+  ]
+}
+

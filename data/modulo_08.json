@@ -1,0 +1,52 @@
+{
+  "title": "O Verbo - O Particípio Qal e o Verbo הָיָה (ser)",
+  "content": {
+    "html": "<h2>🎭 O Particípio Qal</h2><p>O <strong>particípio</strong> é uma forma verbal que funciona como adjetivo ou substantivo, expressando ação contínua ou estado.</p><h3>📊 Formas do Particípio</h3><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Gênero/Número</th><th style='padding: 1rem; border: 1px solid #ddd;'>Ativo</th><th style='padding: 1rem; border: 1px solid #ddd;'>Passivo</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>Masc. Sing.</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כֹּתֵב</span> (kotev - escrevendo)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כָּתוּב</span> (katuv - escrito)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>Fem. Sing.</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כֹּתֶבֶת</span> (kotevet)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כְּתוּבָה</span> (ketuvah)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>Masc. Plur.</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כֹּתְבִים</span> (kotvim)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כְּתוּבִים</span> (ketuvim)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>Fem. Plur.</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כֹּתְבוֹת</span> (kotvot)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כְּתוּבוֹת</span> (ketuvot)</td></tr></table><h2>🌟 O Verbo הָיָה (ser/estar)</h2><p>O verbo <span class='hebrew'>הָיָה</span> é irregular e fundamental:</p><h3>Qal Perfeito:</h3><ul style='margin-left: 2rem;'><li><span class='hebrew'>הָיָה</span> (hayah - ele foi/era)</li><li><span class='hebrew'>הָיְתָה</span> (haytah - ela foi/era)</li><li><span class='hebrew'>הָיִיתִי</span> (hayiti - eu fui/era)</li></ul><h3>Qal Imperfeito:</h3><ul style='margin-left: 2rem;'><li><span class='hebrew'>יִהְיֶה</span> (yihyeh - ele será)</li><li><span class='hebrew'>תִּהְיֶה</span> (tihyeh - ela será)</li><li><span class='hebrew'>אֶהְיֶה</span> (ehyeh - eu serei)</li></ul>"
+  },
+  "flashcards": [
+    {
+      "front": "כֹּתֵב",
+      "back": "kotev - escrevendo (particípio ativo masc.)"
+    },
+    {
+      "front": "כָּתוּב",
+      "back": "katuv - escrito (particípio passivo)"
+    },
+    {
+      "front": "הָיָה",
+      "back": "hayah - ele foi/era"
+    },
+    {
+      "front": "יִהְיֶה",
+      "back": "yihyeh - ele será"
+    },
+    {
+      "front": "אֶהְיֶה",
+      "back": "ehyeh - eu serei"
+    }
+  ],
+  "exercises": [
+    {
+      "question": "O que expressa o particípio ativo?",
+      "options": ["Ação completa", "Ação contínua", "Ação futura", "Estado passivo"],
+      "correct": 1,
+      "difficulty": "easy",
+      "explanation": "O particípio ativo expressa ação contínua ou em progresso."
+    },
+    {
+      "question": "Como se diz 'ele será' em hebraico?",
+      "options": ["הָיָה", "יִהְיֶה", "הָיִיתִי", "תִּהְיֶה"],
+      "correct": 1,
+      "difficulty": "medium",
+      "explanation": "יִהְיֶה (yihyeh) significa 'ele será'."
+    },
+    {
+      "question": "Qual é o particípio passivo de 'escrever'?",
+      "options": ["כֹּתֵב", "כָּתוּב", "כֹּתֶבֶת", "כְּתוּבָה"],
+      "correct": 1,
+      "difficulty": "hard",
+      "explanation": "כָּתוּב (katuv) é o particípio passivo masculino singular de 'escrever'."
+    }
+  ]
+}
+

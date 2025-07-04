@@ -1,0 +1,41 @@
+{
+  "title": "O Binyan Hiphil e Hophal",
+  "content": {
+    "html": "<h2>🚀 O Binyan Hiphil</h2><p>O <strong>Hiphil</strong> expressa ação causativa ativa. Faz com que o sujeito cause a ação no objeto.</p><h3>🎯 Significados do Hiphil:</h3><ul style='margin-left: 2rem; line-height: 2;'><li><strong>Causativo:</strong> \"fazer escrever\"</li><li><strong>Factitivo:</strong> \"tornar grande\"</li><li><strong>Declarativo:</strong> \"declarar justo\"</li></ul><h3>📊 Hiphil Perfeito</h3><p>Padrão: הִ + raiz</p><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Pessoa</th><th style='padding: 1rem; border: 1px solid #ddd;'>Forma</th><th style='padding: 1rem; border: 1px solid #ddd;'>Significado</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>3ms</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>הִכְתִּיב</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>fez escrever</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>3fs</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>הִכְתִּיבָה</span></td><td style='padding: 1rem; border: 1px solid #ddd;'>ela fez escrever</td></tr></table><h2>🔄 O Binyan Hophal</h2><p>O <strong>Hophal</strong> é a forma passiva do Hiphil, expressando ação causativa passiva.</p><h3>📊 Hophal Perfeito</h3><ul style='margin-left: 2rem;'><li><span class='hebrew'>הֻכְתַּב</span> (hukhtav - foi feito escrever)</li><li><span class='hebrew'>הוּבָא</span> (huva - foi trazido)</li></ul><h3>🌟 Verbos Comuns no Hiphil</h3><ul style='margin-left: 2rem; line-height: 2;'><li><span class='hebrew'>הֵבִיא</span> (hevi - trouxe)</li><li><span class='hebrew'>הִגִּיד</span> (higgid - contou, declarou)</li><li><span class='hebrew'>הִצִּיל</span> (hitstsil - salvou, livrou)</li></ul>"
+  },
+  "flashcards": [
+    {
+      "front": "הִכְתִּיב",
+      "back": "hikhtiv - fez escrever (Hiphil)"
+    },
+    {
+      "front": "הֻכְתַּב",
+      "back": "hukhtav - foi feito escrever (Hophal)"
+    },
+    {
+      "front": "הֵבִיא",
+      "back": "hevi - trouxe (Hiphil)"
+    },
+    {
+      "front": "הִגִּיד",
+      "back": "higgid - contou, declarou (Hiphil)"
+    }
+  ],
+  "exercises": [
+    {
+      "question": "O que expressa o binyan Hiphil?",
+      "options": ["Ação passiva", "Ação causativa ativa", "Ação reflexiva", "Ação intensiva"],
+      "correct": 1,
+      "difficulty": "easy",
+      "explanation": "O Hiphil expressa ação causativa ativa - fazer com que algo aconteça."
+    },
+    {
+      "question": "Qual é o prefixo característico do Hiphil Perfeito?",
+      "options": ["נִ", "הִ", "תִּ", "יִ"],
+      "correct": 1,
+      "difficulty": "medium",
+      "explanation": "O Hiphil Perfeito é caracterizado pelo prefixo הִ."
+    }
+  ]
+}
+

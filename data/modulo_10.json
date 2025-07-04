@@ -1,0 +1,41 @@
+{
+  "title": "O Binyan Niphal",
+  "content": {
+    "html": "<h2>🔄 O Binyan Niphal</h2><p>O <strong>Niphal</strong> é o binyan passivo/reflexivo do Qal. Expressa ação passiva, reflexiva ou às vezes intransitiva.</p><h3>🎯 Significados do Niphal:</h3><ul style='margin-left: 2rem; line-height: 2;'><li><strong>Passivo:</strong> \"foi escrito\"</li><li><strong>Reflexivo:</strong> \"escondeu-se\"</li><li><strong>Intransitivo:</strong> \"apareceu\"</li></ul><h3>📊 Niphal Perfeito</h3><p>Padrão: נִ + raiz com mudanças vocálicas</p><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Pessoa</th><th style='padding: 1rem; border: 1px solid #ddd;'>Singular</th><th style='padding: 1rem; border: 1px solid #ddd;'>Plural</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>3ms</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>נִכְתַּב</span> (nikhtav - foi escrito)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>נִכְתְּבוּ</span> (nikhtvu)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>3fs</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>נִכְתְּבָה</span> (nikhtevah)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>נִכְתְּבוּ</span> (nikhtvu)</td></tr></table><h3>📊 Niphal Imperfeito</h3><p>Padrão: יִ + נ + raiz</p><ul style='margin-left: 2rem;'><li><span class='hebrew'>יִכָּתֵב</span> (yikkatev - será escrito)</li><li><span class='hebrew'>תִּכָּתֵב</span> (tikkatev - será escrita)</li></ul><h3>🌟 Verbos Comuns no Niphal</h3><ul style='margin-left: 2rem; line-height: 2;'><li><span class='hebrew'>נִרְאָה</span> (nir'ah - apareceu, foi visto)</li><li><span class='hebrew'>נִמְצָא</span> (nimtsa - foi encontrado)</li><li><span class='hebrew'>נִשְׁבַּר</span> (nishbar - foi quebrado)</li></ul>"
+  },
+  "flashcards": [
+    {
+      "front": "נִכְתַּב",
+      "back": "nikhtav - foi escrito (Niphal)"
+    },
+    {
+      "front": "יִכָּתֵב",
+      "back": "yikkatev - será escrito (Niphal imperfeito)"
+    },
+    {
+      "front": "נִרְאָה",
+      "back": "nir'ah - apareceu, foi visto"
+    },
+    {
+      "front": "נִמְצָא",
+      "back": "nimtsa - foi encontrado"
+    }
+  ],
+  "exercises": [
+    {
+      "question": "O que caracteriza o binyan Niphal?",
+      "options": ["Ação ativa", "Ação passiva/reflexiva", "Ação intensiva", "Ação causativa"],
+      "correct": 1,
+      "difficulty": "easy",
+      "explanation": "O Niphal caracteriza-se por expressar ação passiva, reflexiva ou intransitiva."
+    },
+    {
+      "question": "Qual é o prefixo característico do Niphal Perfeito?",
+      "options": ["הִ", "נִ", "תִּ", "יִ"],
+      "correct": 1,
+      "difficulty": "medium",
+      "explanation": "O Niphal Perfeito é caracterizado pelo prefixo נִ."
+    }
+  ]
+}
+
