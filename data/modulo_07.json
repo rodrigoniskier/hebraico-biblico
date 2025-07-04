@@ -1,60 +1,23 @@
 {
   "title": "O Verbo - Qal Imperativo, Infinitivos e a Conjunção כִּי",
   "content": {
-    "html": "<h2>📢 O Qal Imperativo</h2><p>O <strong>Imperativo</strong> expressa comandos, pedidos ou exortações. É usado para dar ordens diretas ou fazer solicitações.</p><h3>📊 Formas do Imperativo</h3><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Pessoa</th><th style='padding: 1rem; border: 1px solid #ddd;'>Singular</th><th style='padding: 1rem; border: 1px solid #ddd;'>Plural</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>2ª masc.</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כְּתֹב</span> (ketov - escreve!)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כִּתְבוּ</span> (kitvu - escrevei!)</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>2ª fem.</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כִּתְבִי</span> (kitvi - escreve!)</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כְּתֹבְנָה</span> (ketovnah - escrevei!)</td></tr></table><h3>🌟 Imperativos Comuns</h3><ul style='margin-left: 2rem; line-height: 2;'><li><span class='hebrew'>לֵךְ</span> (lekh - vai!)</li><li><span class='hebrew'>בֹּא</span> (bo - vem!)</li><li><span class='hebrew'>שְׁמַע</span> (shema - ouve!)</li><li><span class='hebrew'>זְכֹר</span> (zekhor - lembra!)</li></ul><h2>♾️ Os Infinitivos</h2><h3>Infinitivo Construto</h3><p>Usado com preposições e em construções genitivas:</p><ul style='margin-left: 2rem;'><li><span class='hebrew'>כְּתֹב</span> (ketov - escrever)</li><li><span class='hebrew'>לִכְתֹּב</span> (likhtov - para escrever)</li></ul><h3>Infinitivo Absoluto</h3><p>Usado para ênfase e intensificação:</p><ul style='margin-left: 2rem;'><li><span class='hebrew'>כָּתוֹב</span> (katov - certamente escrever)</li></ul><h2>🔗 A Conjunção כִּי</h2><p>A conjunção <span class='hebrew'>כִּי</span> tem múltiplos usos:</p><ul style='margin-left: 2rem; line-height: 2;'><li><strong>Causal:</strong> \"porque, pois\"</li><li><strong>Temporal:</strong> \"quando\"</li><li><strong>Condicional:</strong> \"se\"</li><li><strong>Enfática:</strong> \"certamente\"</li></ul>"
+    "html": "<div><h2>📢 O Verbo: Qal Imperativo, Infinitivos e כִּי</h2><p>Com os tempos Perfeito e Imperfeito em mãos, vamos agora explorar as outras formas essenciais do binyan Qal: o Imperativo (para dar ordens), os Infinitivos (para expressar a ideia da ação) e a multifuncional conjunção כִּי.</p><h3>1. O Qal Imperativo</h3><p>O <strong>Imperativo</strong> é o modo usado para dar um comando direto, fazer um pedido ou uma exortação. Ele só existe na 2ª pessoa (tu, vós).</p><p><strong>Formação:</strong> As formas do imperativo são muito próximas das formas do Imperfeito da 2ª pessoa, geralmente sem o prefixo <span class='hebrew'>תִּ</span>. Isso torna a memorização mais fácil.</p><h4>Paradigma do Qal Imperativo (Raiz: כ-ת-ב 'escrever')</h4><table style='width: 100%; border-collapse: collapse; margin: 2rem 0;'><tr style='background: var(--color-primary); color: white;'><th style='padding: 1rem; border: 1px solid #ddd;'>Pessoa</th><th style='padding: 1rem; border: 1px solid #ddd;'>Forma</th><th style='padding: 1rem; border: 1px solid #ddd;'>Tradução</th></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>2ª masc. sing.</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כְּתֹב</span> (ketov)</td><td>Escreve!</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>2ª fem. sing.</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כִּתְבִי</span> (kitvi)</td><td>Escreve!</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>2ª masc. pl.</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כִּתְבוּ</span> (kitvu)</td><td>Escrevei!</td></tr><tr><td style='padding: 1rem; border: 1px solid #ddd;'>2ª fem. pl.</td><td style='padding: 1rem; border: 1px solid #ddd;'><span class='hebrew'>כְּתֹבְנָה</span> (ketovnah)</td><td>Escrevei!</td></tr></table><h4>Proibições (Comandos Negativos)</h4><div style='background: #e3f2fd; padding: 1.5rem; border-radius: 8px; margin: 2rem 0; border-left: 4px solid #0056b3;'><p>Para proibir uma ação, o hebraico <strong>não</strong> usa o Imperativo. Em vez disso, usa-se a partícula negativa <strong><span class='hebrew'>אַל</span> (al)</strong> seguida pelo verbo no <strong>Imperfeito (Yiqtol)</strong>.</p><p>Ex: <span class='hebrew'><strong>אַל־תִּירָא</strong></span> (al-tira) - <strong>Não temas!</strong> (de Gênesis 15:1)</p></div><hr><h3>2. Os Infinitivos Qal</h3><p>O infinitivo é uma forma verbal que funciona como um substantivo, expressando a ideia da ação ('correr', 'falar'). O hebraico tem dois tipos.</p><h4>a) Infinitivo Construto</h4><p>Esta é a forma mais comum. Geralmente aparece com uma preposição inseparável prefixada, especialmente <span class='hebrew'>לְ</span> (para), indicando propósito.</p><ul><li>Forma básica: <span class='hebrew'>כְּתֹב</span> (escrever)</li><li>Com preposição: <span class='hebrew'><strong>לִ</strong>כְתֹּב</span> (likhtov) - <strong>para escrever</strong></li></ul><h4>b) Infinitivo Absoluto</h4><p>Esta forma é menos comum e tem uma função principal: <strong>ênfase</strong>. Ele geralmente aparece ao lado de um verbo finito da mesma raiz para intensificar o significado.</p><ul><li>Forma: <span class='hebrew'>כָּתוֹב</span> (escrever)</li><li>Uso enfático: <span class='hebrew'><strong>מוֹת</strong> תָּמוּת</span> (mot tamut) - lit. 'morrendo, morrerás', traduzido como '<strong>certamente morrerás</strong>' (Gênesis 2:17).</li></ul><hr><h3>3. A Conjunção כִּי (ki)</h3><p>Esta é uma das conjunções mais versáteis do hebraico. O contexto é fundamental para determinar sua tradução.</p><ul><li><strong>Causal:</strong> 'porque', 'pois'. Ex: <span class='hebrew'>...כִּי טוֹב</span> ('...porque é bom').</li><li><strong>Declarativa:</strong> 'que'. Introduz uma citação ou um fato. Ex: <span class='hebrew'>וַיַּרְא אֱלֹהִים... כִּי־טוֹב</span> ('E viu Deus... que era bom').</li><li><strong>Temporal:</strong> 'quando'.</li><li><strong>Condicional:</strong> 'se'.</li><li><strong>Enfática:</strong> 'certamente', 'de fato'.</li></ul></div>"
   },
   "flashcards": [
-    {
-      "front": "כְּתֹב",
-      "back": "ketov - escreve! (imperativo masc. sing.)"
-    },
-    {
-      "front": "לֵךְ",
-      "back": "lekh - vai!"
-    },
-    {
-      "front": "בֹּא",
-      "back": "bo - vem!"
-    },
-    {
-      "front": "שְׁמַע",
-      "back": "shema - ouve!"
-    },
-    {
-      "front": "לִכְתֹּב",
-      "back": "likhtov - para escrever (infinitivo construto)"
-    },
-    {
-      "front": "כָּתוֹב",
-      "back": "katov - certamente escrever (infinitivo absoluto)"
-    },
-    {
-      "front": "כִּי",
-      "back": "ki - porque, pois, quando, se"
-    }
+    { "front": "Imperativo", "back": "Modo verbal usado para dar um comando direto (ex: כְּתֹב - escreve!)." },
+    { "front": "אַל + Imperfeito", "back": "A construção para uma proibição ou comando negativo (ex: אַל־תִּירָא - não temas!)." },
+    { "front": "Infinitivo Construto", "back": "A forma verbal 'para fazer algo', geralmente com o prefixo לְ. Ex: לִשְׁמֹר (para guardar)." },
+    { "front": "Infinitivo Absoluto", "back": "Forma verbal usada para dar ênfase a um verbo da mesma raiz. Ex: מוֹת תָּמוּת (certamente morrerás)." },
+    { "front": "כִּי (ki)", "back": "Conjunção multifuncional: porque, que, quando, se, certamente." },
+    { "front": "שְׁמַע", "back": "shema - Ouve! (Qal Imperativo, 2ms de שמע)" },
+    { "front": "לֵךְ", "back": "lekh - Vai! (Qal Imperativo, 2ms de הלך)" },
+    { "front": "כִּי־טוֹב", "back": "ki-tov - porque é bom." }
   ],
   "exercises": [
-    {
-      "question": "O que expressa o modo imperativo?",
-      "options": ["Estados", "Comandos e pedidos", "Ações passadas", "Possibilidades"],
-      "correct": 1,
-      "difficulty": "easy",
-      "explanation": "O imperativo expressa comandos, pedidos ou exortações."
-    },
-    {
-      "question": "Qual é o imperativo masculino singular de 'escrever'?",
-      "options": ["כִּתְבִי", "כְּתֹב", "כִּתְבוּ", "כָּתוֹב"],
-      "correct": 1,
-      "difficulty": "medium",
-      "explanation": "כְּתֹב (ketov) é o imperativo masculino singular de 'escrever'."
-    },
-    {
-      "question": "Qual infinitivo é usado para ênfase?",
-      "options": ["Construto", "Absoluto", "Ambos", "Nenhum"],
-      "correct": 1,
-      "difficulty": "hard",
-      "explanation": "O infinitivo absoluto é usado para ênfase e intensificação."
-    }
+    { "question": "Qual forma verbal é usada para dar um comando direto, como 'fala!'?", "options": ["Imperfeito", "Infinitivo", "Imperativo", "Perfeito"], "correct": 2, "difficulty": "easy", "explanation": "O Imperativo é o modo do comando direto." },
+    { "question": "Como o hebraico forma uma proibição, como 'não matarás'?", "options": ["Com a palavra לֹא + Imperativo", "Com a palavra אַל + Imperfeito", "Com a palavra לֹא + Perfeito", "Com a palavra אַל + Imperativo"], "correct": 1, "difficulty": "medium", "explanation": "Uma proibição direta é formada com a partícula negativa 'אַל' seguida pelo verbo no Imperfeito (Yiqtol)." },
+    { "question": "Na frase 'E Deus disse a Moisés para falar (לְדַבֵּר) aos filhos de Israel...', qual tipo de infinitivo é לְדַבֵּר?", "options": ["Absoluto", "Construto", "Nenhum dos dois", "Ambos"], "correct": 1, "difficulty": "medium", "explanation": "O infinitivo com a preposição לְ (para) prefixada é um Infinitivo Construto, geralmente expressando propósito." },
+    { "question": "O que a repetição da raiz em 'מוֹת תָּמוּת' (morrendo, morrerás) indica?", "options": ["Dúvida", "Possibilidade", "Ênfase (certeza)", "Uma ação no passado"], "correct": 2, "difficulty": "hard", "explanation": "O uso do Infinitivo Absoluto (מוֹת) com o verbo finito (תָּמוּת) é uma construção clássica para intensificar a ação, significando 'certamente morrerás' ou 'com certeza morrerás'." },
+    { "question": "Qual destes NÃO é um significado comum da conjunção כִּי?", "options": ["Porque", "Que", "Mas", "Quando"], "correct": 2, "difficulty": "medium", "explanation": "כִּי é extremamente versátil, mas 'mas' é geralmente traduzido por outras conjunções como אַךְ, אוּלָם, ou o comum וְ/דֶּ." }
   ]
 }
-
