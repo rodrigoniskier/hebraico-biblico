@@ -1,56 +1,22 @@
 {
   "title": "Análise Sintática e Passos Exegéticos",
   "content": {
-    "html": "<h2>🔍 Análise Sintática</h2><p>A <strong>análise sintática</strong> é o processo de identificar e analisar as funções gramaticais das palavras em uma sentença hebraica.</p><h3>🎯 Elementos Sintáticos Básicos:</h3><ul style='margin-left: 2rem; line-height: 2;'><li><strong>Sujeito:</strong> quem realiza a ação</li><li><strong>Predicado:</strong> o que é dito sobre o sujeito</li><li><strong>Objeto direto:</strong> recebe a ação diretamente</li><li><strong>Objeto indireto:</strong> beneficiário da ação</li><li><strong>Complementos:</strong> informações adicionais</li></ul><h3>📊 Ordem das Palavras</h3><p>O hebraico bíblico tem ordem flexível, mas padrões comuns:</p><ul style='margin-left: 2rem; line-height: 2;'><li><strong>Narrativa:</strong> Verbo + Sujeito + Objeto (VSO)</li><li><strong>Poesia:</strong> mais variada, com ênfase estilística</li><li><strong>Ênfase:</strong> elemento enfatizado vem primeiro</li></ul><h2>📖 Passos Exegéticos</h2><p>Metodologia para análise de textos bíblicos em hebraico:</p><h3>1️⃣ Análise Textual</h3><ul style='margin-left: 2rem;'><li>Estabelecer o texto correto</li><li>Identificar variantes textuais</li><li>Delimitar a perícope</li></ul><h3>2️⃣ Análise Gramatical</h3><ul style='margin-left: 2rem;'><li>Identificar formas verbais e seus aspectos</li><li>Analisar substantivos e suas relações</li><li>Examinar partículas e conectivos</li></ul><h3>3️⃣ Análise Lexical</h3><ul style='margin-left: 2rem;'><li>Determinar significados das palavras</li><li>Considerar campos semânticos</li><li>Examinar usos em outros contextos</li></ul><h3>4️⃣ Análise Sintática</h3><ul style='margin-left: 2rem;'><li>Identificar relações entre palavras</li><li>Determinar estrutura das sentenças</li><li>Analisar paralelismos (em poesia)</li></ul><h3>5️⃣ Análise Contextual</h3><ul style='margin-left: 2rem;'><li>Considerar contexto imediato</li><li>Examinar contexto do livro</li><li>Relacionar com contexto bíblico geral</li></ul><h3>🛠️ Ferramentas Exegéticas</h3><ul style='margin-left: 2rem; line-height: 2;'><li><strong>Léxicos:</strong> BDB, HALOT, DCH</li><li><strong>Gramáticas:</strong> GKC, Joüon-Muraoka, Waltke-O'Connor</li><li><strong>Concordâncias:</strong> Even-Shoshan, Lisowsky</li><li><strong>Software:</strong> Logos, Accordance, BibleWorks</li></ul><h3>📝 Exemplo Prático</h3><div style='background: #f8f9fa; padding: 1.5rem; border-radius: 8px; margin: 1.5rem 0; border-left: 4px solid #28a745;'><p style='direction: rtl; font-size: 1.2rem; margin-bottom: 1rem;'><span class='hebrew'>בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ</span></p><p><strong>Análise:</strong></p><ul style='margin-left: 2rem;'><li><strong>בְּרֵאשִׁית:</strong> preposição + substantivo (temporal)</li><li><strong>בָּרָא:</strong> Qal Perfeito 3ms de ברא</li><li><strong>אֱלֹהִים:</strong> sujeito (substantivo masculino plural)</li><li><strong>אֵת:</strong> marcador de objeto direto</li><li><strong>הַשָּׁמַיִם וְאֵת הָאָרֶץ:</strong> objetos diretos coordenados</li></ul><p><strong>Tradução:</strong> \"No princípio, Deus criou os céus e a terra.\"</p></div><div style='background: #e3f2fd; padding: 1.5rem; border-radius: 8px; margin: 2rem 0; border-left: 4px solid #0056b3;'><h4 style='color: #0056b3; margin-bottom: 1rem;'>🎓 Conclusão do Curso</h4><p>Parabéns! Você completou o curso de Gramática Introdutória ao Hebraico Bíblico. Agora possui as ferramentas fundamentais para ler e analisar textos do Antigo Testamento em sua língua original. Continue praticando e aprofundando seus conhecimentos através da leitura regular e do uso de recursos exegéticos.</p></div>"
+    "html": "<div><h2>🔍 Análise Sintática e Passos Exegéticos: Juntando as Peças</h2><p>Parabéns! Você chegou ao módulo final deste curso. Você aprendeu o alfabeto, os substantivos, os adjetivos e o complexo sistema verbal do Hebraico Bíblico. Agora, vamos aprender a usar esse conhecimento para o nosso objetivo principal: ler e entender o Antigo Testamento em sua língua original.</p><h3>1. Sintaxe Hebraica: A Ordem e a Lógica das Frases</h3><p>A sintaxe é o estudo de como as palavras se relacionam em uma frase. No hebraico, a ordem das palavras é mais flexível que no português, mas segue um padrão dominante.</p><ul><li><strong>Ordem Padrão (VSO):</strong> Em prosa narrativa, a ordem mais comum é <strong>Verbo - Sujeito - Objeto</strong>. Isso é diferente do nosso padrão Sujeito-Verbo-Objeto (SVO). Ex: <span class='hebrew'>בָּרָא אֱלֹהִים אֶת־הַשָּׁמַיִם</span> (Criou Deus os céus).</li><li><strong>Ênfase:</strong> Qualquer desvio da ordem VSO geralmente serve para dar <strong>ênfase</strong>. Se um autor coloca o sujeito antes do verbo (SVO), ele está enfatizando o sujeito. Ex: <span class='hebrew'>אַבְרָהָם הוֹלִיד אֶת־יִצְחָק</span> (Abraão gerou Isaque - ênfase em Abraão como o agente).</li><li><strong>A Partícula do Objeto Direto:</strong> Lembre-se da partícula <strong><span class='hebrew'>אֵת</span></strong>. Ela é um marcador sintático crucial que nos diz 'atenção, o que vem a seguir é o objeto direto e definido do verbo'.</li></ul><h3>2. Passos Exegéticos: Da Gramática ao Significado</h3><p>Exegese é o processo de extrair o significado de um texto. Uma boa exegese está fundamentada em uma boa gramática. Ao analisar um texto, comece a se fazer perguntas baseadas no que aprendeu:</p><ol><li><strong>Análise do Verbo:</strong><ul><li>Qual é o <strong>binyan</strong>? A ação é simples (Qal), passiva (Niphal), intensiva (Piel), causativa (Hiphil) ou reflexiva (Hithpael)? A escolha do binyan é uma decisão teológica do autor.</li><li>Qual é o <strong>aspecto/tempo</strong>? É uma ação completa (Perfeito)? Ou faz parte de uma sequência narrativa (Vav Consecutivo + Imperfeito)? A escolha do tempo molda o fluxo da história.</li></ul></li><li><strong>Análise do Substantivo e das Relações:</strong><ul><li>A relação entre dois substantivos é de <strong>estado construto</strong>? Isso cria uma ligação muito mais íntima do que a nossa preposição 'de'. Ex: <span class='hebrew'>דְּבַר־יְהוָה</span> é mais do que 'a palavra de YHWH', é 'a palavra-YHWH', uma unidade.</li><li>O substantivo tem <strong>artigo definido</strong>? A presença ou ausência do artigo é sempre significativa.</li></ul></li><li><strong>Análise das Conexões:</strong><ul><li>Como as orações estão conectadas? Com um simples 'e' (<span class='hebrew'>וְ</span>)? Com um 'pois/porque' causal (<span class='hebrew'>כִּי</span>)? Com um 'portanto' conclusivo (<span class='hebrew'>לָכֵן</span>)?</li></ul></li></ol><h3>3. Estudo de Caso Prático: Gênesis 1:1</h3><p>Vamos aplicar esses passos ao primeiro versículo da Bíblia.</p><p style='direction: rtl; font-size: 1.5rem; margin-bottom: 1rem; text-align: center;'><span class='hebrew'>בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ</span></p><ul><li><strong><span class='hebrew'>בְּרֵאשִׁית</span></strong>: Preposição <span class='hebrew'>בְּ</span> ('em') + substantivo <span class='hebrew'>רֵאשִׁית</span> ('princípio'). Define o cenário temporal.</li><li><strong><span class='hebrew'>בָּרָא</span></strong>: Verbo. É um Qal Perfeito, 3ª masc. sing. A escolha do Perfeito apresenta a criação como um evento completo e total do ponto de vista do narrador.</li><li><strong><span class='hebrew'>אֱלֹהִים</span></strong>: Substantivo. É o sujeito do verbo. Está no caso nominativo. A forma é plural, mas o verbo <span class='hebrew'>בָּרָא</span> está no singular, um fenômeno comum que aponta para a majestade e a unidade do Deus de Israel.</li><li><strong><span class='hebrew'>אֵת</span></strong>: Marcador de objeto direto definido. Alerta-nos para o que foi criado.</li><li><strong><span class='hebrew'>הַשָּׁמַיִם וְאֵת הָאָרֶץ</span></strong>: Os objetos diretos. Ambos são definidos pelo artigo <span class='hebrew'>הַ</span>.</li></ul><p><strong>Observação Exegética:</strong> A ordem VSO é quebrada (a frase começa com um advérbio de tempo) para estabelecer o cenário. O uso do Qal Perfeito apresenta a criação como um fato consumado e soberano. A gramática de <span class='hebrew'>אֱלֹהִים</span> (sujeito plural com verbo singular) é teologicamente rica, sendo usada ao longo de todo o Antigo Testamento.</p><div style='background: #e3f2fd; padding: 1.5rem; border-radius: 8px; margin: 2rem 0; border-left: 4px solid #0056b3;'><h4 style='color: #0056b3; margin-bottom: 1rem;'>🎓 Conclusão do Curso</h4><p>Parabéns! Você chegou ao fim da sua jornada introdutória. Você agora possui as ferramentas gramaticais fundamentais para começar a ler o Antigo Testamento em sua língua original com mais profundidade e confiança. A gramática é um caminho, não um destino. Que este seja o início de um longo e frutífero estudo da Palavra de Deus.</p></div></div>"
   },
   "flashcards": [
-    {
-      "front": "בְּרֵאשִׁית",
-      "back": "bereshit - no princípio"
-    },
-    {
-      "front": "בָּרָא",
-      "back": "bara - criou (Qal Perfeito 3ms)"
-    },
-    {
-      "front": "אֱלֹהִים",
-      "back": "elohim - Deus"
-    },
-    {
-      "front": "הַשָּׁמַיִם",
-      "back": "hashamayim - os céus"
-    },
-    {
-      "front": "הָאָרֶץ",
-      "back": "ha'arets - a terra"
-    },
-    {
-      "front": "אֵת",
-      "back": "et - marcador de objeto direto"
-    }
+    { "front": "Sintaxe", "back": "O estudo de como as palavras se relacionam em uma frase." },
+    { "front": "Exegese", "back": "O processo de extrair o significado de um texto com base em sua gramática e contexto." },
+    { "front": "Ordem VSO", "back": "Verbo-Sujeito-Objeto: a ordem de palavras padrão da prosa narrativa hebraica." },
+    { "front": "Ênfase", "back": "O principal motivo para alterar a ordem padrão das palavras em hebraico." },
+    { "front": "Partícula אֵת", "back": "Marca um objeto direto DEFINIDO." },
+    { "front": "Estado Construto", "back": "Uma relação genitiva (de posse/qualidade) íntima entre dois substantivos." },
+    { "front": "בָּרָא (bara)", "back": "Ele criou (Qal Perfeito 3ms)" },
+    { "front": "בְּרֵאשִׁית (bereshit)", "back": "No princípio" }
   ],
   "exercises": [
-    {
-      "question": "Qual é a ordem típica das palavras na narrativa hebraica?",
-      "options": ["SVO", "VSO", "SOV", "OVS"],
-      "correct": 1,
-      "difficulty": "medium",
-      "explanation": "A narrativa hebraica tipicamente segue a ordem Verbo + Sujeito + Objeto (VSO)."
-    },
-    {
-      "question": "O que é a partícula אֵת?",
-      "options": ["Preposição", "Conjunção", "Marcador de objeto direto", "Artigo"],
-      "correct": 2,
-      "difficulty": "medium",
-      "explanation": "אֵת é o marcador de objeto direto definido em hebraico."
-    },
-    {
-      "question": "Qual é o primeiro passo na análise exegética?",
-      "options": ["Análise gramatical", "Análise textual", "Análise contextual", "Análise lexical"],
-      "correct": 1,
-      "difficulty": "hard",
-      "explanation": "A análise textual é o primeiro passo, estabelecendo o texto correto antes de proceder com outras análises."
-    }
+    { "question": "Qual é a ordem de palavras mais comum em uma narrativa simples em Hebraico Bíblico?", "options": ["Sujeito-Verbo-Objeto (SVO)", "Verbo-Sujeito-Objeto (VSO)", "Sujeito-Objeto-Verbo (SOV)", "A ordem é totalmente aleatória"], "correct": 1, "difficulty": "easy", "explanation": "A ordem padrão para prosa narrativa é Verbo - Sujeito - Objeto (VSO)." },
+    { "question": "Se um autor hebraico escreve 'O REI construiu a casa' (em vez de 'Construiu o rei a casa'), qual é a sua provável intenção?", "options": ["Não há intenção especial", "Enfatizar 'a casa'", "Enfatizar 'o rei' como o construtor", "Indicar uma pergunta"], "correct": 2, "difficulty": "medium", "explanation": "Colocar o sujeito no início da frase, quebrando o padrão VSO, serve para dar ênfase especial àquele sujeito." },
+    { "question": "Para que serve a partícula אֵת?", "options": ["Para indicar o sujeito", "Para indicar um objeto direto definido", "Para indicar um objeto indireto", "Para conectar duas frases"], "correct": 1, "difficulty": "easy", "explanation": "אֵת é um marcador sintático que precede um objeto direto que é definido (geralmente por ter o artigo 'o/a' ou ser um nome próprio)." },
+    { "question": "Ao fazer uma exegese, por que é importante analisar o 'binyan' de um verbo?", "options": ["Para saber o gênero do verbo", "Para entender o tipo de ação (simples, intensiva, causativa, etc.)", "Para saber a ordem das palavras", "Apenas para verbos fracos"], "correct": 1, "difficulty": "hard", "explanation": "A escolha do binyan pelo autor é uma decisão deliberada que afeta profundamente o significado da ação, e analisá-lo é um passo exegético crucial." }
   ]
 }
-
