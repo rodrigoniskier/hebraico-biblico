@@ -58,7 +58,7 @@ function renderSteps(){
   const scanTable=scans.length?`<div class="table-wrap"><table class="scan-table"><thead><tr><th>v.</th><th>cólons</th><th>unidades</th><th>núcleos vocálicos</th><th>padrão</th></tr></thead><tbody>${scans.map(s=>`<tr><td>${s.verse}</td><td class="rtl">${s.cola.map(stripMarks).join(" // ")}</td><td>${s.counts.join(" + ")}</td><td>${s.syllables.join(" + ")}</td><td class="pattern">${s.pattern}</td></tr>`).join("")}</tbody></table></div>`:`<p class="error">A escansão automática só aparece quando o TM é carregado.</p>`;
   const contents=[
     {t:"Estabeleça o texto",s:"TM, variantes e disciplina textual",ev:evidence("revisão de aparato","ev-review"),html:`<p><b>Texto-base:</b> Texto Massorético carregado do Sefaria quando disponível. O método exige comparar BHS/BHQ, Qumran e versões antigas quando houver variante relevante. <b>Nenhuma emenda é aceita só para “fechar” uma contagem.</b></p><p class="small">A ferramenta não inventa notas de aparato: onde uma variante não foi cadastrada, ela sinaliza a necessidade de consulta crítica.</p>${p.n===145?'<p><b>Nota conhecida:</b> o acróstico do Salmo 145 tem a questão do verso de nûn ausente no TM, com apoio em 11QPsᵃ, LXX e Peshitta; conferir o aparato antes de decidir.</p>':''}`},
-    {t:"Leia em voz alta três vezes",s:"o ouvido precede a grade",ev:evidence("interativo","ev-calc"),html:`<p>Use o botão <b>“ler 3×”</b>. Quando o navegador dispõe de voz hebraica, ele vocaliza o texto; caso contrário, o contador ainda funciona como roteiro para acompanhar uma gravação externa.</p><p>Escute especialmente: comprimento comparável das linhas, pausas, retomadas, sons repetidos e mudanças de fôlego.</p>`},
+    {t:"Leia em voz alta três vezes",s:"o ouvido precede a grade",ev:evidence("cantilação externa","ev-source"),html:`<p>Use o botão <b>“Ouvir cantilação no YouTube”</b>. Ele abre uma busca específica para o Salmo atual usando os termos <i>Tehillim</i>, <i>cantillation</i>, <i>Ta'amei Emet</i> e <span dir="rtl">טעמי המקרא</span>, em vez de empregar uma voz sintética do navegador.</p><p>Acompanhe a gravação com o Texto Massorético e ouça especialmente as pausas, retomadas, relações entre os cólons, sons repetidos e mudanças de fôlego. A gravação é um auxílio auditivo; a análise continua ancorada nos acentos do texto.</p>`},
     {t:"Delimite os cólons pelos acentos",s:"sillûq, ʿoleh we-yôrēd, ʾatnāḥ e disjuntivos",ev:evidence(scans.length?"calculado":"aguarda TM",scans.length?"ev-calc":"ev-review"),html:`<p>A proposta automática aparece sob cada versículo. Ela prioriza <b>ʾatnāḥ</b> e consulta disjuntivos poéticos para versos longos. O sôf pāsûq fecha o versículo.</p><p class="small">É uma primeira hipótese, não um oráculo: o passo seguinte pode confirmar ou corrigir a divisão.</p>`},
     {t:"Confirme pela sintaxe e pelo paralelismo",s:"coesão antes da contagem",ev:evidence("revisão humana","ev-review"),html:`<p>Teste cada fronteira: o cólon preserva um sintagma coeso? A divisão massorética coincide com a relação A // B? Se divergir, <b>registre a divergência e justifique</b> em vez de escondê-la.</p><p>Na oficina pessoal, anote as decisões que você alteraria na colometria automática.</p>`},
     {t:"Escanda",s:"acentos/unidades, sílabas e palavras",ev:evidence(scans.length?"calculado":"aguarda TM",scans.length?"ev-calc":"ev-review"),html:`${scanTable}<p><b>Padrão dominante nesta leitura:</b> <span class="pattern">${dom}</span>. A ferramenta trata o padrão como descrição estatística, nunca como metro gerador rígido.</p>`},
@@ -86,7 +86,7 @@ function renderHomiletic(){
   $("homiletic").innerHTML=`<div class="thesis"><b>Ideia central:</b> ${s.idea}</div>${s.movements.map(m=>`<div class="movement"><b>${m.title}</b><span>${m.range}</span></div>`).join("")}<div class="movement pivot"><b>Clímax</b><span>${s.climax}</span></div><div class="movement"><b>Conclusão evangélica</b><span>${s.gospel}</span></div>`;
 }
 function selectPsalm(n){
-  current=Math.min(150,Math.max(1,n));currentVerses=[];speechCount=0;
+  current=Math.min(150,Math.max(1,n));currentVerses=[];
   history.replaceState(null,"",`#salmo-${current}`);
   renderHeader();renderList();loadWorkshop();loadHebrew(current);
   window.scrollTo({top:0,behavior:"smooth"});
@@ -103,17 +103,18 @@ function loadWorkshop(){
 function updateProgress(){
   const n=["done1","done2","done3"].filter(id=>$(id).checked).length;$("progressBar").style.width=`${n/3*100}%`;
 }
-function speakHebrew(){
-  speechCount=(speechCount%3)+1;
-  $("readBtn").textContent=`▶ leitura ${speechCount}/3`;
-  if(!currentVerses.length || !("speechSynthesis" in window)) return;
-  speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(currentVerses.map(stripMarks).join(" "));
-  u.lang="he-IL";u.rate=.82;speechSynthesis.speak(u);
+function cantillationUrl(n){
+  const query=`תהילים ${n} טעמי המקרא Tehillim ${n} cantillation Ta'amei Emet`;
+  return `https://www.youtube.com/results?search_query=${encodeURIComponent(query)}`;
+}
+function openCantillation(){
+  window.open(cantillationUrl(current),"_blank","noopener,noreferrer");
 }
 function init(){
   fillGenreFilter();
   ["search","bookFilter","genreFilter"].forEach(id=>$(id).addEventListener(id==="search"?"input":"change",renderList));
-  $("prevBtn").onclick=()=>selectPsalm(current-1);$("nextBtn").onclick=()=>selectPsalm(current+1);$("readBtn").onclick=speakHebrew;
+  $("prevBtn").onclick=()=>selectPsalm(current-1);$("nextBtn").onclick=()=>selectPsalm(current+1);
+  $("readBtn").textContent="▶ Ouvir cantilação no YouTube";$("readBtn").title="Abrir cantilação do Salmo atual no YouTube";$("readBtn").onclick=openCantillation;
   $("openSide").onclick=()=>$("side").classList.toggle("open");
   $("notes").addEventListener("input",saveWorkshop);["done1","done2","done3"].forEach(id=>$(id).addEventListener("change",saveWorkshop));
   const h=location.hash.match(/salmo-(\d+)/);selectPsalm(h?+h[1]:1);
