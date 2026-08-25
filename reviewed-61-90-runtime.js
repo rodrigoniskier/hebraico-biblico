@@ -37,3 +37,13 @@
 
   if(typeof current==="number" && typeof selectPsalm==="function") selectPsalm(current);
 })();
+
+// Quarta etapa: carrega 91–118 do mesmo diretório/CDN antes de executar o runtime da faixa.
+(function loadReviewed91to118(){
+  if(window.MANUAL_ANALYSES?.["91"] || typeof document==="undefined") return;
+  const src=document.currentScript?.src||"";
+  const base=src?src.slice(0,src.lastIndexOf("/")+1):"/";
+  const files=["analysis-91-100.js","analysis-101-110.js","analysis-111-118.js","reviewed-91-118-runtime.js"];
+  if(typeof document.write!=="function") throw new Error("Não foi possível carregar a camada revisada dos Salmos 91–118.");
+  document.write(files.map(file=>`<script src="${base}${file}"><\/script>`).join(""));
+})();
