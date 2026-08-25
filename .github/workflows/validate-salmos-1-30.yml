@@ -27,3 +27,10 @@ jobs:
 
       - name: Smoke test interface
         run: node scripts/smoke-salmos-ui.cjs
+
+      - name: Validate production bootstrap
+        run: |
+          node --check runtime-guard.js
+          grep -q "cdn.jsdelivr.net/gh/rodrigoniskier/hebraico-biblico" index.html
+          grep -q "runtime-guard.js" index.html
+          grep -q "71ad310a4db96bb80d18615d28d855a443ec52a3" index.html
