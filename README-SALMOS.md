@@ -4,9 +4,9 @@ Página web interativa para estudar os 150 Salmos a partir do protocolo poético
 
 ## Estado atual
 
-### Salmos 1–30 — revisão completa
+### Salmos 1–60 — revisão completa
 
-Os Salmos 1–30 possuem uma camada editorial própria, revisada individualmente. Cada Salmo contém:
+Os Salmos 1–60 possuem uma camada editorial própria, revisada individualmente. Cada Salmo contém:
 
 - exatamente os 12 passos do método;
 - explicações em linguagem mais simples, mantendo o termo técnico como referência secundária;
@@ -19,9 +19,11 @@ Os Salmos 1–30 possuem uma camada editorial própria, revisada individualmente
 - acesso ao Texto Massorético e à cantilação hebraica;
 - atalhos para a ARA em fonte licenciada, inclusive por versículo.
 
-### Salmos 31–150 — fase preliminar
+Os Salmos 46 e 51 incorporam de modo especial as oficinas correspondentes de **A Medida do Louvor**. Nos Salmos com sobrescrições massoréticas mais extensas, o motor aceita múltiplas linhas de título antes do primeiro versículo correspondente na ARA.
 
-A navegação e a análise automática continuam disponíveis, mas a interface os identifica explicitamente como **análise preliminar**. Eles só receberão o selo de revisão quando passarem pelo mesmo processo manual aplicado aos Salmos 1–30.
+### Salmos 61–150 — fase preliminar
+
+A navegação e a análise automática continuam disponíveis, mas a interface os identifica explicitamente como **análise preliminar**. Eles só receberão o selo de revisão quando passarem pelo mesmo processo manual aplicado aos Salmos 1–60.
 
 ## Hermenêutica adotada
 
@@ -41,7 +43,7 @@ As contagens rítmicas são descritivas. Uma diferença de tamanho só recebe pe
 
 A **Almeida Revista e Atualizada (ARA)** é uma tradução protegida por direitos autorais. Para preservar a integridade jurídica do projeto, o texto integral não é copiado para o repositório. A interface oferece links para uma fonte licenciada da ARA no nível do Salmo e, nos Salmos revisados, também no nível de cada versículo.
 
-Quando uma sobrescrição faz parte da numeração do Texto Massorético, mas não corresponde ao mesmo número de versículo na ARA, a interface a identifica separadamente como **sobrescrição**, evitando deslocamento entre as duas numerações.
+Quando uma ou mais linhas de sobrescrição fazem parte da numeração do Texto Massorético, mas não correspondem à numeração da ARA, a interface as identifica separadamente como **sobrescrição**, evitando deslocamento entre as duas numerações. A etapa 31–60 passou a testar explicitamente casos com duas linhas de título, incluindo os Salmos 51, 52, 54 e 60.
 
 ## Arquitetura
 
@@ -49,33 +51,37 @@ Quando uma sobrescrição faz parte da numeração do Texto Massorético, mas n�
 - `data-1.js` a `data-5.js` — metadados dos 150 Salmos;
 - `context.js` — gêneros, conexões e dados auxiliares;
 - `core.js` — funções estruturais e cálculos descritivos;
-- `analysis-01-10.js` — análises manuais dos Salmos 1–10;
-- `analysis-11-20.js` — análises manuais dos Salmos 11–20;
-- `analysis-21-30.js` — análises manuais dos Salmos 21–30;
+- `analysis-01-10.js`, `analysis-11-20.js`, `analysis-21-30.js` — análises manuais dos Salmos 1–30;
+- `analysis-factory.js` — estrutura comum da segunda etapa de revisão;
+- `analysis-31-40.js`, `analysis-41-50.js`, `analysis-51-60.js` — análises manuais dos Salmos 31–60;
 - `manual-render.js` — apresentação da camada revisada;
 - `render.js` — navegação, carregamento do hebraico e fallback preliminar;
-- `api/psalm.js` — função serverless para recuperar o texto hebraico;
-- `scripts/validate-salmos-1-30.cjs` — gate de integridade editorial/estrutural;
+- `reviewed-31-60-runtime.js` — integração da segunda etapa e suporte a múltiplas sobrescrições;
+- `runtime-guard.js` — diagnóstico visível e fallback do Texto Massorético em produção;
+- `api/psalm.js` — função serverless para recuperar o texto hebraico quando disponível;
+- `scripts/validate-salmos-1-30.cjs` — gate editorial/estrutural atualmente ampliado para 1–60;
+- `scripts/validate-html-modules.cjs` — garante que o navegador carregue todos os módulos que a CI testa;
 - `scripts/smoke-salmos-ui.cjs` — teste de inicialização e integração da interface;
-- `.github/workflows/validate-salmos-1-30.yml` — CI automática;
+- `.github/workflows/validate-salmos-1-30.yml` — CI automática, atualmente denominada “Validate Psalms 1-60”;
 - `vercel.json` — configuração de publicação.
 
 ## Gate de integridade
 
 A CI reprova a revisão caso, entre outros problemas:
 
-- algum dos Salmos 1–30 esteja ausente;
+- algum dos Salmos 1–60 esteja ausente;
 - não haja exatamente 12 passos em ordem;
 - faltem fontes, teologia ou campos homiléticos essenciais;
 - a relação canônica/cristológica esteja ausente do passo 12;
 - a regra de sobrescrição e numeração hebraico/ARA seja quebrada;
-- a ordem de carregamento dos módulos seja alterada incorretamente;
+- `salmos.html` deixe de carregar algum módulo revisado ou altere a ordem exigida;
 - a antiga vocalização sintética reapareça;
-- os arquivos JavaScript deixem de compilar ou `vercel.json` fique inválido.
+- os arquivos JavaScript deixem de compilar ou `vercel.json` fique inválido;
+- o bootstrap de produção deixe de apontar para o bundle imutável validado.
 
-O smoke test também inicializa a aplicação em ambiente simulado e verifica Salmos 1, 23 e 30, além de confirmar que o Salmo 31 permanece marcado como preliminar.
+O smoke test abre Salmos 1, 23, 31, 46, 51, 60 e 61. Ele verifica a camada revisada, o conteúdo específico da oficina do Salmo 46, as duas sobrescrições e a numeração ARA dos Salmos 51 e 60 e confirma que o Salmo 61 permanece preliminar.
 
-## Branch de trabalho
+## Branches
 
-Revisão atual: `salmos-1-30-revisao`  
-Base estrutural: `salmos-estruturais`
+Etapa 31–60 concluída em: `salmos-31-60-revisao`  
+Base estrutural consolidada: `salmos-estruturais`
