@@ -1,0 +1,29 @@
+name: Validate Psalms 1-30
+
+on:
+  push:
+    branches: [salmos-1-30-revisao]
+  pull_request:
+    branches: [salmos-estruturais]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Validate reviewed Psalms
+        run: node scripts/validate-salmos-1-30.cjs
+
+      - name: Smoke test interface
+        run: node scripts/smoke-salmos-ui.cjs
