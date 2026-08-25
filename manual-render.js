@@ -6,9 +6,14 @@ function araVerseUrl(n,v){return `https://www.bible.com/pt/bible/1608/PSA.${n}.$
 function simpleEsc(s){return String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]))}
 function manualList(items){return items?.length?`<ul>${items.map(x=>`<li>${simpleEsc(x)}</li>`).join("")}</ul>`:""}
 function manualSources(a){return a.sources?.length?`<div class="source-note"><b>Base usada nesta revisão:</b> ${a.sources.map(simpleEsc).join(" · ")}</div>`:""}
+function analysisTitleVerseCount(a){
+  if(Number.isInteger(a?.titleVerses)) return Math.max(0,a.titleVerses);
+  return a?.titleVerse?1:0;
+}
 function manualVerseLabel(a,index){
-  if(a?.titleVerse && index===0) return "título";
-  return String(a?.titleVerse?index:index+1);
+  const offset=analysisTitleVerseCount(a);
+  if(index<offset) return offset===1?"título":`título ${index+1}`;
+  return String(index-offset+1);
 }
 function manualScanTable(scans,a){
   if(!scans.length) return `<p class="error">A tabela de linhas aparece quando o Texto Massorético é carregado.</p>`;
