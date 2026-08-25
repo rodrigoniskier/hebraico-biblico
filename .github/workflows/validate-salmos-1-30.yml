@@ -24,3 +24,6 @@ jobs:
 
       - name: Validate reviewed Psalms
         run: node scripts/validate-salmos-1-30.cjs
+
+      - name: Smoke test interface
+        run: node scripts/smoke-salmos-ui.cjs
