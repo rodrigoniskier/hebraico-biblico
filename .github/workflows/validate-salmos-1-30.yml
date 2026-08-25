@@ -2,7 +2,7 @@ name: Validate Psalms 1-30
 
 on:
   push:
-    branches: [salmos-1-30-revisao]
+    branches: [salmos-1-30-revisao, salmos-estruturais]
   pull_request:
     branches: [salmos-estruturais]
 
