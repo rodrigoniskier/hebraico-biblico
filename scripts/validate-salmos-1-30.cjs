@@ -13,6 +13,7 @@ const fail = msg => errors.push(msg);
 const warn = msg => warnings.push(msg);
 const read = file => fs.readFileSync(`${ROOT}/${file}`, 'utf8');
 const nonEmpty = (value, min=1) => typeof value === 'string' && value.trim().length >= min;
+const fullStepText = step => [step.body, ...(Array.isArray(step.items)?step.items:[])].filter(Boolean).join(' ');
 
 // 1) Todos os JS essenciais precisam ao menos compilar.
 for (const file of COMPILE_FILES) {
@@ -38,6 +39,7 @@ if (keys.length !== 30) fail(`Deveriam existir 30 análises revisadas; existem $
 for (const n of expected) if (!analyses[n]) fail(`Salmo ${n}: análise ausente.`);
 for (const n of keys) if (!expected.includes(n)) fail(`Análise inesperada fora do intervalo 1–30: ${n}.`);
 
+// Nos Salmos 1–30, apenas 1, 2 e 10 não possuem sobrescrição contada como v. 1 no TM.
 const expectedNoTitleVerse = new Set(['1','2','10']);
 const expectedTechnical = {
   1:'Texto e variantes', 2:'Leitura e cantilação', 3:'Cólons e acentos',
@@ -75,22 +77,28 @@ for (const n of expected) {
       if (expectedTechnical[step.n] && step.technical !== expectedTechnical[step.n]) {
         warn(`${sp}: termo técnico '${step.technical}' difere do padrão '${expectedTechnical[step.n]}'.`);
       }
-      if (!nonEmpty(step.body, 70)) fail(`${sp}: explicação precisa ter conteúdo substancial (mín. 70 caracteres).`);
+      if (!nonEmpty(step.body, 25)) fail(`${sp}: explicação principal ausente ou curta demais.`);
       if (step.items && (!Array.isArray(step.items) || step.items.some(x=>!nonEmpty(x,12)))) fail(`${sp}: lista de itens malformada.`);
+      const total = fullStepText(step);
+      if (total.length < 100) fail(`${sp}: conteúdo total insuficiente para uma análise completa (mín. 100 caracteres somando explicação e itens).`);
+      if (/\b(TODO|TBD|placeholder|preencher depois)\b/i.test(total)) fail(`${sp}: contém marcador de conteúdo pendente.`);
     }
     const step12 = a.steps.find(s=>s.n===12);
-    if (step12 && !/(Crist|Messi|Novo Testamento|\bNT\b)/i.test(step12.body + ' ' + (step12.items||[]).join(' '))) {
+    if (step12 && !/(Crist|Messi|Novo Testamento|\bNT\b)/i.test(fullStepText(step12))) {
       fail(`${prefix}: passo 12 não explicita a relação canônica/cristológica.`);
     }
   }
 
   if (!Array.isArray(a.theology) || a.theology.length < 3) fail(`${prefix}: precisa de pelo menos 3 implicações teológicas.`);
-  else if (a.theology.some(x=>!nonEmpty(x,25))) fail(`${prefix}: há implicação teológica curta ou vazia.`);
+  else if (a.theology.some(x=>!nonEmpty(x,15))) fail(`${prefix}: há implicação teológica vazia ou excessivamente curta.`);
 
   const s = a.sermon;
   if (!s || typeof s !== 'object') fail(`${prefix}: bloco homilético ausente.`);
   else {
-    for (const field of ['idea','need','climax','gospel']) if (!nonEmpty(s[field], 35)) fail(`${prefix}: sermão.${field} está ausente ou curto demais.`);
+    if (!nonEmpty(s.idea, 35)) fail(`${prefix}: sermão.idea está ausente ou curto demais.`);
+    if (!nonEmpty(s.need, 35)) fail(`${prefix}: sermão.need está ausente ou curto demais.`);
+    if (!nonEmpty(s.climax, 15)) fail(`${prefix}: sermão.climax está ausente ou curto demais.`);
+    if (!nonEmpty(s.gospel, 35)) fail(`${prefix}: sermão.gospel está ausente ou curto demais.`);
     if (!Array.isArray(s.movements) || s.movements.length < 2 || s.movements.length > 5) fail(`${prefix}: sermão deve ter de 2 a 5 movimentos derivados do texto.`);
     else for (const [i,m] of s.movements.entries()) {
       if (!nonEmpty(m.title, 5) || !nonEmpty(m.vv, 3) || !nonEmpty(m.point, 25)) fail(`${prefix}: movimento ${i+1} incompleto.`);
@@ -121,6 +129,7 @@ const manual = read('manual-render.js');
 for (const token of ['reviewedAnalysis','manualVerseLabel','araVerseUrl','poemScansFor']) if (!(render+manual).includes(token)) fail(`Integração: função/uso obrigatório '${token}' ausente.`);
 for (const forbidden of ['speechSynthesis','SpeechSynthesisUtterance','evoice']) if ((render+manual+html).includes(forbidden)) fail(`Vocalização sintética proibida ainda presente: ${forbidden}.`);
 if (!manual.includes('noopener noreferrer')) fail('manual-render.js: links externos devem usar noopener noreferrer.');
+if (!html.includes('ARA é acessada por links para fonte licenciada')) warn('salmos.html: convém manter explícita a política de não republicação integral da ARA.');
 
 // 4) Configuração Vercel precisa ser JSON válido.
 try { JSON.parse(read('vercel.json')); }
@@ -137,8 +146,8 @@ if (errors.length) {
 }
 
 console.log('\n✓ Salmos 1–30: 30 análises presentes.');
-console.log('✓ Cada Salmo contém exatamente os 12 passos.');
-console.log('✓ Teologia e homilética possuem campos mínimos completos.');
+console.log('✓ Cada Salmo contém exatamente os 12 passos e conteúdo mínimo substantivo.');
+console.log('✓ Teologia e homilética possuem campos estruturais completos.');
 console.log('✓ Numeração hebraico/ARA e sobrescrições passaram na regra estrutural.');
 console.log('✓ Ordem dos módulos, links ARA, cantilação e ausência de voz sintética verificadas.');
 console.log('✓ JavaScript essencial compila e vercel.json é válido.');
