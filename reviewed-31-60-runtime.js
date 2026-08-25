@@ -33,3 +33,15 @@
 
   if(typeof current==="number" && typeof selectPsalm==="function") selectPsalm(current);
 })();
+
+// O HTML validado das etapas anteriores termina neste módulo. Para preservar esse arquivo
+// sem uma reescrita extensa, a terceira etapa é anexada sincronicamente a partir do mesmo
+// diretório/CDN do script atual. O gate de CI confere esta lista e a mesma ordem do smoke test.
+(function loadReviewed61to90(){
+  if(window.MANUAL_ANALYSES?.["61"] || typeof document==="undefined") return;
+  const src=document.currentScript?.src||"";
+  const base=src?src.slice(0,src.lastIndexOf("/")+1):"/";
+  const files=["analysis-61-70.js","analysis-71-80.js","analysis-81-90.js","reviewed-61-90-runtime.js"];
+  if(typeof document.write!=="function") throw new Error("Não foi possível carregar a camada revisada dos Salmos 61–90.");
+  document.write(files.map(file=>`<script src="${base}${file}"><\/script>`).join(""));
+})();
