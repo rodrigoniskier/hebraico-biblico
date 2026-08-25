@@ -15,13 +15,11 @@ const read = file => fs.readFileSync(`${ROOT}/${file}`, 'utf8');
 const nonEmpty = (value, min=1) => typeof value === 'string' && value.trim().length >= min;
 const fullStepText = step => [step.body, ...(Array.isArray(step.items)?step.items:[])].filter(Boolean).join(' ');
 
-// 1) Todos os JS essenciais precisam ao menos compilar.
 for (const file of COMPILE_FILES) {
   try { new Function(read(file)); }
   catch (err) { fail(`${file}: erro de sintaxe: ${err.message}`); }
 }
 
-// 2) Carrega apenas os módulos de dados em um contexto isolado.
 const sandbox = { window: {} };
 vm.createContext(sandbox);
 for (const file of ['data-1.js', ...ANALYSIS_FILES]) {
@@ -39,7 +37,6 @@ if (keys.length !== 30) fail(`Deveriam existir 30 análises revisadas; existem $
 for (const n of expected) if (!analyses[n]) fail(`Salmo ${n}: análise ausente.`);
 for (const n of keys) if (!expected.includes(n)) fail(`Análise inesperada fora do intervalo 1–30: ${n}.`);
 
-// Nos Salmos 1–30, apenas 1, 2 e 10 não possuem sobrescrição contada como v. 1 no TM.
 const expectedNoTitleVerse = new Set(['1','2','10']);
 const expectedTechnical = {
   1:'Texto e variantes', 2:'Leitura e cantilação', 3:'Cólons e acentos',
@@ -55,9 +52,7 @@ for (const n of expected) {
 
   if (typeof a.titleVerse !== 'boolean') fail(`${prefix}: titleVerse precisa ser booleano.`);
   const shouldHaveTitle = !expectedNoTitleVerse.has(n);
-  if (a.titleVerse !== shouldHaveTitle) {
-    fail(`${prefix}: titleVerse=${a.titleVerse}; esperado ${shouldHaveTitle} para manter a numeração hebraico/ARA coerente.`);
-  }
+  if (a.titleVerse !== shouldHaveTitle) fail(`${prefix}: titleVerse=${a.titleVerse}; esperado ${shouldHaveTitle} para manter a numeração hebraico/ARA coerente.`);
 
   if (!Array.isArray(a.sources) || a.sources.length < 3) fail(`${prefix}: precisa de pelo menos 3 bases/fontes declaradas.`);
   else {
@@ -74,19 +69,15 @@ for (const n of expected) {
       const sp = `${prefix}, passo ${step.n}`;
       if (!nonEmpty(step.label, 12)) fail(`${sp}: título simples ausente ou curto demais.`);
       if (!nonEmpty(step.technical, 4)) fail(`${sp}: termo técnico ausente.`);
-      if (expectedTechnical[step.n] && step.technical !== expectedTechnical[step.n]) {
-        warn(`${sp}: termo técnico '${step.technical}' difere do padrão '${expectedTechnical[step.n]}'.`);
-      }
+      if (expectedTechnical[step.n] && step.technical !== expectedTechnical[step.n]) warn(`${sp}: termo técnico '${step.technical}' difere do padrão '${expectedTechnical[step.n]}'.`);
       if (!nonEmpty(step.body, 25)) fail(`${sp}: explicação principal ausente ou curta demais.`);
       if (step.items && (!Array.isArray(step.items) || step.items.some(x=>!nonEmpty(x,12)))) fail(`${sp}: lista de itens malformada.`);
       const total = fullStepText(step);
       if (total.length < 100) fail(`${sp}: conteúdo total insuficiente para uma análise completa (mín. 100 caracteres somando explicação e itens).`);
-      if (/\b(TODO|TBD|placeholder|preencher depois)\b/i.test(total)) fail(`${sp}: contém marcador de conteúdo pendente.`);
+      if (/\b(?:TODO|TBD|PLACEHOLDER)\b/.test(total) || /preencher depois/i.test(total)) fail(`${sp}: contém marcador de conteúdo pendente.`);
     }
     const step12 = a.steps.find(s=>s.n===12);
-    if (step12 && !/(Crist|Messi|Novo Testamento|\bNT\b)/i.test(fullStepText(step12))) {
-      fail(`${prefix}: passo 12 não explicita a relação canônica/cristológica.`);
-    }
+    if (step12 && !/(Crist|Messi|Novo Testamento|\bNT\b)/i.test(fullStepText(step12))) fail(`${prefix}: passo 12 não explicita a relação canônica/cristológica.`);
   }
 
   if (!Array.isArray(a.theology) || a.theology.length < 3) fail(`${prefix}: precisa de pelo menos 3 implicações teológicas.`);
@@ -100,15 +91,12 @@ for (const n of expected) {
     if (!nonEmpty(s.climax, 15)) fail(`${prefix}: sermão.climax está ausente ou curto demais.`);
     if (!nonEmpty(s.gospel, 35)) fail(`${prefix}: sermão.gospel está ausente ou curto demais.`);
     if (!Array.isArray(s.movements) || s.movements.length < 2 || s.movements.length > 5) fail(`${prefix}: sermão deve ter de 2 a 5 movimentos derivados do texto.`);
-    else for (const [i,m] of s.movements.entries()) {
-      if (!nonEmpty(m.title, 5) || !nonEmpty(m.vv, 3) || !nonEmpty(m.point, 25)) fail(`${prefix}: movimento ${i+1} incompleto.`);
-    }
+    else for (const [i,m] of s.movements.entries()) if (!nonEmpty(m.title, 5) || !nonEmpty(m.vv, 3) || !nonEmpty(m.point, 25)) fail(`${prefix}: movimento ${i+1} incompleto.`);
     if (!Array.isArray(s.applications) || s.applications.length < 2 || s.applications.some(x=>!nonEmpty(x,15))) fail(`${prefix}: aplicações pastorais insuficientes ou incompletas.`);
     if (nonEmpty(s.gospel) && !/(Jesus|Crist|Messi|evangelho|Filho|Segundo Adão|Bom Pastor)/i.test(s.gospel)) warn(`${prefix}: conexão evangélica merece revisão; não contém marcador cristológico explícito.`);
   }
 }
 
-// 3) Integração da interface: ordem dos scripts e salvaguardas.
 const html = read('salmos.html');
 const expectedScripts = [
   '/data-1.js','/data-2.js','/data-3.js','/data-4.js','/data-5.js','/context.js','/core.js',
@@ -131,7 +119,6 @@ for (const forbidden of ['speechSynthesis','SpeechSynthesisUtterance','evoice'])
 if (!manual.includes('noopener noreferrer')) fail('manual-render.js: links externos devem usar noopener noreferrer.');
 if (!html.includes('ARA é acessada por links para fonte licenciada')) warn('salmos.html: convém manter explícita a política de não republicação integral da ARA.');
 
-// 4) Configuração Vercel precisa ser JSON válido.
 try { JSON.parse(read('vercel.json')); }
 catch (err) { fail(`vercel.json inválido: ${err.message}`); }
 
