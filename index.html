@@ -22,14 +22,14 @@
   </main>
   <script>
   (async function(){
-    const version='80fa9567a8fed76f9dccf4c0afdc067d4e0b8ad9';
+    const version='c9a69cd6dfe24a06125bb5acda5e22147b353178';
     const base=`https://cdn.jsdelivr.net/gh/rodrigoniskier/hebraico-biblico@${version}/`;
     const boot=document.getElementById('boot');
     try{
       const response=await fetch(base+'salmos.html',{cache:'no-store',mode:'cors'});
       if(!response.ok) throw new Error(`CDN respondeu HTTP ${response.status}`);
       let html=await response.text();
-      if(!html.includes('id="psalmList"')||!html.includes('/render.js')||!html.includes('/analysis-51-60.js')) throw new Error('A cópia validada da interface 1–60 está incompleta.');
+      if(!html.includes('id="psalmList"')||!html.includes('/render.js')||!html.includes('/reviewed-31-60-runtime.js')) throw new Error('A cópia validada da interface-base está incompleta.');
       html=html.replace(/src="\/([^\"]+\.js)"/g,(_,file)=>`src="${base}${file}"`);
       html=html.replace('</head>',`<script src="${base}runtime-guard.js"><\/script></head>`);
       document.open();
