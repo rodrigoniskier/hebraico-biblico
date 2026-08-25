@@ -1,8 +1,8 @@
-name: Validate Psalms 1-60
+name: Validate Psalms 1-90
 
 on:
   push:
-    branches: [salmos-31-60-revisao, salmos-estruturais]
+    branches: [salmos-61-90-revisao, salmos-estruturais]
   pull_request:
     branches: [salmos-estruturais]
 
@@ -35,6 +35,7 @@ jobs:
         run: |
           node --check runtime-guard.js
           node --check reviewed-31-60-runtime.js
+          node --check reviewed-61-90-runtime.js
           grep -q "cdn.jsdelivr.net/gh/rodrigoniskier/hebraico-biblico" index.html
           grep -q "80fa9567a8fed76f9dccf4c0afdc067d4e0b8ad9" index.html
           grep -q "analysis-51-60.js" index.html
