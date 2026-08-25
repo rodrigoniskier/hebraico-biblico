@@ -1,4 +1,4 @@
-// Integra a terceira etapa revisada, preservando o motor validado das etapas anteriores.
+// Integra a quarta etapa revisada, preservando o motor e a cadeia de carregamento já validados.
 (function(){
   if(typeof analysisTitleVerseCount!=="function") return;
 
@@ -9,7 +9,7 @@
     const p=PSALMS[current-1], a=reviewedAnalysis(p), scans=currentVerses.map(scanVerse), titleCount=analysisTitleVerseCount(a), poemScans=poemScansFor(a,scans), dom=dominantPattern(poemScans);
     $("verseMetric").textContent=verseCountFor(a,currentVerses);
     const intro=a
-      ? `<div class="small"><b>Texto hebraico:</b> ${simpleEsc(source)}. Para os Salmos 1–90, a interpretação dos 12 passos foi revisada manualmente. A separação visual das linhas usa os acentos massoréticos como primeira hipótese e a análise explica onde sintaxe, paralelismo e estrutura confirmam o resultado. <b>ARA:</b> use o botão ao lado de cada versículo para abrir a tradução licenciada.</div>`
+      ? `<div class="small"><b>Texto hebraico:</b> ${simpleEsc(source)}. Para os Salmos 1–118, a interpretação dos 12 passos foi revisada manualmente. A separação visual das linhas usa os acentos massoréticos como primeira hipótese e a análise explica onde sintaxe, paralelismo e estrutura confirmam o resultado. <b>ARA:</b> use o botão ao lado de cada versículo para abrir a tradução licenciada.</div>`
       : `<div class="small">Fonte: ${simpleEsc(source)}. A separação das linhas abaixo é uma proposta automática conservadora e precisa ser conferida pela sintaxe e pelo sentido.</div>`;
     $("hebrewPanel").innerHTML=intro+currentVerses.map((v,i)=>{
       const s=scans[i], isTitle=!!(a&&i<titleCount), label=a?manualVerseLabel(a,i):String(i+1), araV=isTitle?null:(a?i-titleCount+1:i+1);
@@ -25,25 +25,16 @@
     const p=PSALMS[current-1];
     if(!reviewedAnalysis(p) && $("steps")) {
       $("steps").innerHTML=$("steps").innerHTML
-        .replace(/Salmos 31–150/g,"Salmos 91–150")
-        .replace(/Salmos 61–150/g,"Salmos 91–150");
+        .replace(/Salmos 31–150/g,"Salmos 119–150")
+        .replace(/Salmos 61–150/g,"Salmos 119–150")
+        .replace(/Salmos 91–150/g,"Salmos 119–150");
     }
   };
 
   const legend=document.querySelector?.(".review-legend");
-  if(legend) legend.innerHTML='<b>✓</b> = análise completa já revisada. Nesta etapa: Salmos 1–90.';
+  if(legend) legend.innerHTML='<b>✓</b> = análise completa já revisada. Nesta etapa: Salmos 1–118. O Salmo 119 será analisado separadamente.';
   const notice=document.querySelector?.(".notice");
-  if(notice) notice.innerHTML='<strong>Revisão em etapas.</strong> Os Salmos 1–90 agora têm os 12 passos trabalhados manualmente, com linguagem mais simples e uma leitura histórico-gramatical-teológica reformada. As contagens automáticas ajudam a enxergar a forma, mas não substituem a exegese. Os Salmos 91–150 continuam marcados como preliminares até receberem a mesma revisão.';
+  if(notice) notice.innerHTML='<strong>Revisão em etapas.</strong> Os Salmos 1–118 agora têm os 12 passos trabalhados manualmente, com linguagem mais simples e uma leitura histórico-gramatical-teológica reformada. O Salmo 119 permanece propositalmente preliminar porque receberá uma revisão exclusiva devido ao seu acróstico de 22 estrofes e 176 versículos. Os Salmos 120–150 continuam preliminares.';
 
   if(typeof current==="number" && typeof selectPsalm==="function") selectPsalm(current);
-})();
-
-// Quarta etapa: carrega 91–118 do mesmo diretório/CDN antes de executar o runtime da faixa.
-(function loadReviewed91to118(){
-  if(window.MANUAL_ANALYSES?.["91"] || typeof document==="undefined") return;
-  const src=document.currentScript?.src||"";
-  const base=src?src.slice(0,src.lastIndexOf("/")+1):"/";
-  const files=["analysis-91-100.js","analysis-101-110.js","analysis-111-118.js","reviewed-91-118-runtime.js"];
-  if(typeof document.write!=="function") throw new Error("Não foi possível carregar a camada revisada dos Salmos 91–118.");
-  document.write(files.map(file=>`<script src="${base}${file}"><\/script>`).join(""));
 })();
