@@ -10,11 +10,13 @@ function manualSources(a){
   if(typeof auditAnalysisSources!=="function") return `<div class="source-note"><b>Base usada nesta revisão:</b> ${a.sources.map(simpleEsc).join(" · ")}</div>`;
   const audited=auditAnalysisSources(a);
   const chips=audited.map(d=>{
-    const cls=d.id==="unknown"?"badge red":"badge green";
-    const text=`${d.id==="unknown"?"⚠":"✓"} ${d.label} · ${d.type}`;
+    const isUnknown=d.id==="unknown", isFramework=d.id==="framework";
+    const cls=isUnknown?"badge red":isFramework?"badge gold":"badge green";
+    const mark=isUnknown?"⚠":isFramework?"◇":"✓";
+    const text=`${mark} ${d.label} · ${d.type}`;
     return d.url?`<a class="${cls}" href="${simpleEsc(d.url)}" target="_blank" rel="noopener noreferrer" title="${simpleEsc(d.note)}">${simpleEsc(text)} ↗</a>`:`<span class="${cls}" title="${simpleEsc(d.note)}">${simpleEsc(text)}</span>`;
   }).join("");
-  return `<div class="source-note"><b>Fontes e proveniência auditada</b><p class="small">✓ = fonte catalogada/confirmada no registro do projeto; referências bíblicas são tratadas como fonte canônica. O rótulo abaixo mostra a função de cada fonte na análise.</p><div class="badges">${chips}</div></div>`;
+  return `<div class="source-note"><b>Fontes e proveniência auditada</b><p class="small"><b>✓</b> fonte/referência catalogada; <b>◇</b> enquadramento interpretativo do projeto, não evidência bibliográfica independente; <b>⚠</b> referência que ainda exigiria auditoria.</p><div class="badges">${chips}</div></div>`;
 }
 function analysisTitleVerseCount(a){
   if(Number.isInteger(a?.titleVerses)) return Math.max(0,a.titleVerses);
