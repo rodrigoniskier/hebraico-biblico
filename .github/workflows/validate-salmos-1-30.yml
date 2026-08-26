@@ -1,8 +1,8 @@
-name: Validate Psalms 1-119
+name: Validate Psalms 1-150
 
 on:
   push:
-    branches: [salmo-119-revisao, salmos-estruturais]
+    branches: [salmos-120-150-revisao, salmos-estruturais]
   pull_request:
     branches: [salmos-estruturais]
 
@@ -38,8 +38,13 @@ jobs:
           node --check reviewed-61-90-runtime.js
           node --check reviewed-91-118-runtime.js
           node --check reviewed-119-runtime.js
-          node --check analysis-119.js
+          node --check reviewed-120-150-runtime.js
+          node --check analysis-120-130.js
+          node --check analysis-131-140.js
+          node --check analysis-141-150.js
           grep -q "cdn.jsdelivr.net/gh/rodrigoniskier/hebraico-biblico" index.html
           grep -q "bed355801f418c5aec5acc7892e9cb7f2ebfb145" index.html
-          grep -q "analysis-119.js" index.html
-          grep -q "reviewed-119-runtime.js" index.html
+          grep -q "Desenvolvido por Rodrigo Niskier Ferreira Barbosa" index.html
+          grep -q "Desenvolvido por Rodrigo Niskier Ferreira Barbosa" reviewed-120-150-runtime.js
+          grep -q "analysis-141-150.js" reviewed-119-runtime.js
+          grep -q "reviewed-120-150-runtime.js" reviewed-119-runtime.js
