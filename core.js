@@ -1,7 +1,6 @@
 const NT_EXPLICIT = new Set([2,16,22,34,40,41,45,68,69,78,89,95,102,104,109,110,118,132]);
 let current = 1;
 let currentVerses = [];
-let speechCount = 0;
 
 const $ = id => document.getElementById(id);
 const stripHtml = s => String(s||"").replace(/<[^>]*>/g,"").replace(/&nbsp;/g," ").trim();
@@ -9,7 +8,7 @@ const stripMarks = s => stripHtml(s).normalize("NFD").replace(/[\u0591-\u05C7]/g
 const hebrewWords = s => stripHtml(s).replace(/[׃]/g,"").trim().split(/\s+/).filter(Boolean);
 const wordCount = s => hebrewWords(s).length;
 const vowelCount = s => (stripHtml(s).match(/[\u05B0-\u05BB\u05C7]/g)||[]).length;
-const accentUnitCount = s => hebrewWords(s).length; // maqqef-linked forms remain one phonological token
+const accentUnitCount = s => hebrewWords(s).length; // maqqef-linked forms remain one displayed token in this descriptive count
 const pct = (a,b)=> b ? Math.round(a/b*100) : 0;
 
 function bookRange(book){return ({I:"1–41",II:"42–72",III:"73–89",IV:"90–106",V:"107–150"})[book]}
@@ -44,28 +43,38 @@ function christologyFor(p){
   return {mode:"vox ecclesiae in Christo", nt:"sem citação explícita cadastrada nesta ferramenta", reason:"oração da igreja unida ao verdadeiro Israelita e Rei"};
 }
 
+// Delimitação conservadora: os acentos massoréticos são a primeira hipótese, não um metro.
+// U+0591 = ʾatnāḥ; U+05AB = ʿoleh; U+0597 = rebia; U+05AD = deḥi; U+05AE = ṣinnor.
 function splitCola(verse){
   const text=stripHtml(verse);
   const words=text.split(/\s+/).filter(Boolean);
   if(words.length<=4) return [text];
-  let cuts=[];
+
+  const cuts=[];
   words.forEach((w,i)=>{
-    if(w.includes("\u0591")) cuts.push({i,weight:5,name:"ʾatnāḥ"});
-    if(w.includes("\u05AB")) cuts.push({i,weight:4,name:"ʿoleh"});
-    if(w.includes("\u0597")||w.includes("\u05AD")||w.includes("\u05AE")) cuts.push({i,weight:2,name:"disjuntivo"});
+    if(w.includes("\u0591")) cuts.push({i,weight:6,name:"ʾatnāḥ"});
+    if(w.includes("\u05AB")) cuts.push({i,weight:5,name:"ʿoleh"});
+    if(w.includes("\u0597")||w.includes("\u05AD")||w.includes("\u05AE")) cuts.push({i,weight:3,name:"disjuntivo"});
   });
-  let boundaries=[];
-  const atnah=cuts.find(c=>c.name==="ʾatnāḥ");
-  if(atnah && atnah.i < words.length-1) boundaries.push(atnah.i);
-  if(words.length>11){
-    const candidates=cuts.filter(c=>c.i>1 && c.i<words.length-2 && !boundaries.includes(c.i))
+
+  const boundaries=[];
+  const atnah=cuts.find(c=>c.name==="ʾatnāḥ"&&c.i>0&&c.i<words.length-1);
+  if(atnah) boundaries.push(atnah.i);
+
+  // Em versos longos, ʿoleh ou um disjuntivo forte pode marcar uma terceira seção.
+  if(words.length>10){
+    const candidates=cuts
+      .filter(c=>c.i>1&&c.i<words.length-2&&!boundaries.includes(c.i))
       .sort((a,b)=>b.weight-a.weight || Math.abs(a.i-words.length/2)-Math.abs(b.i-words.length/2));
     if(candidates[0]) boundaries.push(candidates[0].i);
   }
-  boundaries=[...new Set(boundaries)].sort((a,b)=>a-b).slice(0,2);
-  if(!boundaries.length && words.length>=9) boundaries=[Math.floor(words.length/2)-1];
+
+  // Só recorre ao ponto médio quando não há acento principal utilizável no dado recebido.
+  const unique=[...new Set(boundaries)].sort((a,b)=>a-b).slice(0,2);
+  if(!unique.length&&words.length>=9) unique.push(Math.floor(words.length/2)-1);
+
   const out=[];let start=0;
-  for(const b of boundaries){out.push(words.slice(start,b+1).join(" "));start=b+1}
+  for(const b of unique){out.push(words.slice(start,b+1).join(" "));start=b+1;}
   if(start<words.length) out.push(words.slice(start).join(" "));
   return out.filter(Boolean);
 }
@@ -131,4 +140,3 @@ function sermonFor(p,count){
             "Levar a oração do salmo à comunhão com Deus em Cristo, preservando primeiro o sentido histórico-literário."
   };
 }
-
