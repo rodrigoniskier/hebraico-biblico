@@ -38,3 +38,13 @@
 
   if(typeof current==="number" && typeof selectPsalm==="function") selectPsalm(current);
 })();
+
+// Etapa exclusiva: carrega a análise do Salmo 119 e seu runtime especializado.
+(function loadReviewed119(){
+  if(window.MANUAL_ANALYSES?.["119"] || typeof document==="undefined") return;
+  const src=document.currentScript?.src||"";
+  const base=src?src.slice(0,src.lastIndexOf("/")+1):"/";
+  const files=["analysis-119.js","reviewed-119-runtime.js"];
+  if(typeof document.write!=="function") throw new Error("Não foi possível carregar a camada revisada do Salmo 119.");
+  document.write(files.map(file=>`<script src="${base}${file}"><\/script>`).join(""));
+})();
