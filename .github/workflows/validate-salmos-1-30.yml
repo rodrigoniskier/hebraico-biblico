@@ -25,6 +25,12 @@ jobs:
       - name: Validate reviewed Psalms
         run: node scripts/validate-salmos-1-30.cjs
 
+      - name: Audit analysis sources
+        run: node scripts/audit-sources.cjs
+
+      - name: Test Masoretic colometry
+        run: node scripts/test-colometry.cjs
+
       - name: Validate browser modules
         run: node scripts/validate-html-modules.cjs
 
@@ -34,6 +40,7 @@ jobs:
       - name: Validate production resilience
         run: |
           node --check runtime-guard.js
+          node --check source-registry.js
           node --check reviewed-31-60-runtime.js
           node --check reviewed-61-90-runtime.js
           node --check reviewed-91-118-runtime.js
@@ -46,5 +53,6 @@ jobs:
           grep -q "bed355801f418c5aec5acc7892e9cb7f2ebfb145" index.html
           grep -q "Desenvolvido por Rodrigo Niskier Ferreira Barbosa" index.html
           grep -q "Desenvolvido por Rodrigo Niskier Ferreira Barbosa" reviewed-120-150-runtime.js
+          grep -q "source-registry.js" reviewed-119-runtime.js
           grep -q "analysis-141-150.js" reviewed-119-runtime.js
           grep -q "reviewed-120-150-runtime.js" reviewed-119-runtime.js
