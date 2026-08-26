@@ -5,6 +5,7 @@
   const SOURCES={
     tm:{name:'Texto Massorético',type:'texto primário',status:'fonte primária',url:'https://developers.sefaria.org/reference/get-v3-texts',note:'Texto hebraico com acentos; Sefaria v3 é a fonte eletrônica operacional, conferível também no Códice de Leningrado/UXLC.'},
     medida:{name:'A Medida do Louvor',type:'método-base',status:'fonte-base auditada',url:null,note:'Obra fornecida no projeto; protocolo de 12 passos, oficinas, hermenêutica reformada e bibliografia auditada.'},
+    net:{name:'NET Bible Notes',type:'notas textuais/linguísticas',status:'obra confirmada',url:'https://netbible.org/',note:'Biblical Studies Press. As NET Bible Notes existem como recurso editorial próprio e documentam opções textuais, linguísticas e de tradução.'},
     calvin:{name:'João Calvino — Commentary on the Book of Psalms',type:'comentário reformado',status:'bibliografia confirmada',url:'https://www.ccel.org/ccel/calvin/calcom08.html',note:'5 vols.; tradução de James Anderson, Calvin Translation Society, 1845–1849.'},
     ash:{name:'Christopher Ash — Teaching Psalms',type:'homilética expositiva',status:'editora confirmada',url:'https://www.christianfocus.com/en-gb/product/9781527100046/teaching-psalms-vol-1-paperback',note:'Vols. 1–2, Christian Focus, 2017–2018.'},
     greidanus:{name:'Sidney Greidanus — Preaching Christ from Psalms',type:'homilética cristocêntrica',status:'editora confirmada',url:'https://www.eerdmans.com/9780802873668/preaching-christ-from-psalms/',note:'Eerdmans, 2016.'},
@@ -20,7 +21,8 @@
     watson:{name:'Wilfred G. E. Watson — Classical Hebrew Poetry',type:'técnicas poéticas',status:'bibliografia confirmada',url:null,note:'JSOTSup 26, 1984; reimpressão T&T Clark/Bloomsbury, 2005; ISBN 9780567540898.'},
     wcf:{name:'Confissão de Fé de Westminster',type:'padrão confessional',status:'texto confessional confirmado',url:'https://www.wscal.edu/westminster-confession-of-faith/',note:'Especialmente caps. I, V e XXI na metodologia do projeto.'},
     textual:{name:'Testemunhas e ferramentas textuais',type:'crítica textual',status:'categoria auditada',url:null,note:'BHS/BHQ, Qumran/11QPsª, LXX/Septuaginta, Peshitta, Vulgata, Tanach.us/UXLC e STEP Bible, conforme a necessidade do texto.'},
-    scripture:{name:'Escritura — referências canônicas',type:'referência bíblica',status:'fonte canônica',url:null,note:'Referências usadas para contexto remoto, analogia da fé e controle do uso cristológico.'}
+    scripture:{name:'Escritura — referências canônicas',type:'referência bíblica',status:'fonte canônica',url:null,note:'Referências usadas para contexto remoto, analogia da fé e controle do uso cristológico.'},
+    framework:{name:'Síntese/enquadramento editorial',type:'enquadramento interpretativo',status:'não é fonte independente',url:null,note:'Rótulo de síntese teológica, canônica ou histórico-cultural. Ele pode descrever o modo de leitura, mas não conta como evidência bibliográfica autônoma.'}
   };
 
   const bibleBooks=/(?:G[eê]nesis|[ÊE]xodo|Lev[ií]tico|N[uú]meros|Deuteron[oô]mio|Josu[eé]|Ju[ií]zes|Rute|[12]\s*Samuel|[12]\s*Reis|[12]\s*Cr[oô]nicas|Esdras|Neemias|Ester|J[oó]|Salmos?|Prov[eé]rbios|Eclesiastes|C[aâ]ntico(?:s)?|Isa[ií]as|Jeremias|Lamenta[cç][oõ]es|Ezequiel|Daniel|Os[eé]ias|Joel|Am[oó]s|Obadias|Jonas|Miqueias|Naum|Habacuque|Sofonias|Ageu|Zacarias|Malaquias|Mateus|Marcos|Lucas|Jo[aã]o|Atos|Romanos|[12]\s*Cor[ií]ntios|G[aá]latas|Ef[eé]sios|Filipenses|Colossenses|[12]\s*Tessalonicenses|[12]\s*Tim[oó]teo|Tito|Filemom|Hebreus|Tiago|[12]\s*Pedro|[123]\s*Jo[aã]o|Judas|Apocalipse)/i;
@@ -30,6 +32,7 @@
     if(!s) return null;
     if(/Texto Massor[eé]tico|Masoretic Text|Sefaria/i.test(s)) return {...SOURCES.tm,label:s,id:'tm'};
     if(/A Medida do Louvor/i.test(s)) return {...SOURCES.medida,label:s,id:'medida'};
+    if(/NET Bible Notes?/i.test(s)) return {...SOURCES.net,label:s,id:'net'};
     if(/Calvino|Calvin/i.test(s)) return {...SOURCES.calvin,label:s,id:'calvin'};
     if(/Christopher Ash|\bAsh\b|Teaching Psalms/i.test(s)) return {...SOURCES.ash,label:s,id:'ash'};
     if(/Greidanus/i.test(s)) return {...SOURCES.greidanus,label:s,id:'greidanus'};
@@ -46,6 +49,7 @@
     if(/Westminster|\bCFW\b|Confiss[aã]o de F[eé]/i.test(s)) return {...SOURCES.wcf,label:s,id:'wcf'};
     if(/BHS|BHQ|Qumran|11QPs|Septuaginta|\bLXX\b|Peshitta|Vulgata|Tanach\.us|UXLC|STEP Bible|C[oó]dice de Leningrado/i.test(s)) return {...SOURCES.textual,label:s,id:'textual'};
     if(bibleBooks.test(s)) return {...SOURCES.scripture,label:s,id:'scripture'};
+    if(/tradi[cç][aã]o reformada|alian[cç]a dav[ií]dica|teologia pactual|teologia b[ií]blica|teologia dav[ií]dica|contexto do Antigo Oriente Pr[oó]ximo|consulta secund[aá]ria|estudos estruturais|enquadramento/i.test(s)) return {...SOURCES.framework,label:s,id:'framework'};
     return {id:'unknown',name:s,label:s,type:'não catalogada',status:'requer auditoria',url:null,note:'Esta referência ainda não corresponde a uma entrada auditada do registro.'};
   }
 
