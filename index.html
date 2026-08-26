@@ -9,6 +9,7 @@
     body{margin:0;min-height:100vh;display:grid;place-items:center;background:#f6f2e8;color:#172018;font-family:Inter,system-ui,sans-serif}
     .boot{max-width:620px;margin:24px;padding:28px;border:1px solid #d8d2c3;border-radius:16px;background:#fffdf7;box-shadow:0 12px 45px #17201812}
     h1{font-family:Georgia,serif;margin:0 0 10px;color:#13251d}.small{font-size:.82rem;line-height:1.55;color:#667269}
+    .credit{margin-top:18px;padding-top:12px;border-top:1px solid #e2dccf;font-size:.74rem;line-height:1.4;color:#667269;text-align:center;font-weight:650}
     .bar{height:7px;border-radius:99px;background:#e0dbcf;overflow:hidden;margin-top:18px}.bar span{display:block;width:45%;height:100%;background:#b18b48;animation:move 1.2s ease-in-out infinite alternate}
     .error{color:#8b3a32;background:#fff1ef;padding:12px;border-radius:10px;margin-top:14px;line-height:1.5}a{color:#315e68}@keyframes move{to{transform:translateX(120%)}}
   </style>
@@ -19,6 +20,7 @@
     <p>Carregando o Atlas Estrutural dos Salmos…</p>
     <p class="small">A versão de produção é conferida contra uma cópia imutável e validada do repositório para evitar páginas vazias quando o host deixa de servir algum módulo.</p>
     <div class="bar"><span></span></div>
+    <div class="credit">Desenvolvido por Rodrigo Niskier Ferreira Barbosa</div>
   </main>
   <script>
   (async function(){
@@ -41,7 +43,7 @@
       document.write(html);
       document.close();
     }catch(error){
-      boot.innerHTML=`<h1>Não foi possível iniciar a página</h1><div class="error"><b>Falha de carregamento:</b> ${String(error.message||error)}</div><p class="small">O conteúdo não foi perdido; a publicação não conseguiu baixar a versão validada. Tente atualizar a página. Se persistir, use o repositório enquanto a hospedagem é corrigida.</p><p><a href="https://github.com/rodrigoniskier/hebraico-biblico/tree/salmos-estruturais" target="_blank" rel="noopener noreferrer">Abrir o projeto no GitHub ↗</a></p>`;
+      boot.innerHTML=`<h1>Não foi possível iniciar a página</h1><div class="error"><b>Falha de carregamento:</b> ${String(error.message||error)}</div><p class="small">O conteúdo não foi perdido; a publicação não conseguiu baixar a versão validada. Tente atualizar a página. Se persistir, use o repositório enquanto a hospedagem é corrigida.</p><p><a href="https://github.com/rodrigoniskier/hebraico-biblico/tree/salmos-estruturais" target="_blank" rel="noopener noreferrer">Abrir o projeto no GitHub ↗</a></p><div class="credit">Desenvolvido por Rodrigo Niskier Ferreira Barbosa</div>`;
     }
   })();
   </script>
