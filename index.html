@@ -22,7 +22,7 @@
   </main>
   <script>
   (async function(){
-    const version='bd683b195236915418df87e68b9cdfa0d61492f7';
+    const version='bed355801f418c5aec5acc7892e9cb7f2ebfb145';
     const base=`https://cdn.jsdelivr.net/gh/rodrigoniskier/hebraico-biblico@${version}/`;
     const boot=document.getElementById('boot');
     try{
@@ -30,8 +30,11 @@
       if(!response.ok) throw new Error(`CDN respondeu HTTP ${response.status}`);
       let html=await response.text();
       if(!html.includes('id="psalmList"')||!html.includes('/render.js')||!html.includes('/reviewed-31-60-runtime.js')) throw new Error('A cópia validada da interface-base está incompleta.');
-      const chain=await fetch(base+'reviewed-61-90-runtime.js',{cache:'no-store',mode:'cors'});
-      if(!chain.ok || !(await chain.text()).includes('analysis-111-118.js')) throw new Error('A cadeia validada dos Salmos 91–118 está incompleta.');
+      const chain118=await fetch(base+'reviewed-61-90-runtime.js',{cache:'no-store',mode:'cors'});
+      if(!chain118.ok || !(await chain118.text()).includes('analysis-111-118.js')) throw new Error('A cadeia validada dos Salmos 91–118 está incompleta.');
+      const chain119=await fetch(base+'reviewed-91-118-runtime.js',{cache:'no-store',mode:'cors'});
+      const chain119Text=chain119.ok?await chain119.text():'';
+      if(!chain119.ok || !chain119Text.includes('analysis-119.js') || !chain119Text.includes('reviewed-119-runtime.js')) throw new Error('A camada dedicada e validada do Salmo 119 está incompleta.');
       html=html.replace(/src="\/([^\"]+\.js)"/g,(_,file)=>`src="${base}${file}"`);
       html=html.replace('</head>',`<script src="${base}runtime-guard.js"><\/script></head>`);
       document.open();
