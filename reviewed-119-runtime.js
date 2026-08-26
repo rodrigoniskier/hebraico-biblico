@@ -43,3 +43,13 @@
 
   if(typeof current==='number' && typeof selectPsalm==='function') selectPsalm(current);
 })();
+
+// Etapa final: carrega Salmos 120–150 e o runtime que conclui o Saltério.
+(function loadReviewed120to150(){
+  if(window.MANUAL_ANALYSES?.['120'] || typeof document==='undefined') return;
+  const src=document.currentScript?.src||'';
+  const base=src?src.slice(0,src.lastIndexOf('/')+1):'/';
+  const files=['analysis-120-130.js','analysis-131-140.js','analysis-141-150.js','reviewed-120-150-runtime.js'];
+  if(typeof document.write!=='function') throw new Error('Não foi possível carregar a camada revisada dos Salmos 120–150.');
+  document.write(files.map(file=>`<script src="${base}${file}"><\/script>`).join(''));
+})();
