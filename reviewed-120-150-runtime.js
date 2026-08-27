@@ -19,12 +19,30 @@
     renderSteps();renderHomiletic();
   };
 
+  // Não reescreva steps.innerHTML depois de renderReviewedSteps(): isso recria os botões
+  // e remove os handlers de expansão. Reforçamos aqui o vínculo após cada renderização.
+  function bindReviewedStepToggles(){
+    if(typeof document==='undefined') return;
+    document.querySelectorAll('#steps .step-toggle').forEach((b,i)=>{
+      const article=b.parentElement;
+      if(!article) return;
+      const content=article.querySelector?.('.step-content');
+      if(content){
+        if(!content.id) content.id=`step-content-${current}-${i+1}`;
+        b.setAttribute('aria-controls',content.id);
+      }
+      b.setAttribute('aria-expanded',article.classList.contains('open')?'true':'false');
+      b.onclick=()=>{
+        article.classList.toggle('open');
+        b.setAttribute('aria-expanded',article.classList.contains('open')?'true':'false');
+      };
+    });
+  }
+
   const previousRenderSteps=renderSteps;
   renderSteps=function(){
     previousRenderSteps();
-    if($("steps")) $("steps").innerHTML=$("steps").innerHTML
-      .replace(/análise preliminar/gi,'análise revisada')
-      .replace(/Salmos 120–150[^<.]*/g,'Saltério completo: Salmos 1–150 revisados');
+    bindReviewedStepToggles();
   };
 
   function ensureProductionCredit(){
