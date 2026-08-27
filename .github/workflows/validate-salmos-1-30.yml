@@ -37,6 +37,9 @@ jobs:
       - name: Smoke test interface
         run: node scripts/smoke-salmos-ui.cjs
 
+      - name: Test reviewed step accordions
+        run: node scripts/test-step-accordion.cjs
+
       - name: Validate production resilience
         run: |
           node --check runtime-guard.js
