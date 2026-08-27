@@ -1,0 +1,48 @@
+name: Validate Didactic Psalms Guide
+
+on:
+  push:
+    branches: [guia-didatico]
+    paths:
+      - 'guia-didatico/**'
+      - '.github/workflows/validate-guia-didatico.yml'
+  pull_request:
+    branches: [salmos-estruturais]
+    paths:
+      - 'guia-didatico/**'
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    defaults:
+      run:
+        working-directory: guia-didatico
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Build React app
+        run: npm run build
+
+      - name: Validate didactic content
+        run: |
+          grep -q "Você não precisa saber hebraico" src/App.tsx
+          grep -q "Os 12 passos em linguagem de gente comum" src/App.tsx
+          grep -q "Desenvolvido por Rodrigo Niskier Ferreira Barbosa" src/App.tsx
+          grep -q "A Medida do Louvor" src/App.tsx
+          grep -q "localStorage" src/App.tsx
+          grep -q "Salmo 130" src/App.tsx
+          grep -q "Salmo 121" src/App.tsx
+          test -f dist/index.html
