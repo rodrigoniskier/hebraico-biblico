@@ -4,9 +4,9 @@ Página web interativa para estudar os 150 Salmos a partir do protocolo poético
 
 ## Estado atual
 
-### Salmos 1–119 — revisão completa
+### Salmos 1–150 — revisão completa
 
-Os Salmos 1–119 possuem uma camada editorial própria, revisada individualmente. Cada Salmo contém:
+Os **150 Salmos** possuem uma camada editorial própria, revisada individualmente. Cada Salmo contém:
 
 - exatamente os 12 passos do método;
 - explicações em linguagem mais simples, mantendo o termo técnico como referência secundária;
@@ -16,32 +16,27 @@ Os Salmos 1–119 possuem uma camada editorial própria, revisada individualment
 - implicações teológicas;
 - esboço homilético derivado do movimento real do texto;
 - necessidade humana exposta pelo Salmo, conexão evangélica e aplicações pastorais;
-- acesso ao Texto Massorético e à cantilação hebraica;
-- atalhos para a ARA em fonte licenciada, inclusive por versículo.
+- acesso ao texto hebraico massorético e à cantilação hebraica;
+- atalhos para a ARA em fonte licenciada, inclusive por versículo;
+- proveniência das fontes exibida na própria análise.
+
+A interface mantém em todas as telas o crédito: **Desenvolvido por Rodrigo Niskier Ferreira Barbosa**.
 
 ### Salmo 119 — tratamento especial
 
-O Salmo 119 não foi reduzido ao mesmo nível de detalhe dos Salmos menores. Ele recebeu uma camada própria baseada especialmente no cap. 15.3 de **A Medida do Louvor**, que o descreve como a “arquitetura suprema” do acróstico bíblico.
+O Salmo 119 recebeu uma camada própria baseada especialmente no cap. 15.3 de **A Medida do Louvor**, que o descreve como a “arquitetura suprema” do acróstico bíblico. O gate preserva 176 versículos, 22 estrofes × 8 versos, sequência Aleph–Tav, oito termos recorrentes da instrução divina, cautela textual e leitura cristológica histórico-canônica sem alegorização atomística.
 
-A revisão registra e testa:
+### Salmos 120–150 — etapa final
 
-- 176 versículos sem sobrescrição separada;
-- 22 estrofes de 8 versos, de **א Aleph** a **ת Tav**;
-- todos os oito versos de cada estrofe iniciados pela mesma letra hebraica;
-- os oito termos recorrentes da instrução divina: `tôrâ`, `ʿēdōt/ʿēdût`, `piqqûdîm`, `ḥuqqîm`, `miṣwōt`, `mišpāṭîm`, `dābār` e `ʾimrâ`;
-- resumo exegético individual das 22 estrofes;
-- leitura do paralelismo em cada uma das 22 estrofes;
-- mapa visual Aleph–Tav e tabela dos oito termos na interface;
-- os três efeitos formais defendidos pelo livro: **exaustividade, ordem e memorização**;
-- cautela explícita diante de contagens divergentes dos versos que não usam um dos oito termos estritos;
-- rejeição de numerologia e de uma leitura messiânica direta não sustentada;
-- conexão cristológica histórico-canônica: Cristo como Filho obediente que cumpre a Lei, sem alegorizar cada ocorrência de “palavra” como referência lexical a João 1;
-- v. 176, a ovelha perdida, como correção final de qualquer perfeccionismo ou autossuficiência;
-- recomendação homilética de trabalhar preferencialmente uma estrofe por sermão, explicando a arquitetura do todo.
+A última etapa conclui o Saltério com atenção especial a:
 
-### Salmos 120–150 — fase preliminar
-
-A navegação e a análise automática continuam disponíveis, mas a interface os identifica explicitamente como **análise preliminar** até que recebam a mesma revisão manual.
+- 120–134 — Cânticos das Subidas;
+- 121 — oficina da mudança de pessoa e provável dinâmica antifonal;
+- 127–128 — par formal;
+- 130 — oficina *De profundis*, quatro estrofes e v. 4 como centro teológico;
+- 137 — lamento imprecatório lido como entrega da causa ao Juiz, não licença para vingança privada;
+- 145 — acróstico com a lacuna do *nûn* no TM e testemunhos de Qumran/LXX/Peshitta;
+- 146–150 — Hallel final e conclusão do Saltério.
 
 ## Hermenêutica adotada
 
@@ -57,46 +52,69 @@ A leitura segue uma abordagem reformada histórico-gramatical-teológica:
 
 As contagens rítmicas são descritivas. Uma diferença de tamanho só recebe peso interpretativo quando coincide com uma mudança de sentido identificável por razões independentes.
 
+## Texto hebraico, Sefaria e controle textual
+
+O hebraico de produção é recuperado pela **Sefaria Texts API v3** com `version=source` e `return_format=text_only`. Essa chamada fornece a versão em língua-fonte prioritária no acervo da Sefaria; ela **não deve ser confundida com a afirmação de que o endpoint fixa uma edição crítica específica**.
+
+BHS/BHQ, Códice de Leningrado, Qumran, LXX, Peshitta, Tanach.us/UXLC e outras testemunhas/ferramentas pertencem à camada de controle textual quando uma variante é relevante. A função serverless possui validação de resposta, timeout, cache e fallback para o endpoint legado da Sefaria.
+
 ## ARA e numeração
 
-A **Almeida Revista e Atualizada (ARA)** é uma tradução protegida por direitos autorais. Para preservar a integridade jurídica do projeto, o texto integral não é copiado para o repositório. A interface oferece links para uma fonte licenciada da ARA no nível do Salmo e, nos Salmos revisados, também no nível de cada versículo.
+A **Almeida Revista e Atualizada (ARA)** é uma tradução protegida por direitos autorais. O texto integral não é copiado para o repositório. A interface oferece links para uma fonte licenciada no nível do Salmo e de cada versículo revisado.
 
-Quando uma ou mais linhas de sobrescrição fazem parte da numeração do Texto Massorético, mas não correspondem à numeração da ARA, a interface as identifica separadamente como **sobrescrição**. O Salmo 119 é testado especificamente como um Salmo sem sobrescrição separada, mantendo correspondência direta entre TM 119.1–176 e ARA 119.1–176.
+Quando linhas de sobrescrição pertencem à numeração do Texto Massorético, mas não à numeração da ARA, a interface as identifica como **sobrescrição** e desloca corretamente os links. Casos com mais de uma linha-título e o Salmo 119 sem sobrescrição separada estão cobertos pelo smoke test.
+
+## Proveniência das análises
+
+`source-registry.js` cataloga as fontes e separa três classes visuais:
+
+- **✓** fonte/referência catalogada e auditada;
+- **◇** síntese ou enquadramento interpretativo — não é fonte bibliográfica independente;
+- **⚠** fonte não catalogada — reprova a auditoria de CI.
+
+O relatório completo está em `SOURCES-AUDIT.md`. A auditoria confirma Texto Massorético como base declarada em 150/150 análises e impede o surgimento silencioso de referências desconhecidas. A bibliografia do método-base é diferenciada das obras efetivamente declaradas em cada Salmo, evitando inflar a proveniência.
 
 ## Arquitetura
 
-- `salmos.html` — interface principal validada;
+- `salmos.html` — interface principal;
 - `data-1.js` a `data-5.js` — metadados dos 150 Salmos;
 - `context.js` — gêneros, conexões e dados auxiliares;
-- `core.js` — funções estruturais e cálculos descritivos;
-- `analysis-01-10.js`, `analysis-11-20.js`, `analysis-21-30.js` — análises 1–30;
-- `analysis-factory.js` — fábrica estrutural das etapas seguintes;
-- `analysis-31-40.js`, `analysis-41-50.js`, `analysis-51-60.js` — análises 31–60;
-- `analysis-61-70.js`, `analysis-71-80.js`, `analysis-81-90.js` — análises 61–90;
-- `analysis-91-100.js`, `analysis-101-110.js`, `analysis-111-118.js` — análises 91–118;
-- `analysis-119.js` — análise dedicada do Salmo 119 e metadados das 22 estrofes / oito termos;
-- `manual-render.js` — apresentação da camada revisada;
-- `render.js` — navegação, carregamento do hebraico e fallback preliminar;
-- `reviewed-31-60-runtime.js` — integração 31–60 e carregamento das etapas seguintes;
-- `reviewed-61-90-runtime.js` — integração 61–90 e carregamento 91–118;
-- `reviewed-91-118-runtime.js` — integração 91–118 e carregamento da etapa exclusiva 119;
-- `reviewed-119-runtime.js` — atualização da interface para 1–119 e mapa especial do acróstico;
-- `runtime-guard.js` — diagnóstico visível e fallback do Texto Massorético em produção;
-- `api/psalm.js` — função serverless para recuperar o texto hebraico quando disponível;
-- `scripts/validate-salmos-1-30.cjs` — gate editorial/estrutural, atualmente ampliado para 1–119;
-- `scripts/validate-html-modules.cjs` — verifica a cadeia real de módulos entregue ao navegador;
-- `scripts/smoke-salmos-ui.cjs` — smoke test da interface, incluindo 176 versos do Salmo 119;
-- `.github/workflows/validate-salmos-1-30.yml` — CI automática, atualmente denominada **Validate Psalms 1-119**;
-- `index.html` — bootstrap resiliente fixado em um commit imutável validado;
-- `vercel.json` — configuração de publicação.
+- `core.js` — colometria conservadora, cálculos descritivos e funções estruturais;
+- `analysis-01-10.js` a `analysis-141-150.js` — análises revisadas dos 150 Salmos;
+- `analysis-119.js` — camada especializada do Salmo 119;
+- `source-registry.js` — registro auditável de proveniência;
+- `manual-render.js` — apresentação da análise revisada e das fontes;
+- `render.js` — navegação e carregamento do hebraico;
+- `reviewed-31-60-runtime.js`, `reviewed-61-90-runtime.js`, `reviewed-91-118-runtime.js`, `reviewed-119-runtime.js`, `reviewed-120-150-runtime.js` — cadeia progressiva de módulos;
+- `runtime-guard.js` — diagnóstico visível e fallback do texto hebraico;
+- `api/psalm.js` — função serverless endurecida para a Sefaria;
+- `scripts/validate-salmos-1-30.cjs` — gate editorial/estrutural ampliado para 1–150;
+- `scripts/audit-sources.cjs` — auditoria de proveniência;
+- `scripts/test-colometry.cjs` — testes dos disjuntivos massoréticos usados pela colometria;
+- `scripts/validate-html-modules.cjs` — valida cadeia real entregue ao navegador;
+- `scripts/smoke-salmos-ui.cjs` — testa interface, navegação, numeração, ARA, hash, limites, persistência, fontes e créditos;
+- `.github/workflows/validate-salmos-1-30.yml` — CI **Validate Psalms 1-150**;
+- `index.html` — bootstrap resiliente para publicação;
+- `SOURCES-AUDIT.md` — relatório de fontes e limites da validação;
+- `vercel.json` — configuração da publicação.
 
 ## Gate de integridade
 
-A CI reprova a revisão se faltar qualquer Salmo 1–119, se uma análise perder um dos 12 passos, se faltarem fontes, teologia, homilética ou relação canônica/cristológica, se a regra de sobrescrição/ARA quebrar, se a cadeia real de módulos do navegador ficar incompleta, se a antiga voz sintética reaparecer, se JavaScript essencial não compilar ou se o bootstrap deixar de apontar para o bundle imutável validado.
+A CI reprova a revisão se:
 
-Para o Salmo 119, o gate ainda exige **22 estrofes**, **8 termos da Torá**, a sequência hebraica completa `אבגדהוזחטיכלמנסעפצקרשת`, 22 entradas no passo 6, 22 entradas no passo 8, a cautela do livro no passo 10 e a rejeição de uma profecia messiânica direta no passo 12. O smoke test exige ainda 176 versículos, ARA 119.176, clímax homilético no v. 176 e confirma que o **Salmo 120 permanece preliminar**.
+- faltar qualquer Salmo 1–150 ou qualquer um dos 12 passos;
+- fontes, teologia, homilética ou relação canônica/cristológica ficarem incompletas;
+- surgir uma fonte não catalogada;
+- a numeração TM/ARA quebrar;
+- a colometria deixar de reconhecer os disjuntivos massoréticos testados;
+- a cadeia de módulos do navegador ficar incompleta;
+- a antiga voz sintética reaparecer;
+- JavaScript essencial não compilar;
+- navegação, hash, limites ou persistência local quebrarem;
+- o crédito **Desenvolvido por Rodrigo Niskier Ferreira Barbosa** desaparecer;
+- o bootstrap de produção deixar de apontar para um bundle imutável validado.
 
 ## Branches
 
-Etapa especial: `salmo-119-revisao`  
+Etapa final em revisão: `salmos-120-150-revisao`  
 Base estrutural consolidada: `salmos-estruturais`

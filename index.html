@@ -9,6 +9,7 @@
     body{margin:0;min-height:100vh;display:grid;place-items:center;background:#f6f2e8;color:#172018;font-family:Inter,system-ui,sans-serif}
     .boot{max-width:620px;margin:24px;padding:28px;border:1px solid #d8d2c3;border-radius:16px;background:#fffdf7;box-shadow:0 12px 45px #17201812}
     h1{font-family:Georgia,serif;margin:0 0 10px;color:#13251d}.small{font-size:.82rem;line-height:1.55;color:#667269}
+    .credit{margin-top:18px;padding-top:12px;border-top:1px solid #e2dccf;font-size:.74rem;line-height:1.4;color:#667269;text-align:center;font-weight:650}
     .bar{height:7px;border-radius:99px;background:#e0dbcf;overflow:hidden;margin-top:18px}.bar span{display:block;width:45%;height:100%;background:#b18b48;animation:move 1.2s ease-in-out infinite alternate}
     .error{color:#8b3a32;background:#fff1ef;padding:12px;border-radius:10px;margin-top:14px;line-height:1.5}a{color:#315e68}@keyframes move{to{transform:translateX(120%)}}
   </style>
@@ -19,29 +20,41 @@
     <p>Carregando o Atlas Estrutural dos Salmos…</p>
     <p class="small">A versão de produção é conferida contra uma cópia imutável e validada do repositório para evitar páginas vazias quando o host deixa de servir algum módulo.</p>
     <div class="bar"><span></span></div>
+    <div class="credit">Desenvolvido por Rodrigo Niskier Ferreira Barbosa</div>
   </main>
   <script>
   (async function(){
-    const version='bed355801f418c5aec5acc7892e9cb7f2ebfb145';
+    const version='2deb05d1e4ae6a792725afb379c9a354761dc548';
     const base=`https://cdn.jsdelivr.net/gh/rodrigoniskier/hebraico-biblico@${version}/`;
     const boot=document.getElementById('boot');
+    const loadText=async(file)=>{
+      const response=await fetch(base+file,{cache:'no-store',mode:'cors'});
+      if(!response.ok) throw new Error(`${file}: CDN respondeu HTTP ${response.status}`);
+      return response.text();
+    };
     try{
-      const response=await fetch(base+'salmos.html',{cache:'no-store',mode:'cors'});
-      if(!response.ok) throw new Error(`CDN respondeu HTTP ${response.status}`);
-      let html=await response.text();
+      let html=await loadText('salmos.html');
       if(!html.includes('id="psalmList"')||!html.includes('/render.js')||!html.includes('/reviewed-31-60-runtime.js')) throw new Error('A cópia validada da interface-base está incompleta.');
-      const chain118=await fetch(base+'reviewed-61-90-runtime.js',{cache:'no-store',mode:'cors'});
-      if(!chain118.ok || !(await chain118.text()).includes('analysis-111-118.js')) throw new Error('A cadeia validada dos Salmos 91–118 está incompleta.');
-      const chain119=await fetch(base+'reviewed-91-118-runtime.js',{cache:'no-store',mode:'cors'});
-      const chain119Text=chain119.ok?await chain119.text():'';
-      if(!chain119.ok || !chain119Text.includes('analysis-119.js') || !chain119Text.includes('reviewed-119-runtime.js')) throw new Error('A camada dedicada e validada do Salmo 119 está incompleta.');
+
+      const chain90=await loadText('reviewed-31-60-runtime.js');
+      if(!chain90.includes('reviewed-61-90-runtime.js')) throw new Error('A cadeia validada dos Salmos 61–90 está incompleta.');
+      const chain118=await loadText('reviewed-61-90-runtime.js');
+      if(!chain118.includes('analysis-111-118.js')||!chain118.includes('reviewed-91-118-runtime.js')) throw new Error('A cadeia validada dos Salmos 91–118 está incompleta.');
+      const chain119=await loadText('reviewed-91-118-runtime.js');
+      if(!chain119.includes('analysis-119.js')||!chain119.includes('reviewed-119-runtime.js')) throw new Error('A camada dedicada e validada do Salmo 119 está incompleta.');
+      const chain150=await loadText('reviewed-119-runtime.js');
+      if(!chain150.includes('analysis-120-130.js')||!chain150.includes('analysis-131-140.js')||!chain150.includes('analysis-141-150.js')||!chain150.includes('source-registry.js')||!chain150.includes('reviewed-120-150-runtime.js')) throw new Error('A camada final e auditada dos Salmos 120–150 está incompleta.');
+      const finalRuntime=await loadText('reviewed-120-150-runtime.js');
+      if(!finalRuntime.includes('Salmos 1–150')||!finalRuntime.includes('Desenvolvido por Rodrigo Niskier Ferreira Barbosa')) throw new Error('O runtime final não confirma o Saltério completo e os créditos.');
+      await loadText('source-registry.js');
+
       html=html.replace(/src="\/([^\"]+\.js)"/g,(_,file)=>`src="${base}${file}"`);
       html=html.replace('</head>',`<script src="${base}runtime-guard.js"><\/script></head>`);
       document.open();
       document.write(html);
       document.close();
     }catch(error){
-      boot.innerHTML=`<h1>Não foi possível iniciar a página</h1><div class="error"><b>Falha de carregamento:</b> ${String(error.message||error)}</div><p class="small">O conteúdo não foi perdido; a publicação não conseguiu baixar a versão validada. Tente atualizar a página. Se persistir, use o repositório enquanto a hospedagem é corrigida.</p><p><a href="https://github.com/rodrigoniskier/hebraico-biblico/tree/salmos-estruturais" target="_blank" rel="noopener noreferrer">Abrir o projeto no GitHub ↗</a></p>`;
+      boot.innerHTML=`<h1>Não foi possível iniciar a página</h1><div class="error"><b>Falha de carregamento:</b> ${String(error.message||error)}</div><p class="small">O conteúdo não foi perdido; a publicação não conseguiu baixar a versão validada. Tente atualizar a página. Se persistir, use o repositório enquanto a hospedagem é corrigida.</p><p><a href="https://github.com/rodrigoniskier/hebraico-biblico/tree/salmos-estruturais" target="_blank" rel="noopener noreferrer">Abrir o projeto no GitHub ↗</a></p><div class="credit">Desenvolvido por Rodrigo Niskier Ferreira Barbosa</div>`;
     }
   })();
   </script>
