@@ -18,13 +18,13 @@
   <main class="boot" id="boot">
     <h1>A Medida do Louvor</h1>
     <p>Carregando o Atlas Estrutural dos Salmos…</p>
-    <p class="small">A versão de produção é conferida contra uma cópia imutável e validada do repositório para evitar páginas vazias quando o host deixa de servir algum módulo.</p>
+    <p class="small">A versão de produção é conferida contra uma cópia imutável e validada do repositório para evitar páginas vazias ou perda de interatividade.</p>
     <div class="bar"><span></span></div>
     <div class="credit">Desenvolvido por Rodrigo Niskier Ferreira Barbosa</div>
   </main>
   <script>
   (async function(){
-    const version='2deb05d1e4ae6a792725afb379c9a354761dc548';
+    const version='625977e0cd09e2854aecf0463d8da8fef0fc8477';
     const base=`https://cdn.jsdelivr.net/gh/rodrigoniskier/hebraico-biblico@${version}/`;
     const boot=document.getElementById('boot');
     const loadText=async(file)=>{
@@ -45,7 +45,7 @@
       const chain150=await loadText('reviewed-119-runtime.js');
       if(!chain150.includes('analysis-120-130.js')||!chain150.includes('analysis-131-140.js')||!chain150.includes('analysis-141-150.js')||!chain150.includes('source-registry.js')||!chain150.includes('reviewed-120-150-runtime.js')) throw new Error('A camada final e auditada dos Salmos 120–150 está incompleta.');
       const finalRuntime=await loadText('reviewed-120-150-runtime.js');
-      if(!finalRuntime.includes('Salmos 1–150')||!finalRuntime.includes('Desenvolvido por Rodrigo Niskier Ferreira Barbosa')) throw new Error('O runtime final não confirma o Saltério completo e os créditos.');
+      if(!finalRuntime.includes('Salmos 1–150')||!finalRuntime.includes('Desenvolvido por Rodrigo Niskier Ferreira Barbosa')||!finalRuntime.includes('bindReviewedStepToggles')) throw new Error('O runtime final não confirma o Saltério completo, os créditos e a interatividade dos 12 passos.');
       await loadText('source-registry.js');
 
       html=html.replace(/src="\/([^\"]+\.js)"/g,(_,file)=>`src="${base}${file}"`);
