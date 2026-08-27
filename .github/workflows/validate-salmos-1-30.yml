@@ -53,7 +53,8 @@ jobs:
           node --check analysis-131-140.js
           node --check analysis-141-150.js
           grep -q "cdn.jsdelivr.net/gh/rodrigoniskier/hebraico-biblico" index.html
-          grep -q "2deb05d1e4ae6a792725afb379c9a354761dc548" index.html
+          grep -q "625977e0cd09e2854aecf0463d8da8fef0fc8477" index.html
+          grep -q "bindReviewedStepToggles" index.html
           grep -q "analysis-120-130.js" index.html
           grep -q "analysis-141-150.js" index.html
           grep -q "source-registry.js" index.html
