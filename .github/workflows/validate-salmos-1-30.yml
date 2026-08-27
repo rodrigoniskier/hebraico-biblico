@@ -50,7 +50,11 @@ jobs:
           node --check analysis-131-140.js
           node --check analysis-141-150.js
           grep -q "cdn.jsdelivr.net/gh/rodrigoniskier/hebraico-biblico" index.html
-          grep -q "bed355801f418c5aec5acc7892e9cb7f2ebfb145" index.html
+          grep -q "2deb05d1e4ae6a792725afb379c9a354761dc548" index.html
+          grep -q "analysis-120-130.js" index.html
+          grep -q "analysis-141-150.js" index.html
+          grep -q "source-registry.js" index.html
+          grep -q "reviewed-120-150-runtime.js" index.html
           grep -q "Desenvolvido por Rodrigo Niskier Ferreira Barbosa" index.html
           grep -q "Desenvolvido por Rodrigo Niskier Ferreira Barbosa" reviewed-120-150-runtime.js
           grep -q "source-registry.js" reviewed-119-runtime.js
